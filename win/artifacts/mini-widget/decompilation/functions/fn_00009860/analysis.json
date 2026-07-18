@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "on_CleanALLButton_clicked",
+  "address": "0x00009860",
+  "signature": "undefined on_CleanALLButton_clicked(void)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

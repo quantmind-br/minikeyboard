@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "program": "widget.o",
+  "count": 91,
+  "types": [
+    {
+      "name": "__func",
+      "category": "/stdlib.h/functions",
+      "length": -1
+    },
+    {
+      "name": "__func *",
+      "category": "/stdlib.h/functions",
+      "length": 4
+    },
+    {
+      "name": "bool",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "bool *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "Call",
+      "category": "/Demangler/QMetaObject",
+      "length": 1
+    },
+    {
+      "name": "char",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "char *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "char[8]",
+      "category": "/",
+      "length": 8
+    },
+    {
+      "name": "CoffFileHeader",
+      "category": "/",
+      "length": 20
+    },
+    {
+      "name": "CoffSectionHeader",
+      "category": "/",
+      "length": 40
+    },
+    {
+      "name": "ColorRole",
+      "category": "/Demangler/QPalette",
+      "length": 1
+    },
+    {
+      "name": "ComplexControl",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "ContentsType",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "ControlElement",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "ControlType",
+      "category": "/Demangler/QSizePolicy",
+      "length": 1
+    },
+    {
+      "name": "CustomTabStyle",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "Dialog1",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "dword",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "int",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "Mode",
+      "category": "/Demangler/QIcon",
+      "length": 1
+    },
+    {
+      "name": "Orientation",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "PixelMetric",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "pointer",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "PrimitiveElement",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "QApplication",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QApplication *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QChildEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QChildEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QFontMetrics",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QFontMetrics *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QList\u003cQPushButton*\u003e",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QList\u003cQString\u003e",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMap\u003cQString,int\u003e",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMap\u003cQString,unsigned_char\u003e",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMapData",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMapData *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QMetaMethod",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMetaMethod *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QObject",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QObject *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPainter",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPainter *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPalette",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPalette *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPixmap",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPixmap *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPoint",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPoint *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QRect",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QRect *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QResizeEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QResizeEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QSize",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QSize *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QSlotObjectBase",
+      "category": "/Demangler/QtPrivate",
+      "length": 1
+    },
+    {
+      "name": "QSlotObjectBase *",
+      "category": "/Demangler/QtPrivate",
+      "length": 4
+    },
+    {
+      "name": "QString",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "QString",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QString *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "QStyleHintReturn",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyleHintReturn *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QStyleOption",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyleOption *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QStyleOptionComplex",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyleOptionComplex *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QTimerEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTimerEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QWidget",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QWidget *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "size_t",
+      "category": "/stddef.h",
+      "length": 4
+    },
+    {
+      "name": "StandardPixmap",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "string",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "StyleHint",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "SubControl",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "SubElement",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "TerminatedCString",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "uchar",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "uint",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "ulong",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "undefined *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "undefined1",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "undefined2",
+      "category": "/",
+      "length": 2
+    },
+    {
+      "name": "undefined4",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "undefined8",
+      "category": "/",
+      "length": 8
+    },
+    {
+      "name": "void",
+      "category": "/",
+      "length": 0
+    },
+    {
+      "name": "void *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "void * *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "Widget",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "word",
+      "category": "/",
+      "length": 2
+    }
+  ]
+}

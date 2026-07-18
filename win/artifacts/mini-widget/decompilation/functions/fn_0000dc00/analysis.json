@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "read_Hidkey_Data",
+  "address": "0x0000dc00",
+  "signature": "undefined read_Hidkey_Data(uchar param_1, uchar param_2, uchar param_3)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

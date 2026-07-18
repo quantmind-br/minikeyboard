@@ -1,0 +1,44 @@
+2026-07-16 13:56:40 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-07-16 13:56:40 INFO  (LoggingInitialization) Using log file: /home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_0040d050/decompile.log  
+2026-07-16 13:56:40 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-07-16 13:56:40 INFO  (Preferences) Loading user preferences: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/preferences  
+2026-07-16 13:56:40 INFO  (ClassSearcher) Searching for classes...  
+2026-07-16 13:56:40 INFO  (ClassSearcher) Class search complete (439 ms)  
+2026-07-16 13:56:40 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-07-16 13:56:40 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-07-16 13:56:40 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-07-16 13:56:40 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-07-16 13:56:40 INFO  (AnalyzeHeadless) Headless startup complete (924 ms)  
+2026-07-16 13:56:40 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-07-16 13:56:41 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts  
+2026-07-16 13:56:41 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-07-16 13:56:41 INFO  (HeadlessAnalyzer) Opening existing project: /home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects/mini-keyboard-full  
+2026-07-16 13:56:41 INFO  (HeadlessProject) Opening project: /home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects/mini-keyboard-full  
+2026-07-16 13:56:41 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /MINI_KEYBOARD.exe  
+2026-07-16 13:56:41 INFO  (HeadlessAnalyzer) REPORT: Execute script: DecompileFunction.java '0x0040d050' '/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_0040d050'   
+2026-07-16 13:56:41 INFO  (HeadlessAnalyzer) SCRIPT: /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra/DecompileFunction.java  
+2026-07-16 13:56:41 INFO  (GhidraScript) DecompileFunction.java> DecompileFunction: FUN_0040d050 ok=true  
+2026-07-16 13:56:41 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /MINI_KEYBOARD.exe  

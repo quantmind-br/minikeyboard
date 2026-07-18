@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "Widget",
+  "address": "0x0005def0",
+  "signature": "undefined Widget(Widget * this, QWidget * param_1)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

@@ -1,0 +1,1279 @@
+{
+  "schema_version": 1,
+  "program": "MINI_KEYBOARD.exe",
+  "count": 159,
+  "functions": [
+    {
+      "id": "00401150",
+      "name": "FUN_00401150",
+      "address": "0x00401150",
+      "signature": "undefined FUN_00401150()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00401480",
+      "name": "entry",
+      "address": "0x00401480",
+      "signature": "undefined entry()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004014c0",
+      "name": "FUN_004014c0",
+      "address": "0x004014c0",
+      "signature": "undefined FUN_004014c0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004014e0",
+      "name": "FUN_004014e0",
+      "address": "0x004014e0",
+      "signature": "undefined FUN_004014e0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00401590",
+      "name": "FUN_00401590",
+      "address": "0x00401590",
+      "signature": "undefined FUN_00401590()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004015c0",
+      "name": "FUN_004015c0",
+      "address": "0x004015c0",
+      "signature": "undefined FUN_004015c0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00401760",
+      "name": "FUN_00401760",
+      "address": "0x00401760",
+      "signature": "undefined FUN_00401760()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004018d0",
+      "name": "FUN_004018d0",
+      "address": "0x004018d0",
+      "signature": "undefined FUN_004018d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00403c60",
+      "name": "FUN_00403c60",
+      "address": "0x00403c60",
+      "signature": "undefined FUN_00403c60()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00403eb0",
+      "name": "FUN_00403eb0",
+      "address": "0x00403eb0",
+      "signature": "undefined FUN_00403eb0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004078c0",
+      "name": "FUN_004078c0",
+      "address": "0x004078c0",
+      "signature": "undefined FUN_004078c0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004083f0",
+      "name": "FUN_004083f0",
+      "address": "0x004083f0",
+      "signature": "undefined FUN_004083f0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004094d0",
+      "name": "FUN_004094d0",
+      "address": "0x004094d0",
+      "signature": "undefined FUN_004094d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00409990",
+      "name": "FUN_00409990",
+      "address": "0x00409990",
+      "signature": "undefined FUN_00409990()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004099e0",
+      "name": "FUN_004099e0",
+      "address": "0x004099e0",
+      "signature": "undefined FUN_004099e0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040a900",
+      "name": "FUN_0040a900",
+      "address": "0x0040a900",
+      "signature": "undefined FUN_0040a900()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040ab30",
+      "name": "FUN_0040ab30",
+      "address": "0x0040ab30",
+      "signature": "undefined FUN_0040ab30()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040abd0",
+      "name": "FUN_0040abd0",
+      "address": "0x0040abd0",
+      "signature": "undefined FUN_0040abd0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040acb0",
+      "name": "FUN_0040acb0",
+      "address": "0x0040acb0",
+      "signature": "undefined FUN_0040acb0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040ad90",
+      "name": "FUN_0040ad90",
+      "address": "0x0040ad90",
+      "signature": "undefined FUN_0040ad90()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040b080",
+      "name": "FUN_0040b080",
+      "address": "0x0040b080",
+      "signature": "undefined FUN_0040b080()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040b0b0",
+      "name": "FUN_0040b0b0",
+      "address": "0x0040b0b0",
+      "signature": "undefined FUN_0040b0b0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040bda0",
+      "name": "FUN_0040bda0",
+      "address": "0x0040bda0",
+      "signature": "undefined FUN_0040bda0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040c2d0",
+      "name": "FUN_0040c2d0",
+      "address": "0x0040c2d0",
+      "signature": "undefined FUN_0040c2d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040d050",
+      "name": "FUN_0040d050",
+      "address": "0x0040d050",
+      "signature": "undefined FUN_0040d050()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040d170",
+      "name": "FUN_0040d170",
+      "address": "0x0040d170",
+      "signature": "undefined FUN_0040d170()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040d300",
+      "name": "FUN_0040d300",
+      "address": "0x0040d300",
+      "signature": "undefined FUN_0040d300()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040d430",
+      "name": "FUN_0040d430",
+      "address": "0x0040d430",
+      "signature": "undefined FUN_0040d430()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040d810",
+      "name": "FUN_0040d810",
+      "address": "0x0040d810",
+      "signature": "undefined FUN_0040d810()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040da30",
+      "name": "FUN_0040da30",
+      "address": "0x0040da30",
+      "signature": "undefined FUN_0040da30()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040dce0",
+      "name": "FUN_0040dce0",
+      "address": "0x0040dce0",
+      "signature": "undefined FUN_0040dce0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040dd10",
+      "name": "FUN_0040dd10",
+      "address": "0x0040dd10",
+      "signature": "undefined FUN_0040dd10()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040ded0",
+      "name": "FUN_0040ded0",
+      "address": "0x0040ded0",
+      "signature": "undefined FUN_0040ded0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040e310",
+      "name": "FUN_0040e310",
+      "address": "0x0040e310",
+      "signature": "undefined FUN_0040e310()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040f450",
+      "name": "FUN_0040f450",
+      "address": "0x0040f450",
+      "signature": "undefined FUN_0040f450()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040f870",
+      "name": "FUN_0040f870",
+      "address": "0x0040f870",
+      "signature": "undefined FUN_0040f870()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040f8a0",
+      "name": "FUN_0040f8a0",
+      "address": "0x0040f8a0",
+      "signature": "undefined FUN_0040f8a0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040fd00",
+      "name": "FUN_0040fd00",
+      "address": "0x0040fd00",
+      "signature": "undefined FUN_0040fd00()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040ff00",
+      "name": "FUN_0040ff00",
+      "address": "0x0040ff00",
+      "signature": "undefined FUN_0040ff00()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0040fff0",
+      "name": "FUN_0040fff0",
+      "address": "0x0040fff0",
+      "signature": "undefined FUN_0040fff0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004102e0",
+      "name": "FUN_004102e0",
+      "address": "0x004102e0",
+      "signature": "undefined FUN_004102e0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00410720",
+      "name": "FUN_00410720",
+      "address": "0x00410720",
+      "signature": "undefined FUN_00410720()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00410bc0",
+      "name": "FUN_00410bc0",
+      "address": "0x00410bc0",
+      "signature": "undefined FUN_00410bc0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004116d0",
+      "name": "FUN_004116d0",
+      "address": "0x004116d0",
+      "signature": "undefined FUN_004116d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00411b70",
+      "name": "FUN_00411b70",
+      "address": "0x00411b70",
+      "signature": "undefined FUN_00411b70()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00412010",
+      "name": "FUN_00412010",
+      "address": "0x00412010",
+      "signature": "undefined FUN_00412010()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00413730",
+      "name": "FUN_00413730",
+      "address": "0x00413730",
+      "signature": "undefined FUN_00413730()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00415250",
+      "name": "FUN_00415250",
+      "address": "0x00415250",
+      "signature": "undefined FUN_00415250()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004175a0",
+      "name": "FUN_004175a0",
+      "address": "0x004175a0",
+      "signature": "undefined FUN_004175a0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00417bf0",
+      "name": "FUN_00417bf0",
+      "address": "0x00417bf0",
+      "signature": "undefined FUN_00417bf0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00418730",
+      "name": "FUN_00418730",
+      "address": "0x00418730",
+      "signature": "undefined FUN_00418730()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00419640",
+      "name": "FUN_00419640",
+      "address": "0x00419640",
+      "signature": "undefined FUN_00419640()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0041b0e0",
+      "name": "FUN_0041b0e0",
+      "address": "0x0041b0e0",
+      "signature": "undefined FUN_0041b0e0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0041c4d0",
+      "name": "FUN_0041c4d0",
+      "address": "0x0041c4d0",
+      "signature": "undefined FUN_0041c4d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0041e060",
+      "name": "FUN_0041e060",
+      "address": "0x0041e060",
+      "signature": "undefined FUN_0041e060()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0041fd50",
+      "name": "FUN_0041fd50",
+      "address": "0x0041fd50",
+      "signature": "undefined FUN_0041fd50()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00422d70",
+      "name": "FUN_00422d70",
+      "address": "0x00422d70",
+      "signature": "undefined FUN_00422d70()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004244d0",
+      "name": "FUN_004244d0",
+      "address": "0x004244d0",
+      "signature": "undefined FUN_004244d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00426100",
+      "name": "FUN_00426100",
+      "address": "0x00426100",
+      "signature": "undefined FUN_00426100()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00428570",
+      "name": "FUN_00428570",
+      "address": "0x00428570",
+      "signature": "undefined FUN_00428570()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0042b4e0",
+      "name": "FUN_0042b4e0",
+      "address": "0x0042b4e0",
+      "signature": "undefined FUN_0042b4e0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0042e270",
+      "name": "FUN_0042e270",
+      "address": "0x0042e270",
+      "signature": "undefined FUN_0042e270()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00431b00",
+      "name": "FUN_00431b00",
+      "address": "0x00431b00",
+      "signature": "undefined FUN_00431b00()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00435dc0",
+      "name": "FUN_00435dc0",
+      "address": "0x00435dc0",
+      "signature": "undefined FUN_00435dc0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0043a190",
+      "name": "FUN_0043a190",
+      "address": "0x0043a190",
+      "signature": "undefined FUN_0043a190()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0043ed00",
+      "name": "FUN_0043ed00",
+      "address": "0x0043ed00",
+      "signature": "undefined FUN_0043ed00()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00443ad0",
+      "name": "FUN_00443ad0",
+      "address": "0x00443ad0",
+      "signature": "undefined FUN_00443ad0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00449350",
+      "name": "FUN_00449350",
+      "address": "0x00449350",
+      "signature": "undefined FUN_00449350()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0044eb90",
+      "name": "FUN_0044eb90",
+      "address": "0x0044eb90",
+      "signature": "undefined FUN_0044eb90()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00454490",
+      "name": "FUN_00454490",
+      "address": "0x00454490",
+      "signature": "undefined FUN_00454490()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00458340",
+      "name": "FUN_00458340",
+      "address": "0x00458340",
+      "signature": "undefined FUN_00458340()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0045e000",
+      "name": "FUN_0045e000",
+      "address": "0x0045e000",
+      "signature": "undefined FUN_0045e000()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0045ec30",
+      "name": "FUN_0045ec30",
+      "address": "0x0045ec30",
+      "signature": "undefined FUN_0045ec30()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0045ee70",
+      "name": "FUN_0045ee70",
+      "address": "0x0045ee70",
+      "signature": "undefined FUN_0045ee70()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0045f0d0",
+      "name": "FUN_0045f0d0",
+      "address": "0x0045f0d0",
+      "signature": "undefined FUN_0045f0d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0045f340",
+      "name": "FUN_0045f340",
+      "address": "0x0045f340",
+      "signature": "undefined FUN_0045f340()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0045f740",
+      "name": "FUN_0045f740",
+      "address": "0x0045f740",
+      "signature": "undefined FUN_0045f740()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00464b50",
+      "name": "FUN_00464b50",
+      "address": "0x00464b50",
+      "signature": "undefined FUN_00464b50()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00464e30",
+      "name": "FUN_00464e30",
+      "address": "0x00464e30",
+      "signature": "undefined FUN_00464e30()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004650a0",
+      "name": "FUN_004650a0",
+      "address": "0x004650a0",
+      "signature": "undefined FUN_004650a0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004656e0",
+      "name": "qUnregisterResourceData",
+      "address": "0x004656e0",
+      "signature": "undefined qUnregisterResourceData(int param_1, uchar * param_2, uchar * param_3, uchar * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004656e8",
+      "name": "qRegisterResourceData",
+      "address": "0x004656e8",
+      "signature": "undefined qRegisterResourceData(int param_1, uchar * param_2, uchar * param_3, uchar * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004656f0",
+      "name": "qResourceFeatureZlib",
+      "address": "0x004656f0",
+      "signature": "undefined qResourceFeatureZlib(void)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00465740",
+      "name": "FUN_00465740",
+      "address": "0x00465740",
+      "signature": "undefined FUN_00465740()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00465790",
+      "name": "FUN_00465790",
+      "address": "0x00465790",
+      "signature": "undefined FUN_00465790()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004657d0",
+      "name": "FUN_004657d0",
+      "address": "0x004657d0",
+      "signature": "undefined FUN_004657d0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00465910",
+      "name": "tls_callback_1",
+      "address": "0x00465910",
+      "signature": "undefined tls_callback_1()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00465960",
+      "name": "tls_callback_0",
+      "address": "0x00465960",
+      "signature": "undefined tls_callback_0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00465ae0",
+      "name": "FUN_00465ae0",
+      "address": "0x00465ae0",
+      "signature": "undefined FUN_00465ae0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00465b10",
+      "name": "FUN_00465b10",
+      "address": "0x00465b10",
+      "signature": "undefined FUN_00465b10()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00465c60",
+      "name": "FUN_00465c60",
+      "address": "0x00465c60",
+      "signature": "undefined FUN_00465c60()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466080",
+      "name": "FUN_00466080",
+      "address": "0x00466080",
+      "signature": "undefined FUN_00466080()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466210",
+      "name": "FUN_00466210",
+      "address": "0x00466210",
+      "signature": "undefined FUN_00466210()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004662f0",
+      "name": "FUN_004662f0",
+      "address": "0x004662f0",
+      "signature": "undefined FUN_004662f0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466400",
+      "name": "FUN_00466400",
+      "address": "0x00466400",
+      "signature": "undefined FUN_00466400()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466470",
+      "name": "FUN_00466470",
+      "address": "0x00466470",
+      "signature": "undefined FUN_00466470()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466500",
+      "name": "FUN_00466500",
+      "address": "0x00466500",
+      "signature": "undefined FUN_00466500()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466660",
+      "name": "FUN_00466660",
+      "address": "0x00466660",
+      "signature": "undefined FUN_00466660()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466808",
+      "name": "operator.new",
+      "address": "0x00466808",
+      "signature": "void * operator.new(uint param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466810",
+      "name": "operator.new[]",
+      "address": "0x00466810",
+      "signature": "void * operator.new[](uint param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466818",
+      "name": "operator.delete",
+      "address": "0x00466818",
+      "signature": "void operator.delete(void * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466820",
+      "name": "operator.delete[]",
+      "address": "0x00466820",
+      "signature": "void operator.delete[](void * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466828",
+      "name": "__register_frame_info",
+      "address": "0x00466828",
+      "signature": "undefined __register_frame_info()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466840",
+      "name": "FUN_00466840",
+      "address": "0x00466840",
+      "signature": "undefined FUN_00466840()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046686c",
+      "name": "vfprintf",
+      "address": "0x0046686c",
+      "signature": "int vfprintf(FILE * _File, char * _Format, va_list _ArgList)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "0046687c",
+      "name": "strlen",
+      "address": "0x0046687c",
+      "signature": "size_t strlen(char * _Str)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466884",
+      "name": "strcmp",
+      "address": "0x00466884",
+      "signature": "int strcmp(char * _Str1, char * _Str2)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "0046688c",
+      "name": "signal",
+      "address": "0x0046688c",
+      "signature": "void signal(int param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466894",
+      "name": "memcpy",
+      "address": "0x00466894",
+      "signature": "void * memcpy(void * _Dst, void * _Src, size_t _Size)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "0046689c",
+      "name": "malloc",
+      "address": "0x0046689c",
+      "signature": "void * malloc(size_t _Size)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668a4",
+      "name": "fwrite",
+      "address": "0x004668a4",
+      "signature": "size_t fwrite(void * _Str, size_t _Size, size_t _Count, FILE * _File)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668ac",
+      "name": "free",
+      "address": "0x004668ac",
+      "signature": "void free(void * _Memory)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668bc",
+      "name": "exit",
+      "address": "0x004668bc",
+      "signature": "void exit(int _Code)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668cc",
+      "name": "abort",
+      "address": "0x004668cc",
+      "signature": "void abort(void)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668d4",
+      "name": "_onexit",
+      "address": "0x004668d4",
+      "signature": "_onexit_t _onexit(_onexit_t _Func)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668dc",
+      "name": "initterm",
+      "address": "0x004668dc",
+      "signature": "undefined initterm()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668e4",
+      "name": "_cexit",
+      "address": "0x004668e4",
+      "signature": "void _cexit(void)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004668ec",
+      "name": "_amsg_exit",
+      "address": "0x004668ec",
+      "signature": "void _amsg_exit(int param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "0046690c",
+      "name": "__p__acmdln",
+      "address": "0x0046690c",
+      "signature": "undefined __p__acmdln()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466920",
+      "name": "FUN_00466920",
+      "address": "0x00466920",
+      "signature": "undefined FUN_00466920()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466940",
+      "name": "FUN_00466940",
+      "address": "0x00466940",
+      "signature": "undefined FUN_00466940()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00466950",
+      "name": "hid_close",
+      "address": "0x00466950",
+      "signature": "undefined hid_close()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466958",
+      "name": "hid_enumerate",
+      "address": "0x00466958",
+      "signature": "undefined hid_enumerate()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466960",
+      "name": "hid_error",
+      "address": "0x00466960",
+      "signature": "undefined hid_error()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466968",
+      "name": "hid_exit",
+      "address": "0x00466968",
+      "signature": "undefined hid_exit()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466970",
+      "name": "hid_free_enumeration",
+      "address": "0x00466970",
+      "signature": "undefined hid_free_enumeration()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466978",
+      "name": "hid_open_path",
+      "address": "0x00466978",
+      "signature": "undefined hid_open_path()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466980",
+      "name": "hid_read",
+      "address": "0x00466980",
+      "signature": "undefined hid_read()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466988",
+      "name": "hid_read_timeout",
+      "address": "0x00466988",
+      "signature": "undefined hid_read_timeout()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466990",
+      "name": "hid_set_nonblocking",
+      "address": "0x00466990",
+      "signature": "undefined hid_set_nonblocking()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00466998",
+      "name": "hid_write",
+      "address": "0x00466998",
+      "signature": "undefined hid_write()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "004669a0",
+      "name": "FUN_004669a0",
+      "address": "0x004669a0",
+      "signature": "undefined FUN_004669a0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00467c70",
+      "name": "FUN_00467c70",
+      "address": "0x00467c70",
+      "signature": "undefined FUN_00467c70()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004688b0",
+      "name": "FUN_004688b0",
+      "address": "0x004688b0",
+      "signature": "undefined FUN_004688b0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b0c0",
+      "name": "FUN_0046b0c0",
+      "address": "0x0046b0c0",
+      "signature": "undefined FUN_0046b0c0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b150",
+      "name": "FUN_0046b150",
+      "address": "0x0046b150",
+      "signature": "undefined FUN_0046b150()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b1e0",
+      "name": "FUN_0046b1e0",
+      "address": "0x0046b1e0",
+      "signature": "undefined FUN_0046b1e0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b290",
+      "name": "FUN_0046b290",
+      "address": "0x0046b290",
+      "signature": "undefined FUN_0046b290()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b2c0",
+      "name": "FUN_0046b2c0",
+      "address": "0x0046b2c0",
+      "signature": "undefined FUN_0046b2c0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b360",
+      "name": "FUN_0046b360",
+      "address": "0x0046b360",
+      "signature": "undefined FUN_0046b360()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b3a0",
+      "name": "FUN_0046b3a0",
+      "address": "0x0046b3a0",
+      "signature": "undefined FUN_0046b3a0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b3e0",
+      "name": "FUN_0046b3e0",
+      "address": "0x0046b3e0",
+      "signature": "undefined FUN_0046b3e0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b480",
+      "name": "FUN_0046b480",
+      "address": "0x0046b480",
+      "signature": "undefined FUN_0046b480()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046b860",
+      "name": "FUN_0046b860",
+      "address": "0x0046b860",
+      "signature": "undefined FUN_0046b860()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0046e9c0",
+      "name": "FUN_0046e9c0",
+      "address": "0x0046e9c0",
+      "signature": "undefined FUN_0046e9c0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00471b20",
+      "name": "FUN_00471b20",
+      "address": "0x00471b20",
+      "signature": "undefined FUN_00471b20()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00472010",
+      "name": "FUN_00472010",
+      "address": "0x00472010",
+      "signature": "undefined FUN_00472010()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00472650",
+      "name": "FUN_00472650",
+      "address": "0x00472650",
+      "signature": "undefined FUN_00472650()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00477fa0",
+      "name": "FUN_00477fa0",
+      "address": "0x00477fa0",
+      "signature": "undefined FUN_00477fa0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493300",
+      "name": "FUN_00493300",
+      "address": "0x00493300",
+      "signature": "undefined FUN_00493300()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493630",
+      "name": "FUN_00493630",
+      "address": "0x00493630",
+      "signature": "undefined FUN_00493630()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "004936a0",
+      "name": "FUN_004936a0",
+      "address": "0x004936a0",
+      "signature": "undefined FUN_004936a0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493790",
+      "name": "FUN_00493790",
+      "address": "0x00493790",
+      "signature": "undefined FUN_00493790()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493910",
+      "name": "FUN_00493910",
+      "address": "0x00493910",
+      "signature": "undefined FUN_00493910()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493950",
+      "name": "FUN_00493950",
+      "address": "0x00493950",
+      "signature": "undefined FUN_00493950()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493a20",
+      "name": "FUN_00493a20",
+      "address": "0x00493a20",
+      "signature": "undefined FUN_00493a20()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493af0",
+      "name": "FUN_00493af0",
+      "address": "0x00493af0",
+      "signature": "undefined FUN_00493af0()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493b40",
+      "name": "FUN_00493b40",
+      "address": "0x00493b40",
+      "signature": "undefined FUN_00493b40()",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00493ba0",
+      "name": "FUN_00493ba0",
+      "address": "0x00493ba0",
+      "signature": "undefined FUN_00493ba0()",
+      "thunk": false,
+      "external": false
+    }
+  ]
+}

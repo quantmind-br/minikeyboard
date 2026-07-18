@@ -1,0 +1,189 @@
+2026-07-16 13:50:17 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-07-16 13:50:17 INFO  (LoggingInitialization) Using log file: /home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/intake/analyze.log  
+2026-07-16 13:50:17 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-07-16 13:50:17 INFO  (Preferences) Loading user preferences: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/preferences  
+2026-07-16 13:50:17 INFO  (ClassSearcher) Searching for classes...  
+2026-07-16 13:50:17 INFO  (ClassSearcher) Class search complete (427 ms)  
+2026-07-16 13:50:17 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-07-16 13:50:17 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-07-16 13:50:17 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-07-16 13:50:17 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-07-16 13:50:17 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/diogo-ghidra/fscache2  
+2026-07-16 13:50:17 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2026-07-16 13:50:18 INFO  (AnalyzeHeadless) Headless startup complete (926 ms)  
+2026-07-16 13:50:18 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-07-16 13:50:18 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts  
+2026-07-16 13:50:18 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-07-16 13:50:18 INFO  (HeadlessAnalyzer) Creating project: /home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects/mini-keyboard-full  
+2026-07-16 13:50:18 INFO  (DefaultProject) Creating project: /home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects/mini-keyboard-full  
+2026-07-16 13:50:18 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-07-16 13:50:18 INFO  (HeadlessAnalyzer)      project: /home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects/mini-keyboard-full  
+2026-07-16 13:50:18 INFO  (HeadlessAnalyzer) IMPORTING: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe  
+2026-07-16 13:50:18 INFO  (ProgramLoader) Using Loader: Portable Executable (PE)  
+2026-07-16 13:50:18 INFO  (ProgramLoader) Using Language/Compiler: x86:LE:32:default:windows  
+2026-07-16 13:50:18 INFO  (ProgramLoader) Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64]  
+2026-07-16 13:50:18 INFO  (TLSDirectory) TLS callbacks at 626020  
+2026-07-16 13:50:19 INFO  (TLSDirectory) TLS callbacks at 6eb5f018  
+2026-07-16 13:50:19 INFO  (TLSDirectory) TLS callbacks at 6ffb5018  
+2026-07-16 13:50:21 WARN  (SecurityDataDirectory) Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_SECURITY'. RVA outside of image (RVA: 0x810270, Size: 0x1698). Could be a file-only data directory.  
+2026-07-16 13:50:21 INFO  (TLSDirectory) TLS callbacks at 6910f018  
+2026-07-16 13:50:24 WARN  (SecurityDataDirectory) Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_SECURITY'. RVA outside of image (RVA: 0x965350, Size: 0x1698). Could be a file-only data directory.  
+2026-07-16 13:50:24 INFO  (TLSDirectory) TLS callbacks at 6226a018  
+2026-07-16 13:50:27 WARN  (SecurityDataDirectory) Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_SECURITY'. RVA outside of image (RVA: 0x8b3e90, Size: 0x1698). Could be a file-only data directory.  
+2026-07-16 13:50:27 INFO  (TLSDirectory) TLS callbacks at 625bb018  
+2026-07-16 13:50:29 INFO  (ProgramLoader) Additional info:
+Loading file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe?MD5=82ae6cf2eb7dac908c96943d5e8bcd0b...
+------------------------------------------------
+
+Searching 7 paths for library HIDAPI.DLL...
+Loading file:///home/diogo/dev/minikeyboard/win/hidapi.dll?MD5=4c91851d13dc3cce8aa54ea0e7bde78a...
+Created exports file: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/symbols/win32/hidapi.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 7 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library LIBGCC_S_DW2-1.DLL...
+Loading file:///home/diogo/dev/minikeyboard/win/libgcc_s_dw2-1.dll?MD5=a7604b46d509bdae7f5593eb98cea9ab...
+Created exports file: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/symbols/win32/libgcc_s_dw2-1.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 7 paths for library LIBSTDC++-6.DLL...
+Loading file:///home/diogo/dev/minikeyboard/win/libstdc++-6.dll?MD5=bf68c432622740a29718057ea01a67d6...
+Created exports file: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/symbols/win32/libstdc++-6.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 7 paths for library MSVCRT.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library QT5CORE.DLL...
+Loading file:///home/diogo/dev/minikeyboard/win/Qt5Core.dll?MD5=648c3e60137aad616c90a668511b8da3...
+Created exports file: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/symbols/win32/qt5core.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 7 paths for library QT5GUI.DLL...
+Loading file:///home/diogo/dev/minikeyboard/win/Qt5Gui.dll?MD5=0a4c4dd8d1249cb18589281f7db4c1ab...
+Created exports file: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/symbols/win32/qt5gui.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 7 paths for library QT5WIDGETS.DLL...
+Loading file:///home/diogo/dev/minikeyboard/win/Qt5Widgets.dll?MD5=b68920116c91c218b73eaa9d2b0f58af...
+Created exports file: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/symbols/win32/qt5widgets.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 7 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Applying cached symbols from HIDAPI.DLL
+Applying cached symbols from QT5CORE.DLL
+Applying cached symbols from QT5GUI.DLL
+Applying cached symbols from QT5WIDGETS.DLL
+Applying cached symbols from LIBGCC_S_DW2-1.DLL
+Applying cached symbols from LIBSTDC++-6.DLL
+Linking the External Programs of 'MINI_KEYBOARD.exe' to imported libraries...
+  [HIDAPI.DLL] -> not found in project
+  [QT5CORE.DLL] -> not found in project
+  [QT5GUI.DLL] -> not found in project
+  [QT5WIDGETS.DLL] -> not found in project
+  [LIBGCC_S_DW2-1.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [MSVCRT.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [LIBSTDC++-6.DLL] -> not found in project
+------------------------------------------------
+
+  
+2026-07-16 13:50:29 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-07-16 13:50:29 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe  
+2026-07-16 13:50:29 ERROR (MingwRelocationAnalyzer) MinGW pseudo-relocation list not found  
+2026-07-16 13:50:29 WARN  (NoReturnFunctionAnalyzer) Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /opt/ghidra/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn  
+2026-07-16 13:50:29 WARN  (NoReturnFunctionAnalyzer) Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /opt/ghidra/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn  
+2026-07-16 13:50:29 INFO  (PdbUniversalAnalyzer) Skipping PDB processing: missing PDB information in program metadata  
+2026-07-16 13:50:30 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2026-07-16 13:50:37 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/diogo-ghidra/packed-db-cache  
+2026-07-16 13:50:37 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/win32/windows_vs12_32.gdt  
+2026-07-16 13:50:38 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: windows_vs12_32  
+2026-07-16 13:50:38 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table: QT5WIDGETS.DLL::QSpacerItem::vtable  
+2026-07-16 13:50:38 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table: LIBSTDC++-6.DLL::__cxxabiv1::__class_type_info::vtable  
+2026-07-16 13:50:38 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table: LIBSTDC++-6.DLL::__cxxabiv1::__si_class_type_info::vtable  
+2026-07-16 13:50:38 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table: LIBSTDC++-6.DLL::__cxxabiv1::__vmi_class_type_info::vtable  
+2026-07-16 13:50:41 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.251 secs
+    Apply Data Archives                        0.272 secs
+    Call Convention ID                         0.000 secs
+    Call-Fixup Installer                       0.017 secs
+    Create Address Tables                      0.104 secs
+    Create Address Tables - One Time           0.035 secs
+    Create Function                            0.139 secs
+    Data Reference                             0.059 secs
+    Decompiler Switch Analysis                 4.832 secs
+    Decompiler Switch Analysis - One Time      1.181 secs
+    Demangler GNU                              0.120 secs
+    Demangler Microsoft                        0.002 secs
+    Disassemble                                0.057 secs
+    Disassemble Entry Points                   0.681 secs
+    Embedded Media                             0.019 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.353 secs
+    Function Start Pre Search                  0.004 secs
+    Function Start Search                      0.015 secs
+    Function Start Search After Code           0.006 secs
+    Function Start Search After Data           0.005 secs
+    MinGW Relocations                          0.001 secs
+    Non-Returning Functions - Discovered       0.084 secs
+    Non-Returning Functions - Known            0.001 secs
+    PDB Universal                              0.002 secs
+    Reference                                  0.094 secs
+    Scalar Operand References                  0.407 secs
+    Shared Return Calls                        0.042 secs
+    Stack                                      1.238 secs
+    Subroutine References                      0.075 secs
+    Subroutine References - One Time           0.043 secs
+    WindowsResourceReference                   0.241 secs
+    X86 Function Callee Purge                  0.088 secs
+    x86 Constant Reference Analyzer            1.215 secs
+-----------------------------------------------------
+     Total Time   11 secs
+-----------------------------------------------------
+  
+2026-07-16 13:50:41 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe  
+2026-07-16 13:50:41 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportBaseline.java '/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/baseline'   
+2026-07-16 13:50:41 INFO  (HeadlessAnalyzer) SCRIPT: /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra/ExportBaseline.java  
+2026-07-16 13:50:41 INFO  (GhidraScript) ExportBaseline.java> ExportBaseline: wrote 7 baseline files to /home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/baseline  
+2026-07-16 13:50:41 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe  
+2026-07-16 13:50:41 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe  
+2026-07-16 13:50:41 INFO  (LocalFileSystem) /MINI_KEYBOARD.exe: file created (diogo)  
+2026-07-16 13:50:41 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /MINI_KEYBOARD.exe (mini-keyboard-full:/MINI_KEYBOARD.exe)  
+2026-07-16 13:50:41 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  

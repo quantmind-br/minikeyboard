@@ -1,0 +1,8 @@
+{
+  "command": "identify",
+  "report_id": 3,
+  "bytes_hex": "03fbfbfb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "provenance": "documented-request",
+  "hardware_tuple": "1189:8842",
+  "notes": "Documented identify frame only. No response.bin until capture (Step 9). Must not elevate ReadCapability."
+}

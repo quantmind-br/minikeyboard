@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "capabilities": [
+    {
+      "id": "doctor-environment",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/doctor.py",
+      "cliCommands": [
+        "doctor"
+      ],
+      "inputs": [
+        "--ghidra-home DIR",
+        "host PATH / known install dirs"
+      ],
+      "outputs": [
+        "dependency report with per-tool status, impact, official URL, per-OS install commands, post-install check",
+        "dynamic_ready flag"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reports availability only; never installs or mutates the system"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_doctor_envelope",
+        "tests/test_install_guidance.py::test_missing_ghidra_guidance"
+      ]
+    },
+    {
+      "id": "workspace-init",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/workspace.py",
+      "cliCommands": [
+        "init"
+      ],
+      "inputs": [
+        "BINARY path",
+        "--target ID",
+        "--scope full|symbols|addresses",
+        "--entry VALUE"
+      ],
+      "outputs": [
+        "targets/<id>/projects/",
+        "artifacts/<id>/{state.json,intake/,baseline/,evidence/,metadata/,decompilation/,runtime/,scripts/,reports/,gates/}"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "computes SHA-256 and format via native inspection; does not run Ghidra"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_init_creates_workspace",
+        "tests/test_artifacts.py::test_state_schema"
+      ]
+    },
+    {
+      "id": "config-scope",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/workspace.py",
+      "cliCommands": [
+        "config scope show",
+        "config scope set",
+        "config scope add",
+        "config scope remove"
+      ],
+      "inputs": [
+        "--target ID",
+        "scope mode / entries"
+      ],
+      "outputs": [
+        "state.json scope.mode + scope.entries"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "absorbs the historical scope (P0.5) sub-skill; no separate scope command"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_config_scope_roundtrip"
+      ]
+    },
+    {
+      "id": "inspect-binary",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/static_inspect.py",
+      "cliCommands": [
+        "inspect"
+      ],
+      "inputs": [
+        "BINARY path or --target ID"
+      ],
+      "outputs": [
+        "intake/inspection.json: tool versions, format/arch/endian, sections, exports, imports, warnings"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "uses file/readelf/objdump/nm/strings without executing the target; degrades if binutils absent"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_inspect_binary_envelope",
+        "tests/test_artifacts.py::test_inspection_schema"
+      ]
+    },
+    {
+      "id": "inspect-archive",
+      "status": "shipped-partial",
+      "entrypoint": "src/ghidra_skill/static_inspect.py",
+      "cliCommands": [
+        "inspect"
+      ],
+      "inputs": [
+        "ARCHIVE path (.a) or --target ID"
+      ],
+      "outputs": [
+        "intake/inspection.json archive members inventory; invalid members recorded, not dropped"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "archive member inventory via ar; malformed members are recorded as warnings, not silently discarded; no deep per-member analysis"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_inspect_archive_partial"
+      ]
+    },
+    {
+      "id": "analyze-import",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/headless.py",
+      "cliCommands": [
+        "analyze"
+      ],
+      "inputs": [
+        "--target ID",
+        "--rebuild",
+        "--processor ID",
+        "--cspec ID",
+        "--analysis-timeout N"
+      ],
+      "outputs": [
+        "Ghidra project under targets/<id>/projects/",
+        "analyze invocation manifest + logs"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "imports and auto-analyzes without executing the target"
+      ],
+      "tests": [
+        "tests/test_fake_headless.py::test_analyze_invokes_headless",
+        "tests/test_real_ghidra.py::test_analyze_elf_c"
+      ],
+      "dependency": "Ghidra 12.x (support/analyzeHeadless) + JDK 21+",
+      "diagnostic": "ghidra doctor reports missing Ghidra with official URL and per-OS install steps"
+    },
+    {
+      "id": "baseline-export",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/headless.py",
+      "cliCommands": [
+        "analyze"
+      ],
+      "inputs": [
+        "analyzed Ghidra project"
+      ],
+      "outputs": [
+        "baseline/{functions,callgraph,types,vtables,constants,strings,imports}.json"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "exported after successful analysis via ExportBaseline.java"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_baseline_seven_exports"
+      ],
+      "dependency": "Ghidra 12.x + JDK 21+",
+      "diagnostic": "ghidra doctor reports missing Ghidra/JDK"
+    },
+    {
+      "id": "list-functions",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "list functions"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "structured function list from baseline/functions.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reads exported baseline; requires prior analyze"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_list_functions_reads_baseline"
+      ]
+    },
+    {
+      "id": "list-callgraph",
+      "status": "shipped-partial",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "list callgraph"
+      ],
+      "inputs": [
+        "--target ID",
+        "--callers",
+        "--callees",
+        "--transitive"
+      ],
+      "outputs": [
+        "direct call edges (callers/callees) from baseline/callgraph.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "callgraph covers direct call references only (callers/callees, optional transitive closure); general cross-references (xrefs) are NOT implemented"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_callgraph_callers_callees",
+        "tests/test_real_ghidra.py::test_callgraph_main_bridge_hot"
+      ]
+    },
+    {
+      "id": "list-types",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "list types"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "baseline/types.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reads exported baseline"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_list_types_reads_baseline"
+      ]
+    },
+    {
+      "id": "list-vtables",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "list vtables"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "baseline/vtables.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reads exported baseline; recovery quality depends on Ghidra analysis"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_vtables_cpp_stripped"
+      ]
+    },
+    {
+      "id": "list-constants",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "list constants"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "baseline/constants.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reads exported baseline"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_list_constants_reads_baseline"
+      ]
+    },
+    {
+      "id": "list-strings",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "list strings"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "baseline/strings.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reads exported baseline"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_list_strings_reads_baseline"
+      ]
+    },
+    {
+      "id": "list-imports",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "list imports"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "baseline/imports.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reads exported baseline"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_imports_shared_library"
+      ]
+    },
+    {
+      "id": "show-function",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/query.py",
+      "cliCommands": [
+        "show function"
+      ],
+      "inputs": [
+        "--target ID",
+        "SELECTOR"
+      ],
+      "outputs": [
+        "single function record"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "ambiguous selector is rejected before returning"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_show_function_unique_selector"
+      ]
+    },
+    {
+      "id": "evidence-third-party",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/evidence.py",
+      "cliCommands": [
+        "evidence third-party"
+      ],
+      "inputs": [
+        "--target ID",
+        "library/version/source path/confidence"
+      ],
+      "outputs": [
+        "evidence/third-party.json; pristine sources recorded by path/hash without modification"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "records pristine sources by path/hash only; never fetches or mutates sources"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_evidence_third_party_record",
+        "tests/test_artifacts.py::test_third_party_schema"
+      ]
+    },
+    {
+      "id": "metadata-record",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/metadata.py",
+      "cliCommands": [
+        "metadata rename",
+        "metadata signature",
+        "metadata types"
+      ],
+      "inputs": [
+        "--target ID",
+        "rename/signature/type entries with provenance"
+      ],
+      "outputs": [
+        "metadata/{renames,signatures,types}.json"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "records intent with provenance; project mutation happens only in metadata apply"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_metadata_record",
+        "tests/test_cli.py::test_metadata_conflict_needs_force"
+      ]
+    },
+    {
+      "id": "metadata-apply",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/metadata.py",
+      "cliCommands": [
+        "metadata apply"
+      ],
+      "inputs": [
+        "--target ID",
+        "recorded metadata"
+      ],
+      "outputs": [
+        "applied + re-exported baseline; verification record"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "applies via ApplyMetadata.java then re-exports to verify; conflict/ambiguity refuses to overwrite without --force"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_metadata_apply_verify"
+      ],
+      "dependency": "Ghidra 12.x + JDK 21+",
+      "diagnostic": "ghidra doctor reports missing Ghidra/JDK"
+    },
+    {
+      "id": "decompile-function",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/decompile.py",
+      "cliCommands": [
+        "decompile"
+      ],
+      "inputs": [
+        "--target ID",
+        "--function NAME|ADDR"
+      ],
+      "outputs": [
+        "decompilation/functions/<fn-id>/{source.c,record.json,analysis.json}"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "decompiles only selected functions; ambiguous selector fails before running"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_decompile_single_function"
+      ],
+      "dependency": "Ghidra 12.x + JDK 21+",
+      "diagnostic": "ghidra doctor reports missing Ghidra/JDK"
+    },
+    {
+      "id": "decompile-batch",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/decompile.py",
+      "cliCommands": [
+        "decompile"
+      ],
+      "inputs": [
+        "--target ID",
+        "--batch FILE"
+      ],
+      "outputs": [
+        "decompilation/batches/<run-id>.json with succeeded/failed/skipped summary"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "batch preserves successes when an item fails; ambiguous selectors fail before running"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_decompile_batch_partial"
+      ],
+      "dependency": "Ghidra 12.x + JDK 21+",
+      "diagnostic": "ghidra doctor reports missing Ghidra/JDK"
+    },
+    {
+      "id": "function-analyze",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/decompile.py",
+      "cliCommands": [
+        "function analyze"
+      ],
+      "inputs": [
+        "--target ID",
+        "SELECTOR"
+      ],
+      "outputs": [
+        "analysis/functions/<fn-id>/steps.json + five-step report with per-conclusion evidence"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "strict order types -> constants/strings -> vtables -> identity/signature -> decompile; no step skipped or reordered"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_function_analyze_five_steps"
+      ],
+      "dependency": "Ghidra 12.x + JDK 21+",
+      "diagnostic": "ghidra doctor reports missing Ghidra/JDK"
+    },
+    {
+      "id": "compare-progressive",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/report.py",
+      "cliCommands": [
+        "compare"
+      ],
+      "inputs": [
+        "--target ID",
+        "--reason",
+        "--question",
+        "--boundary",
+        "--fallback",
+        "--compare"
+      ],
+      "outputs": [
+        "progressive compare record preserving observed/inferred/unresolved and static-vs-dynamic conflict"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "progressive decompilation requires explicit target/reason/question/boundary/fallback/compare inputs"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_compare_requires_inputs",
+        "tests/test_cli.py::test_compare_preserves_conflict"
+      ]
+    },
+    {
+      "id": "frida-doctor",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/frida.py",
+      "cliCommands": [
+        "frida doctor"
+      ],
+      "inputs": [
+        "host frida availability"
+      ],
+      "outputs": [
+        "frida readiness diagnostic incl. ptrace_scope note on Linux"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "reports frida availability only; never attaches"
+      ],
+      "tests": [
+        "tests/test_frida.py::test_frida_doctor_envelope"
+      ]
+    },
+    {
+      "id": "frida-capture",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/frida.py",
+      "cliCommands": [
+        "frida capture",
+        "frida trace"
+      ],
+      "inputs": [
+        "--target ID",
+        "authorized owned target",
+        "isolation controls when untrusted"
+      ],
+      "outputs": [
+        "runtime/captures/<run-id>/{manifest.json,events.jsonl}"
+      ],
+      "safetyTier": "dynamic-owned",
+      "limitations": [
+        "opt-in dynamic execution; untrusted targets require the native isolation controls in references/security.md; never fabricates traces"
+      ],
+      "tests": [
+        "tests/test_frida.py::test_frida_capture_external_required",
+        "tests/test_frida.py::test_frida_capture_owned_fixture"
+      ],
+      "dependency": "frida-tools (python -m pip install frida-tools)",
+      "diagnostic": "ghidra frida doctor returns external-required with install instructions and Linux ptrace_scope note"
+    },
+    {
+      "id": "frida-import-evidence",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/frida.py",
+      "cliCommands": [
+        "frida import-evidence"
+      ],
+      "inputs": [
+        "--target ID",
+        "externally captured frida manifest/events"
+      ],
+      "outputs": [
+        "normalized runtime evidence linked to a capture manifest"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "import-only normalization; does not execute frida"
+      ],
+      "tests": [
+        "tests/test_frida.py::test_frida_import_evidence"
+      ]
+    },
+    {
+      "id": "frida-compare",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/frida.py",
+      "cliCommands": [
+        "frida compare"
+      ],
+      "inputs": [
+        "--target ID",
+        "static baseline + runtime capture"
+      ],
+      "outputs": [
+        "static-vs-dynamic comparison preserving both surfaces on conflict"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "compares recorded artifacts; conflicts preserved until explicit adjudication"
+      ],
+      "tests": [
+        "tests/test_frida.py::test_frida_compare_conflict"
+      ]
+    },
+    {
+      "id": "script-scaffold",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/script_ops.py",
+      "cliCommands": [
+        "script scaffold"
+      ],
+      "inputs": [
+        "NAME",
+        "--language java|python"
+      ],
+      "outputs": [
+        "scaffolded script under scripts/ghidra/ or artifacts/<id>/scripts/"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "Java is the guaranteed default; python only when doctor proves PyGhidra"
+      ],
+      "tests": [
+        "tests/test_script_safety.py::test_scaffold_java_default",
+        "tests/test_real_ghidra.py::test_script_scaffold_lint_run"
+      ]
+    },
+    {
+      "id": "script-lint",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/script_ops.py",
+      "cliCommands": [
+        "script lint"
+      ],
+      "inputs": [
+        "PATH"
+      ],
+      "outputs": [
+        "lint result over metadata/headless APIs"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "rejects symlink/path traversal; lints metadata and headless API usage"
+      ],
+      "tests": [
+        "tests/test_script_safety.py::test_lint_rejects_traversal",
+        "tests/test_script_safety.py::test_lint_flags_missing_metadata"
+      ]
+    },
+    {
+      "id": "script-run-java",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/script_ops.py",
+      "cliCommands": [
+        "script run"
+      ],
+      "inputs": [
+        "PATH",
+        "--target ID",
+        "--arg VALUE"
+      ],
+      "outputs": [
+        "script execution logs + manifest under artifacts/<id>/scripts/"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "scripts confined to allowlisted dirs; output escaping the allowlist fails"
+      ],
+      "tests": [
+        "tests/test_real_ghidra.py::test_script_scaffold_lint_run"
+      ],
+      "dependency": "Ghidra 12.x + JDK 21+",
+      "diagnostic": "ghidra doctor reports missing Ghidra/JDK"
+    },
+    {
+      "id": "script-run-python",
+      "status": "external-required",
+      "entrypoint": "src/ghidra_skill/script_ops.py",
+      "cliCommands": [
+        "script run"
+      ],
+      "inputs": [
+        "PATH --language python",
+        "--target ID"
+      ],
+      "outputs": [
+        "pyghidra script execution when verified"
+      ],
+      "safetyTier": "static-ghidra",
+      "limitations": [
+        "python scripts require doctor-verified PyGhidra (support/pyghidraRun + importable pyghidra + probe)"
+      ],
+      "tests": [
+        "tests/test_script_safety.py::test_python_run_requires_pyghidra"
+      ],
+      "dependency": "PyGhidra (python -m pip install pyghidra)",
+      "diagnostic": "ghidra doctor / ghidra script run returns external-required with online and offline pyghidra install instructions and GHIDRA_INSTALL_DIR note"
+    },
+    {
+      "id": "validate-gates",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/validation.py",
+      "cliCommands": [
+        "validate"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "gates/latest.json with intake/baseline/evidence/metadata/decompilation gates; not_applicable when not requested"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "computes gates from artifacts without exposing P0-P6; legacy phase states translated in report"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_validate_gates",
+        "tests/test_artifacts.py::test_gates_schema"
+      ]
+    },
+    {
+      "id": "report-provenance",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/report.py",
+      "cliCommands": [
+        "report"
+      ],
+      "inputs": [
+        "--target ID",
+        "--run-id"
+      ],
+      "outputs": [
+        "reports/<run-id>/{report.md,report.json} separating observed/inferred/unresolved"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "report reflects recorded artifacts only; no fabricated conclusions"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_report_separates_evidence"
+      ]
+    },
+    {
+      "id": "improve-review",
+      "status": "shipped",
+      "entrypoint": "src/ghidra_skill/report.py",
+      "cliCommands": [
+        "improve review"
+      ],
+      "inputs": [
+        "--target ID"
+      ],
+      "outputs": [
+        "improvement candidate record: accepted|deferred|rejected with evidence, overlap, proposed destination"
+      ],
+      "safetyTier": "static-read",
+      "limitations": [
+        "absorbs auto-evolution; never self-edits the skill; promotion is a separate maintenance change"
+      ],
+      "tests": [
+        "tests/test_cli.py::test_improve_review_classifies"
+      ]
+    }
+  ]
+}

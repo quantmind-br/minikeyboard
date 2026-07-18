@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "Traversal_Key_Txt",
+  "address": "0x0000cac0",
+  "signature": "undefined Traversal_Key_Txt(uchar param_1)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

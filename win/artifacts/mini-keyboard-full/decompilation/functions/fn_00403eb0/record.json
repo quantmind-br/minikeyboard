@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "target_id": "mini-keyboard-full",
+  "source": "decompile",
+  "observed_at": "2026-07-16T17:02:41Z",
+  "fn_id": "fn_00403eb0",
+  "selector_address": "0x00403eb0",
+  "function": {
+    "id": "00403eb0",
+    "name": "FUN_00403eb0",
+    "address": "0x00403eb0",
+    "signature": "undefined FUN_00403eb0()",
+    "thunk": false,
+    "external": false
+  },
+  "status": "succeeded",
+  "source_path": "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_00403eb0/source.c",
+  "manifest": {
+    "tool": "analyzeHeadless",
+    "ghidra_version": "12.1.2",
+    "project_dir": "/home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects",
+    "project_name": "mini-keyboard-full",
+    "argv": [
+      "/opt/ghidra/support/analyzeHeadless",
+      "/home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects",
+      "mini-keyboard-full",
+      "-process",
+      "-noanalysis",
+      "-scriptPath",
+      "/home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra",
+      "-postScript",
+      "DecompileFunction.java",
+      "0x00403eb0",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_00403eb0",
+      "-log",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_00403eb0/decompile.log"
+    ],
+    "started_at": "2026-07-16T17:02:39Z",
+    "finished_at": "2026-07-16T17:02:41Z",
+    "returncode": 0,
+    "timed_out": false,
+    "log_path": "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_00403eb0/decompile.log",
+    "stdout_tail": "  \nINFO  Loading user preferences: /home/diogo/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  \nINFO  Searching for classes... (ClassSearcher)  \nINFO  Class search complete (437 ms) (ClassSearcher)  \nINFO  Initializing SSL Context (DefaultSSLContextInitializer)  \nINFO  Initializing Random Number Generator... (SecureRandomFactory)  \nINFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  \nINFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  \nINFO  Headless startup complete (943 ms) (AnalyzeHeadless)  \nINFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  \nINFO  HEADLESS Script Paths:\n    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts\n    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts\n    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts\n    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts\n    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts\n    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts\n    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts\n    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts\n    /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra\n    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts\n    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  \nINFO  HEADLESS: execution starts (HeadlessAnalyzer)  \nINFO  Opening existing project: /home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects/mini-keyboard-full (HeadlessAnalyzer)  \nINFO  Opening project: /home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects/mini-keyboard-full (HeadlessProject)  \nINFO  REPORT: Processing project file: /MINI_KEYBOARD.exe (HeadlessAnalyzer)  \nINFO  REPORT: Execute script: DecompileFunction.java '0x00403eb0' '/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_00403eb0'  (HeadlessAnalyzer)  \nINFO  SCRIPT: /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra/DecompileFunction.java (HeadlessAnalyzer)  \nINFO  DecompileFunction.java> DecompileFunction: FUN_00403eb0 ok=true (GhidraScript)  \nINFO  REPORT: Save succeeded for processed file: /MINI_KEYBOARD.exe (HeadlessAnalyzer)  \nopenjdk version \"26.0.1\" 2026-04-21\nOpenJDK Runtime Environment (build 26.0.1)\nOpenJDK 64-Bit Server VM (build 26.0.1, mixed mode)\nWARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @5d7148e2 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)\nWARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning\nWARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled\nWARNING: A terminally deprecated method in sun.misc.Unsafe has been called\nWARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)\nWARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction\nWARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release\n"
+  }
+}

@@ -1,71 +1,56 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Install / uninstall the restricted Mini Keyboard udev rule.
+# Replaces the insecure global MODE="0666" hidraw rule.
+set -euo pipefail
 
-# Script para configurar permissões de acesso aos dispositivos HID
-# Necessário para o MiniKeyboard funcionar sem precisar de root
+RULE_NAME="70-minikeyboard.rules"
+DEST="/etc/udev/rules.d/${RULE_NAME}"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SOURCE="${SCRIPT_DIR}/../data/udev/${RULE_NAME}"
 
-RULE_FILE="/etc/udev/rules.d/99-hidraw-permissions.rules"
-RULE_CONTENT='KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666"'
+usage() {
+  cat <<EOF
+Usage: $0 [--uninstall]
 
-echo "=========================================="
-echo "MiniKeyboard - Setup HID Permissions"
-echo "=========================================="
-echo ""
+Install restricted udev rule for Mini Keyboard (1189:8842) with TAG+=\"uaccess\".
+Requires root.
 
-# Verifica se a regra já existe
-if [ -f "$RULE_FILE" ]; then
-    if grep -q "$RULE_CONTENT" "$RULE_FILE"; then
-        echo "✓ Regra udev já está configurada!"
-        echo ""
-        echo "Verificando dispositivos HID..."
-        ls -l /dev/hidraw* 2>/dev/null | head -3
-        exit 0
-    fi
+  --uninstall   Remove the rule and reload udev
+EOF
+}
+
+if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
+  usage
+  exit 0
 fi
 
-echo "Este script irá:"
-echo "1. Criar uma regra udev para acesso aos dispositivos HID"
-echo "2. Recarregar as regras udev"
-echo "3. Aplicar as mudanças imediatamente"
-echo ""
-echo "Permissão de sudo necessária..."
-echo ""
-
-# Cria a regra udev
-echo "$RULE_CONTENT" | sudo tee "$RULE_FILE" > /dev/null
-
-if [ $? -ne 0 ]; then
-    echo "✗ Erro ao criar regra udev"
-    exit 1
+if [[ "$(id -u)" -ne 0 ]]; then
+  echo "error: root required (run with sudo)" >&2
+  exit 1
 fi
 
-echo "✓ Regra udev criada: $RULE_FILE"
-
-# Recarrega as regras udev
-sudo udevadm control --reload-rules
-if [ $? -ne 0 ]; then
-    echo "✗ Erro ao recarregar regras udev"
-    exit 1
+if [[ "${1:-}" == "--uninstall" ]]; then
+  if [[ -f "${DEST}" ]]; then
+    rm -f "${DEST}"
+    echo "removed ${DEST}"
+  else
+    echo "no rule at ${DEST}"
+  fi
+  udevadm control --reload-rules
+  udevadm trigger --subsystem-match=hidraw
+  echo "udev rules reloaded"
+  exit 0
 fi
 
-echo "✓ Regras udev recarregadas"
-
-# Aplica as mudanças
-sudo udevadm trigger
-if [ $? -ne 0 ]; then
-    echo "✗ Erro ao aplicar mudanças"
-    exit 1
+if [[ ! -f "${SOURCE}" ]]; then
+  echo "error: missing source rule: ${SOURCE}" >&2
+  exit 1
 fi
 
-echo "✓ Mudanças aplicadas"
-echo ""
-echo "Verificando dispositivos HID..."
-sleep 1
-ls -l /dev/hidraw* 2>/dev/null | head -3
-echo ""
-echo "=========================================="
-echo "✓ Configuração concluída com sucesso!"
-echo "=========================================="
-echo ""
-echo "Agora você pode executar o MiniKeyboard:"
-echo "  ./MiniKeyboard-x86_64.AppImage"
-echo ""
+install -m 0644 "${SOURCE}" "${DEST}"
+echo "installed ${DEST}"
+udevadm control --reload-rules
+udevadm trigger --subsystem-match=hidraw
+echo "udev rules reloaded; reconnect the Mini Keyboard"
+echo "rule content:"
+cat "${DEST}"

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "SetFunKey",
+  "address": "0x0000b920",
+  "signature": "undefined SetFunKey(int param_1)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

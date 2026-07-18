@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "target_id": "mini-keyboard-full",
+  "source": "decompile",
+  "observed_at": "2026-07-16T17:02:41Z",
+  "run_id": "run-20260716T170237Z",
+  "succeeded": 2,
+  "failed": 0,
+  "skipped": 0,
+  "total": 2,
+  "results": [
+    {
+      "fn_id": "fn_0040ff00",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_0040ff00/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_0040ff00/record.json"
+    },
+    {
+      "fn_id": "fn_00403eb0",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_00403eb0/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/decompilation/functions/fn_00403eb0/record.json"
+    }
+  ]
+}

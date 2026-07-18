@@ -1,0 +1,28 @@
+[project]
+name = "ghidra-skill"
+version = "1.0.0"
+description = "Clean-room headless Ghidra reverse-engineering CLI: authorized static analysis, decompilation, and opt-in Frida dynamic capture with structured JSON artifacts."
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+ghidra = "ghidra_skill.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=9,<10",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ghidra_skill"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "requires_ghidra: empirical run needs a real Ghidra 12.x / JDK 21+ install",
+  "requires_frida: empirical run needs a real Frida install and an owned fixture",
+]

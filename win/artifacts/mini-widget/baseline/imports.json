@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "program": "widget.o",
+  "count": 47,
+  "imports": [
+    {
+      "name": "operator.delete",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000001"
+    },
+    {
+      "name": "_strlen",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000002"
+    },
+    {
+      "name": "operator.new",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000003"
+    },
+    {
+      "name": "_hid_write",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000004"
+    },
+    {
+      "name": "_hid_error",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000005"
+    },
+    {
+      "name": "_hid_read",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000006"
+    },
+    {
+      "name": "_hid_set_nonblocking",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000007"
+    },
+    {
+      "name": "Set_Dsp_Kb_Size",
+      "namespace": "\u003cEXTERNAL\u003e::Dialog1",
+      "address": "0xEXTERNAL:00000008"
+    },
+    {
+      "name": "_hid_read_timeout",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000009"
+    },
+    {
+      "name": "_hid_enumerate",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:0000000a"
+    },
+    {
+      "name": "_hid_free_enumeration",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:0000000b"
+    },
+    {
+      "name": "_hid_close",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:0000000c"
+    },
+    {
+      "name": "_hid_exit",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:0000000d"
+    },
+    {
+      "name": "_hid_open_path",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:0000000e"
+    },
+    {
+      "name": "Dialog1",
+      "namespace": "\u003cEXTERNAL\u003e::Dialog1",
+      "address": "0xEXTERNAL:0000000f"
+    },
+    {
+      "name": "_atexit",
+      "namespace": "\u003cEXTERNAL\u003e",
+      "address": "0xEXTERNAL:00000010"
+    },
+    {
+      "name": "metaObject",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000011"
+    },
+    {
+      "name": "qt_metacast",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000012"
+    },
+    {
+      "name": "qt_metacall",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000013"
+    },
+    {
+      "name": "event",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000014"
+    },
+    {
+      "name": "eventFilter",
+      "namespace": "\u003cEXTERNAL\u003e::QObject",
+      "address": "0xEXTERNAL:00000015"
+    },
+    {
+      "name": "timerEvent",
+      "namespace": "\u003cEXTERNAL\u003e::QObject",
+      "address": "0xEXTERNAL:00000016"
+    },
+    {
+      "name": "childEvent",
+      "namespace": "\u003cEXTERNAL\u003e::QObject",
+      "address": "0xEXTERNAL:00000017"
+    },
+    {
+      "name": "customEvent",
+      "namespace": "\u003cEXTERNAL\u003e::QObject",
+      "address": "0xEXTERNAL:00000018"
+    },
+    {
+      "name": "connectNotify",
+      "namespace": "\u003cEXTERNAL\u003e::QObject",
+      "address": "0xEXTERNAL:00000019"
+    },
+    {
+      "name": "disconnectNotify",
+      "namespace": "\u003cEXTERNAL\u003e::QObject",
+      "address": "0xEXTERNAL:0000001a"
+    },
+    {
+      "name": "polish",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000001b"
+    },
+    {
+      "name": "unpolish",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000001c"
+    },
+    {
+      "name": "polish",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000001d"
+    },
+    {
+      "name": "unpolish",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000001e"
+    },
+    {
+      "name": "polish",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000001f"
+    },
+    {
+      "name": "itemTextRect",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000020"
+    },
+    {
+      "name": "itemPixmapRect",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000021"
+    },
+    {
+      "name": "drawItemText",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000022"
+    },
+    {
+      "name": "drawItemPixmap",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000023"
+    },
+    {
+      "name": "standardPalette",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000024"
+    },
+    {
+      "name": "drawPrimitive",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000025"
+    },
+    {
+      "name": "subElementRect",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000026"
+    },
+    {
+      "name": "drawComplexControl",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000027"
+    },
+    {
+      "name": "hitTestComplexControl",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000028"
+    },
+    {
+      "name": "subControlRect",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:00000029"
+    },
+    {
+      "name": "pixelMetric",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000002a"
+    },
+    {
+      "name": "styleHint",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000002b"
+    },
+    {
+      "name": "standardPixmap",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000002c"
+    },
+    {
+      "name": "standardIcon",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000002d"
+    },
+    {
+      "name": "generatedIconPixmap",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000002e"
+    },
+    {
+      "name": "layoutSpacing",
+      "namespace": "\u003cEXTERNAL\u003e::QProxyStyle",
+      "address": "0xEXTERNAL:0000002f"
+    }
+  ]
+}

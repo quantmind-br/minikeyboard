@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "target_id": "mini-widget",
+  "binary": {
+    "path": "/home/diogo/dev/minikeyboard/win/widget.o",
+    "sha256": "ce0ca43254f61098ce56524c08c7eb48a30e05c7f18a58291cee7019b6be4643",
+    "format": null
+  },
+  "scope": {
+    "mode": "full",
+    "entries": []
+  },
+  "status": "decompiled",
+  "created_at": "2026-07-16T12:35:14Z",
+  "updated_at": "2026-07-16T16:54:55Z"
+}

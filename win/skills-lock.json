@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "ghidra": {
+      "source": "/home/diogo/dev/skills",
+      "sourceType": "local",
+      "computedHash": "e7627f2c9142979b2dcf15f8f6ce84488ca8b2fa5316b8f2e53fdc4f788a781e"
+    }
+  }
+}

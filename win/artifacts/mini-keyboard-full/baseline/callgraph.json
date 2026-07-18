@@ -1,0 +1,6157 @@
+{
+  "schema_version": 1,
+  "program": "MINI_KEYBOARD.exe",
+  "count": 1025,
+  "callgraph": [
+    {
+      "caller": "0x00401150",
+      "callee": "0x00465960",
+      "caller_name": "FUN_00401150",
+      "callee_name": "tls_callback_0"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0xEXTERNAL:00000169",
+      "caller_name": "FUN_00401150",
+      "callee_name": "SetUnhandledExceptionFilter"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x004668e4",
+      "caller_name": "FUN_00401150",
+      "callee_name": "_cexit"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x00466894",
+      "caller_name": "FUN_00401150",
+      "callee_name": "memcpy"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x0046690c",
+      "caller_name": "FUN_00401150",
+      "callee_name": "__p__acmdln"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x004668bc",
+      "caller_name": "FUN_00401150",
+      "callee_name": "exit"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x004668dc",
+      "caller_name": "FUN_00401150",
+      "callee_name": "initterm"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x00465790",
+      "caller_name": "FUN_00401150",
+      "callee_name": "FUN_00465790"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0xEXTERNAL:0000016a",
+      "caller_name": "FUN_00401150",
+      "callee_name": "Sleep"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x0046689c",
+      "caller_name": "FUN_00401150",
+      "callee_name": "malloc"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0xEXTERNAL:00000161",
+      "caller_name": "FUN_00401150",
+      "callee_name": "GetStartupInfoA"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x00465c60",
+      "caller_name": "FUN_00401150",
+      "callee_name": "FUN_00465c60"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x00465ae0",
+      "caller_name": "FUN_00401150",
+      "callee_name": "FUN_00465ae0"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x0046687c",
+      "caller_name": "FUN_00401150",
+      "callee_name": "strlen"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x00493af0",
+      "caller_name": "FUN_00401150",
+      "callee_name": "FUN_00493af0"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x004668ec",
+      "caller_name": "FUN_00401150",
+      "callee_name": "_amsg_exit"
+    },
+    {
+      "caller": "0x00401150",
+      "callee": "0x00466940",
+      "caller_name": "FUN_00401150",
+      "callee_name": "FUN_00466940"
+    },
+    {
+      "caller": "0x00401480",
+      "callee": "0x00401150",
+      "caller_name": "entry",
+      "callee_name": "FUN_00401150"
+    },
+    {
+      "caller": "0x00401480",
+      "callee": "0x004657d0",
+      "caller_name": "entry",
+      "callee_name": "FUN_004657d0"
+    },
+    {
+      "caller": "0x004014c0",
+      "callee": "0x004668d4",
+      "caller_name": "FUN_004014c0",
+      "callee_name": "_onexit"
+    },
+    {
+      "caller": "0x004014e0",
+      "callee": "0xEXTERNAL:0000015f",
+      "caller_name": "FUN_004014e0",
+      "callee_name": "GetModuleHandleA"
+    },
+    {
+      "caller": "0x004014e0",
+      "callee": "0xEXTERNAL:00000160",
+      "caller_name": "FUN_004014e0",
+      "callee_name": "GetProcAddress"
+    },
+    {
+      "caller": "0x004014e0",
+      "callee": "0x00466828",
+      "caller_name": "FUN_004014e0",
+      "callee_name": "__register_frame_info"
+    },
+    {
+      "caller": "0x004014e0",
+      "callee": "0xEXTERNAL:00000166",
+      "caller_name": "FUN_004014e0",
+      "callee_name": "LoadLibraryA"
+    },
+    {
+      "caller": "0x004014e0",
+      "callee": "0x004014c0",
+      "caller_name": "FUN_004014e0",
+      "callee_name": "FUN_004014c0"
+    },
+    {
+      "caller": "0x00401590",
+      "callee": "0xEXTERNAL:00000159",
+      "caller_name": "FUN_00401590",
+      "callee_name": "FreeLibrary"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0xEXTERNAL:000000be",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "QDialog"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0xEXTERNAL:000000eb",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "setWindowFlag"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0xEXTERNAL:00000011",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "~Connection"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0x004669a0",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "FUN_004669a0"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0xEXTERNAL:00000035",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "connect"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0x00466808",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0xEXTERNAL:000000a0",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "setExclusive"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0xEXTERNAL:000000a2",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "QButtonGroup"
+    },
+    {
+      "caller": "0x004015c0",
+      "callee": "0xEXTERNAL:000000a1",
+      "caller_name": "FUN_004015c0",
+      "callee_name": "addButton"
+    },
+    {
+      "caller": "0x00401760",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_00401760",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x004018d0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004018d0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000022",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "endl"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000025",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "~QDebug"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000014",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000015",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000016",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000043",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:00000024",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "putString"
+    },
+    {
+      "caller": "0x00403c60",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00403c60",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0x0040c2d0",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "FUN_0040c2d0"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:0000012f",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "checkedButton"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000045",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "arg"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:0000003f",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "tr"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000040",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "cast"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000025",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "~QDebug"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000015",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000044",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "objectName"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000043",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0x00493910",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "FUN_00493910"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000036",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "compare_helper"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:00000024",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "putString"
+    },
+    {
+      "caller": "0x00403eb0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00403eb0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004078c0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_004078c0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x004078c0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_004078c0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x004078c0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004078c0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004083f0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_004083f0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x004083f0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_004083f0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x004083f0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_004083f0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x004083f0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_004083f0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x004083f0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004083f0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000017",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "load"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:0000004e",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "QFont"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:0000009f",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "~QApplication"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000018",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "QTranslator"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000049",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "setPixelSize"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000019",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "~QTranslator"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0x0045f740",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "FUN_0045f740"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:0000009e",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "QApplication"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:000000f3",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "setWindowTitle"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0x00411b70",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "FUN_00411b70"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000020",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "installTranslator"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:0000009d",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "setFont"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:0000009b",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "exec"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:00000050",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "~QFont"
+    },
+    {
+      "caller": "0x004094d0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004094d0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004099e0",
+      "callee": "0x00466960",
+      "caller_name": "FUN_004099e0",
+      "callee_name": "hid_error"
+    },
+    {
+      "caller": "0x004099e0",
+      "callee": "0x00466998",
+      "caller_name": "FUN_004099e0",
+      "callee_name": "hid_write"
+    },
+    {
+      "caller": "0x004099e0",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_004099e0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:00000011",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "~Connection"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:00000027",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "start"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:00000029",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "QTimer"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:00000035",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "connect"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0x00466808",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x0040a900",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040a900",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040ab30",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0040ab30",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0040ab30",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040ab30",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040ab30",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040ab30",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040abd0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040abd0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040abd0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040abd0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040abd0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040abd0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040acb0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040acb0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040acb0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040acb0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040acb0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040acb0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040ad90",
+      "callee": "0xEXTERNAL:0000016a",
+      "caller_name": "FUN_0040ad90",
+      "callee_name": "Sleep"
+    },
+    {
+      "caller": "0x0040ad90",
+      "callee": "0x00466960",
+      "caller_name": "FUN_0040ad90",
+      "callee_name": "hid_error"
+    },
+    {
+      "caller": "0x0040ad90",
+      "callee": "0x00466998",
+      "caller_name": "FUN_0040ad90",
+      "callee_name": "hid_write"
+    },
+    {
+      "caller": "0x0040ad90",
+      "callee": "0x0040a900",
+      "caller_name": "FUN_0040ad90",
+      "callee_name": "FUN_0040a900"
+    },
+    {
+      "caller": "0x0040ad90",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040ad90",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040ad90",
+      "callee": "0x0040abd0",
+      "caller_name": "FUN_0040ad90",
+      "callee_name": "FUN_0040abd0"
+    },
+    {
+      "caller": "0x0040b080",
+      "callee": "0x0040ad90",
+      "caller_name": "FUN_0040b080",
+      "callee_name": "FUN_0040ad90"
+    },
+    {
+      "caller": "0x0040b0b0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040b0b0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040b0b0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040b0b0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040b0b0",
+      "callee": "0xEXTERNAL:00000113",
+      "caller_name": "FUN_0040b0b0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040b0b0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040b0b0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040bda0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040bda0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040bda0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0040bda0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0040bda0",
+      "callee": "0x0046b360",
+      "caller_name": "FUN_0040bda0",
+      "callee_name": "FUN_0046b360"
+    },
+    {
+      "caller": "0x0040bda0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040bda0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040bda0",
+      "callee": "0xEXTERNAL:00000113",
+      "caller_name": "FUN_0040bda0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040bda0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040bda0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040c2d0",
+      "callee": "0x0046b3e0",
+      "caller_name": "FUN_0040c2d0",
+      "callee_name": "FUN_0046b3e0"
+    },
+    {
+      "caller": "0x0040c2d0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040c2d0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040c2d0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0040c2d0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0040c2d0",
+      "callee": "0xEXTERNAL:00000113",
+      "caller_name": "FUN_0040c2d0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040c2d0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0040c2d0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0040c2d0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040c2d0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040d050",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040d050",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040d170",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040d170",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040d300",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040d300",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040d430",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040d430",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040d430",
+      "callee": "0xEXTERNAL:0000003c",
+      "caller_name": "FUN_0040d430",
+      "callee_name": "operator\u003d"
+    },
+    {
+      "caller": "0x0040d430",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0040d430",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0040d430",
+      "callee": "0xEXTERNAL:00000113",
+      "caller_name": "FUN_0040d430",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040d430",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0040d430",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0040d430",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040d430",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040d810",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040d810",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:0000003a",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:0000014b",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "value"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:00000113",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0040da30",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040da30",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040dce0",
+      "callee": "0xEXTERNAL:00000111",
+      "caller_name": "FUN_0040dce0",
+      "callee_name": "setValue"
+    },
+    {
+      "caller": "0x0040dce0",
+      "callee": "0xEXTERNAL:00000133",
+      "caller_name": "FUN_0040dce0",
+      "callee_name": "value"
+    },
+    {
+      "caller": "0x0040dd10",
+      "callee": "0xEXTERNAL:000000aa",
+      "caller_name": "FUN_0040dd10",
+      "callee_name": "setValue"
+    },
+    {
+      "caller": "0x0040dd10",
+      "callee": "0x0040da30",
+      "caller_name": "FUN_0040dd10",
+      "callee_name": "FUN_0040da30"
+    },
+    {
+      "caller": "0x0040dd10",
+      "callee": "0xEXTERNAL:0000014b",
+      "caller_name": "FUN_0040dd10",
+      "callee_name": "value"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000022",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "endl"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000132",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "text"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:0000003c",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "operator\u003d"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000014",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000016",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000130",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "button"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000025",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "~QDebug"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000015",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000043",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000113",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:00000036",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "compare_helper"
+    },
+    {
+      "caller": "0x0040ded0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040ded0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040e310",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040e310",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040e310",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0040e310",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0040e310",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040e310",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040e310",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0040e310",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0040e310",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0040e310",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0040e310",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040e310",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040f450",
+      "callee": "0x00466960",
+      "caller_name": "FUN_0040f450",
+      "callee_name": "hid_error"
+    },
+    {
+      "caller": "0x0040f450",
+      "callee": "0x00466998",
+      "caller_name": "FUN_0040f450",
+      "callee_name": "hid_write"
+    },
+    {
+      "caller": "0x0040f450",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040f450",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040f450",
+      "callee": "0x0040e310",
+      "caller_name": "FUN_0040f450",
+      "callee_name": "FUN_0040e310"
+    },
+    {
+      "caller": "0x0040f450",
+      "callee": "0x00466980",
+      "caller_name": "FUN_0040f450",
+      "callee_name": "hid_read"
+    },
+    {
+      "caller": "0x0040f450",
+      "callee": "0x00466990",
+      "caller_name": "FUN_0040f450",
+      "callee_name": "hid_set_nonblocking"
+    },
+    {
+      "caller": "0x0040f870",
+      "callee": "0x0040f450",
+      "caller_name": "FUN_0040f870",
+      "callee_name": "FUN_0040f450"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0x0040e310",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "FUN_0040e310"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0xEXTERNAL:00000113",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040f8a0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040f8a0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040fd00",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0040fd00",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0040fd00",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0040fd00",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0040fd00",
+      "callee": "0xEXTERNAL:00000130",
+      "caller_name": "FUN_0040fd00",
+      "callee_name": "button"
+    },
+    {
+      "caller": "0x0040fd00",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040fd00",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0040ff00",
+      "callee": "0xEXTERNAL:00000079",
+      "caller_name": "FUN_0040ff00",
+      "callee_name": "setCurrentIndex"
+    },
+    {
+      "caller": "0x0040ff00",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040ff00",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040ff00",
+      "callee": "0x0040fd00",
+      "caller_name": "FUN_0040ff00",
+      "callee_name": "FUN_0040fd00"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0x0040c2d0",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "FUN_0040c2d0"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:0000012f",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "checkedButton"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000045",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "arg"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:0000003f",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "tr"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000040",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "cast"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000025",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "~QDebug"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000015",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0x0040fd00",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "FUN_0040fd00"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000044",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "objectName"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000043",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:00000024",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "putString"
+    },
+    {
+      "caller": "0x0040fff0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0040fff0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000022",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "endl"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000079",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "setCurrentIndex"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000132",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "text"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000014",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000034",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "installEventFilter"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000016",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0x0046b290",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "FUN_0046b290"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:0000000e",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "qt_qFindChildren_helper"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000025",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "~QDebug"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000015",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000043",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:00000024",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "putString"
+    },
+    {
+      "caller": "0x004102e0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004102e0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0x0046b150",
+      "caller_name": "FUN_00410720",
+      "callee_name": "FUN_0046b150"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:0000001b",
+      "caller_name": "FUN_00410720",
+      "callee_name": "createNode"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000025",
+      "caller_name": "FUN_00410720",
+      "callee_name": "~QDebug"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0x0046b0c0",
+      "caller_name": "FUN_00410720",
+      "callee_name": "FUN_0046b0c0"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000014",
+      "caller_name": "FUN_00410720",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000015",
+      "caller_name": "FUN_00410720",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000016",
+      "caller_name": "FUN_00410720",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000046",
+      "caller_name": "FUN_00410720",
+      "callee_name": "operator\u003c"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000043",
+      "caller_name": "FUN_00410720",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000036",
+      "caller_name": "FUN_00410720",
+      "callee_name": "compare_helper"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00410720",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00410720",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00410720",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0x00409990",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "FUN_00409990"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0x00410720",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "FUN_00410720"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0x004102e0",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "FUN_004102e0"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0xEXTERNAL:00000011",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "~Connection"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0xEXTERNAL:00000035",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "connect"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0x00466808",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0xEXTERNAL:000000a2",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "QButtonGroup"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0xEXTERNAL:000000a1",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "addButton"
+    },
+    {
+      "caller": "0x00410bc0",
+      "callee": "0xEXTERNAL:000000a4",
+      "caller_name": "FUN_00410bc0",
+      "callee_name": "setChecked"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0x0046b150",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "FUN_0046b150"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:0000001b",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "createNode"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000025",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "~QDebug"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0x0046b0c0",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "FUN_0046b0c0"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000014",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000015",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000016",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "operator\u003c\u003c"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000046",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "operator\u003c"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000043",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000036",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "compare_helper"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x004116d0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004116d0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00411b70",
+      "callee": "0x00466818",
+      "caller_name": "FUN_00411b70",
+      "callee_name": "operator.delete"
+    },
+    {
+      "caller": "0x00411b70",
+      "callee": "0x0046b1e0",
+      "caller_name": "FUN_00411b70",
+      "callee_name": "FUN_0046b1e0"
+    },
+    {
+      "caller": "0x00411b70",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00411b70",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00411b70",
+      "callee": "0x0046b860",
+      "caller_name": "FUN_00411b70",
+      "callee_name": "FUN_0046b860"
+    },
+    {
+      "caller": "0x00411b70",
+      "callee": "0x0046b290",
+      "caller_name": "FUN_00411b70",
+      "callee_name": "FUN_0046b290"
+    },
+    {
+      "caller": "0x00411b70",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00411b70",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00411b70",
+      "callee": "0x0046e9c0",
+      "caller_name": "FUN_00411b70",
+      "callee_name": "FUN_0046e9c0"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00412010",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00412010",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00412010",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00412010",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00412010",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00412010",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00412010",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00412010",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00412010",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00412010",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00412010",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00412010",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00412010",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00412010",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00412010",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00412010",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00413730",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00413730",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00413730",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00413730",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00413730",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00413730",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00413730",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00413730",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00413730",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00413730",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00413730",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00413730",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00413730",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00413730",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00413730",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00413730",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00413730",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00415250",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00415250",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00415250",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00415250",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00415250",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00415250",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00415250",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00415250",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00415250",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00415250",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00415250",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00415250",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00415250",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00415250",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00415250",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00415250",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00415250",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x004175a0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004175a0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00417bf0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00417bf0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00418730",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00418730",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00418730",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00418730",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00418730",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00418730",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00418730",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00418730",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00418730",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00418730",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00418730",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00418730",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00418730",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00419640",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00419640",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00419640",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00419640",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00419640",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00419640",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00419640",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00419640",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00419640",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00419640",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00419640",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00419640",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00419640",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00419640",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00419640",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00419640",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00419640",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0041b0e0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0041b0e0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0041c4d0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0041c4d0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0041e060",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0041e060",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0041fd50",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0041fd50",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00422d70",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00422d70",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x004244d0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004244d0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00426100",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00426100",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00426100",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00426100",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00426100",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00426100",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00426100",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00426100",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00426100",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00426100",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00426100",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00426100",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00426100",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00426100",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00426100",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00426100",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00426100",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00428570",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00428570",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00428570",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00428570",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00428570",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00428570",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00428570",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00428570",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00428570",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00428570",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00428570",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00428570",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00428570",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00428570",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00428570",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00428570",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00428570",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0042b4e0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0042b4e0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0042e270",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0042e270",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00431b00",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00431b00",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00435dc0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00435dc0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0043a190",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0043a190",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0043ed00",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0043ed00",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00443ad0",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00443ad0",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00449350",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00449350",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00449350",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00449350",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00449350",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00449350",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00449350",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00449350",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00449350",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00449350",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00449350",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00449350",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00449350",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00449350",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00449350",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00449350",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0x00493950",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0044eb90",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_0044eb90",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00454490",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00454490",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00454490",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00454490",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00454490",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00454490",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00454490",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00454490",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00454490",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00454490",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00454490",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00454490",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_00454490",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00458340",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000055",
+      "caller_name": "FUN_00458340",
+      "callee_name": "QImage"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000066",
+      "caller_name": "FUN_00458340",
+      "callee_name": "scaled"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:0000005a",
+      "caller_name": "FUN_00458340",
+      "callee_name": "~QPixmap"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_00458340",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0x00493950",
+      "caller_name": "FUN_00458340",
+      "callee_name": "FUN_00493950"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000056",
+      "caller_name": "FUN_00458340",
+      "callee_name": "~QImage"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_00458340",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00458340",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00458340",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:0000003b",
+      "caller_name": "FUN_00458340",
+      "callee_name": "number"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00458340",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:00000058",
+      "caller_name": "FUN_00458340",
+      "callee_name": "fromImage"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00458340",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00458340",
+      "callee": "0xEXTERNAL:000000ad",
+      "caller_name": "FUN_00458340",
+      "callee_name": "setPixmap"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00417bf0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00417bf0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x004175a0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_004175a0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0041fd50",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0041fd50"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00443ad0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00443ad0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00415250",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00415250"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0041e060",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0041e060"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00422d70",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00422d70"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00428570",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00428570"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0042e270",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0042e270"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00458340",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00458340"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00412010",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00412010"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x004244d0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_004244d0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00431b00",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00431b00"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00454490",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00454490"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00419640",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00419640"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00413730",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00413730"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00449350",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00449350"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0041b0e0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0041b0e0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0044eb90",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0044eb90"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0041c4d0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0041c4d0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00435dc0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00435dc0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0042b4e0",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0042b4e0"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0043a190",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0043a190"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x0043ed00",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_0043ed00"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00426100",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00426100"
+    },
+    {
+      "caller": "0x0045e000",
+      "callee": "0x00418730",
+      "caller_name": "FUN_0045e000",
+      "callee_name": "FUN_00418730"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0x00466988",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "hid_read_timeout"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0x00466960",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "hid_error"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0x00466998",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "hid_write"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0xEXTERNAL:00000102",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "show"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0x0045e000",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "FUN_0045e000"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0xEXTERNAL:000000d9",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "setEnabled"
+    },
+    {
+      "caller": "0x0045ec30",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0045ec30",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0045ee70",
+      "callee": "0xEXTERNAL:0000016a",
+      "caller_name": "FUN_0045ee70",
+      "callee_name": "Sleep"
+    },
+    {
+      "caller": "0x0045ee70",
+      "callee": "0x00466960",
+      "caller_name": "FUN_0045ee70",
+      "callee_name": "hid_error"
+    },
+    {
+      "caller": "0x0045ee70",
+      "callee": "0x00466998",
+      "caller_name": "FUN_0045ee70",
+      "callee_name": "hid_write"
+    },
+    {
+      "caller": "0x0045ee70",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0045ee70",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0045ee70",
+      "callee": "0x0045ec30",
+      "caller_name": "FUN_0045ee70",
+      "callee_name": "FUN_0045ec30"
+    },
+    {
+      "caller": "0x0045ee70",
+      "callee": "0x0040d430",
+      "caller_name": "FUN_0045ee70",
+      "callee_name": "FUN_0040d430"
+    },
+    {
+      "caller": "0x0045ee70",
+      "callee": "0x0040ad90",
+      "caller_name": "FUN_0045ee70",
+      "callee_name": "FUN_0040ad90"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x00466958",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "hid_enumerate"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x0040acb0",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "FUN_0040acb0"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0xEXTERNAL:00000042",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "debug"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x0045ec30",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "FUN_0045ec30"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x00466970",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "hid_free_enumeration"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x00466978",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "hid_open_path"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x00466968",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "hid_exit"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x0040abd0",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "FUN_0040abd0"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x0045e000",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "FUN_0045e000"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0x00466950",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "hid_close"
+    },
+    {
+      "caller": "0x0045f0d0",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0045f0d0",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0xEXTERNAL:00000020",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "installTranslator"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0x004116d0",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "FUN_004116d0"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0x00410720",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "FUN_00410720"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0xEXTERNAL:00000017",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "load"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0xEXTERNAL:00000018",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "QTranslator"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0xEXTERNAL:00000019",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "~QTranslator"
+    },
+    {
+      "caller": "0x0045f340",
+      "callee": "0x00472650",
+      "caller_name": "FUN_0045f340",
+      "callee_name": "FUN_00472650"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x0045f340",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_0045f340"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000a6",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setCheckable"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000027",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "start"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000131",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "availableGeometry"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000059",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "QPixmap"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000a0",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setExclusive"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000101",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "hide"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x0046b360",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_0046b360"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000ec",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "showMaximized"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:0000004a",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setPointSize"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000107",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setStyle"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000029",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "QTimer"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x0045e000",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_0045e000"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000050",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "~QFont"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000a2",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "QButtonGroup"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000a1",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "addButton"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:0000010e",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "QWidget"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x004015c0",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_004015c0"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000011",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "~Connection"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:0000004f",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "QFont"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:0000002e",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "connectImpl"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000078",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setTabPosition"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x00466808",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x00477fa0",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_00477fa0"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000119",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "tabBar"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x0040f8a0",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_0040f8a0"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000106",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setFont"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000096",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "QProxyStyle"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0x00410bc0",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "FUN_00410bc0"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:00000035",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "connect"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:000000f2",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "setWindowState"
+    },
+    {
+      "caller": "0x0045f740",
+      "callee": "0xEXTERNAL:0000009c",
+      "caller_name": "FUN_0045f740",
+      "callee_name": "desktop"
+    },
+    {
+      "caller": "0x00464b50",
+      "callee": "0xEXTERNAL:00000083",
+      "caller_name": "FUN_00464b50",
+      "callee_name": "QTabWidget"
+    },
+    {
+      "caller": "0x00464b50",
+      "callee": "0xEXTERNAL:000000d3",
+      "caller_name": "FUN_00464b50",
+      "callee_name": "QTabBar"
+    },
+    {
+      "caller": "0x00464b50",
+      "callee": "0xEXTERNAL:00000078",
+      "caller_name": "FUN_00464b50",
+      "callee_name": "setTabPosition"
+    },
+    {
+      "caller": "0x00464b50",
+      "callee": "0x00466808",
+      "caller_name": "FUN_00464b50",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x00464b50",
+      "callee": "0xEXTERNAL:00000080",
+      "caller_name": "FUN_00464b50",
+      "callee_name": "setTabBar"
+    },
+    {
+      "caller": "0x00464e30",
+      "callee": "0xEXTERNAL:00000013",
+      "caller_name": "FUN_00464e30",
+      "callee_name": "activate"
+    },
+    {
+      "caller": "0x00464e30",
+      "callee": "0x00403eb0",
+      "caller_name": "FUN_00464e30",
+      "callee_name": "FUN_00403eb0"
+    },
+    {
+      "caller": "0x00464e30",
+      "callee": "0x00403c60",
+      "caller_name": "FUN_00464e30",
+      "callee_name": "FUN_00403c60"
+    },
+    {
+      "caller": "0x00464e30",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00464e30",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040dd10",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040dd10"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0045f340",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0045f340"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x004099e0",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_004099e0"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040b080",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040b080"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040b0b0",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040b0b0"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0045ee70",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0045ee70"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040dce0",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040dce0"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040ff00",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040ff00"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040f870",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040f870"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0045f0d0",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0045f0d0"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040bda0",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040bda0"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040f8a0",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040f8a0"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040ab30",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040ab30"
+    },
+    {
+      "caller": "0x004650a0",
+      "callee": "0x0040fff0",
+      "caller_name": "FUN_004650a0",
+      "callee_name": "FUN_0040fff0"
+    },
+    {
+      "caller": "0x00465740",
+      "callee": "0x00493a20",
+      "caller_name": "FUN_00465740",
+      "callee_name": "FUN_00493a20"
+    },
+    {
+      "caller": "0x00465740",
+      "callee": "0x004014c0",
+      "caller_name": "FUN_00465740",
+      "callee_name": "FUN_004014c0"
+    },
+    {
+      "caller": "0x00465790",
+      "callee": "0x00465740",
+      "caller_name": "FUN_00465790",
+      "callee_name": "FUN_00465740"
+    },
+    {
+      "caller": "0x004657d0",
+      "callee": "0xEXTERNAL:00000162",
+      "caller_name": "FUN_004657d0",
+      "callee_name": "GetSystemTimeAsFileTime"
+    },
+    {
+      "caller": "0x004657d0",
+      "callee": "0xEXTERNAL:0000015d",
+      "caller_name": "FUN_004657d0",
+      "callee_name": "GetCurrentThreadId"
+    },
+    {
+      "caller": "0x004657d0",
+      "callee": "0xEXTERNAL:00000168",
+      "caller_name": "FUN_004657d0",
+      "callee_name": "QueryPerformanceCounter"
+    },
+    {
+      "caller": "0x004657d0",
+      "callee": "0xEXTERNAL:0000015c",
+      "caller_name": "FUN_004657d0",
+      "callee_name": "GetCurrentProcessId"
+    },
+    {
+      "caller": "0x004657d0",
+      "callee": "0xEXTERNAL:00000163",
+      "caller_name": "FUN_004657d0",
+      "callee_name": "GetTickCount"
+    },
+    {
+      "caller": "0x00465910",
+      "callee": "0x00466210",
+      "caller_name": "tls_callback_1",
+      "callee_name": "FUN_00466210"
+    },
+    {
+      "caller": "0x00465960",
+      "callee": "0x00466210",
+      "caller_name": "tls_callback_0",
+      "callee_name": "FUN_00466210"
+    },
+    {
+      "caller": "0x00465b10",
+      "callee": "0x00493b40",
+      "caller_name": "FUN_00465b10",
+      "callee_name": "FUN_00493b40"
+    },
+    {
+      "caller": "0x00465b10",
+      "callee": "0xEXTERNAL:0000016e",
+      "caller_name": "FUN_00465b10",
+      "callee_name": "VirtualProtect"
+    },
+    {
+      "caller": "0x00465b10",
+      "callee": "0xEXTERNAL:0000015e",
+      "caller_name": "FUN_00465b10",
+      "callee_name": "GetLastError"
+    },
+    {
+      "caller": "0x00465b10",
+      "callee": "0x00466500",
+      "caller_name": "FUN_00465b10",
+      "callee_name": "FUN_00466500"
+    },
+    {
+      "caller": "0x00465b10",
+      "callee": "0x00466400",
+      "caller_name": "FUN_00465b10",
+      "callee_name": "FUN_00466400"
+    },
+    {
+      "caller": "0x00465b10",
+      "callee": "0xEXTERNAL:0000016f",
+      "caller_name": "FUN_00465b10",
+      "callee_name": "VirtualQuery"
+    },
+    {
+      "caller": "0x00465c60",
+      "callee": "0x00493b40",
+      "caller_name": "FUN_00465c60",
+      "callee_name": "FUN_00493b40"
+    },
+    {
+      "caller": "0x00465c60",
+      "callee": "0xEXTERNAL:0000016e",
+      "caller_name": "FUN_00465c60",
+      "callee_name": "VirtualProtect"
+    },
+    {
+      "caller": "0x00465c60",
+      "callee": "0x00466470",
+      "caller_name": "FUN_00465c60",
+      "callee_name": "FUN_00466470"
+    },
+    {
+      "caller": "0x00465c60",
+      "callee": "0x00466840",
+      "caller_name": "FUN_00465c60",
+      "callee_name": "FUN_00466840"
+    },
+    {
+      "caller": "0x00465c60",
+      "callee": "0x00465b10",
+      "caller_name": "FUN_00465c60",
+      "callee_name": "FUN_00465b10"
+    },
+    {
+      "caller": "0x00466080",
+      "callee": "0xEXTERNAL:00000158",
+      "caller_name": "FUN_00466080",
+      "callee_name": "EnterCriticalSection"
+    },
+    {
+      "caller": "0x00466080",
+      "callee": "0xEXTERNAL:0000015e",
+      "caller_name": "FUN_00466080",
+      "callee_name": "GetLastError"
+    },
+    {
+      "caller": "0x00466080",
+      "callee": "0xEXTERNAL:00000165",
+      "caller_name": "FUN_00466080",
+      "callee_name": "LeaveCriticalSection"
+    },
+    {
+      "caller": "0x00466080",
+      "callee": "0xEXTERNAL:0000016c",
+      "caller_name": "FUN_00466080",
+      "callee_name": "TlsGetValue"
+    },
+    {
+      "caller": "0x00466210",
+      "callee": "0x00465ae0",
+      "caller_name": "FUN_00466210",
+      "callee_name": "FUN_00465ae0"
+    },
+    {
+      "caller": "0x00466210",
+      "callee": "0xEXTERNAL:00000164",
+      "caller_name": "FUN_00466210",
+      "callee_name": "InitializeCriticalSection"
+    },
+    {
+      "caller": "0x00466210",
+      "callee": "0x00466080",
+      "caller_name": "FUN_00466210",
+      "callee_name": "FUN_00466080"
+    },
+    {
+      "caller": "0x00466210",
+      "callee": "0xEXTERNAL:00000157",
+      "caller_name": "FUN_00466210",
+      "callee_name": "DeleteCriticalSection"
+    },
+    {
+      "caller": "0x00466210",
+      "callee": "0x004668ac",
+      "caller_name": "FUN_00466210",
+      "callee_name": "free"
+    },
+    {
+      "caller": "0x00466400",
+      "callee": "0x004662f0",
+      "caller_name": "FUN_00466400",
+      "callee_name": "FUN_004662f0"
+    },
+    {
+      "caller": "0x00466470",
+      "callee": "0x004662f0",
+      "caller_name": "FUN_00466470",
+      "callee_name": "FUN_004662f0"
+    },
+    {
+      "caller": "0x00466500",
+      "callee": "0x004662f0",
+      "caller_name": "FUN_00466500",
+      "callee_name": "FUN_004662f0"
+    },
+    {
+      "caller": "0x00466660",
+      "callee": "0xEXTERNAL:00000170",
+      "caller_name": "FUN_00466660",
+      "callee_name": "WideCharToMultiByte"
+    },
+    {
+      "caller": "0x00466660",
+      "callee": "0xEXTERNAL:00000167",
+      "caller_name": "FUN_00466660",
+      "callee_name": "LocalFree"
+    },
+    {
+      "caller": "0x00466660",
+      "callee": "0xEXTERNAL:0000018a",
+      "caller_name": "FUN_00466660",
+      "callee_name": "CommandLineToArgvW"
+    },
+    {
+      "caller": "0x00466660",
+      "callee": "0x00466810",
+      "caller_name": "FUN_00466660",
+      "callee_name": "operator.new[]"
+    },
+    {
+      "caller": "0x00466660",
+      "callee": "0x00466820",
+      "caller_name": "FUN_00466660",
+      "callee_name": "operator.delete[]"
+    },
+    {
+      "caller": "0x00466660",
+      "callee": "0xEXTERNAL:0000015a",
+      "caller_name": "FUN_00466660",
+      "callee_name": "GetCommandLineW"
+    },
+    {
+      "caller": "0x00466660",
+      "callee": "0x004094d0",
+      "caller_name": "FUN_00466660",
+      "callee_name": "FUN_004094d0"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:0000009a",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "QPushButton"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000032",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setObjectName"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:0000004f",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "QFont"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000021",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "translate"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:000000ac",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000050",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "~QFont"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000044",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "objectName"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000012",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "connectSlotsByName"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:000000f3",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setWindowTitle"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0x00466808",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:0000004c",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setFamily"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000104",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "raise"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:000000ae",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "QLabel"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000106",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setFont"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:000000d9",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setEnabled"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:0000004a",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setPointSize"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:00000105",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "resize"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x004669a0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004669a0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00467c70",
+      "callee": "0xEXTERNAL:00000021",
+      "caller_name": "FUN_00467c70",
+      "callee_name": "translate"
+    },
+    {
+      "caller": "0x00467c70",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_00467c70",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x00467c70",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00467c70",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00467c70",
+      "callee": "0xEXTERNAL:000000f3",
+      "caller_name": "FUN_00467c70",
+      "callee_name": "setWindowTitle"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000069",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "addLayout"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000085",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setVerticalSpacing"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000032",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setObjectName"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000012",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "connectSlotsByName"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0x00467c70",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "FUN_00467c70"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000067",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setSpacing"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000008b",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "QGridLayout"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:000000c0",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setSizeConstraint"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000008c",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "QGridLayout"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000086",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setHorizontalSpacing"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000105",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "resize"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000006a",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "addWidget"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000013f",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "sizePolicy"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000088",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "addLayout"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000087",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "addItem"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000009a",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "QPushButton"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:00000044",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "objectName"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000008d",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "QHBoxLayout"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0x00466808",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:000000c1",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setContentsMargins"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:0000008a",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "addWidget"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:000000f1",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setMinimumSize"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:000000e9",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setSizePolicy"
+    },
+    {
+      "caller": "0x004688b0",
+      "callee": "0xEXTERNAL:000000f0",
+      "caller_name": "FUN_004688b0",
+      "callee_name": "setMaximumSize"
+    },
+    {
+      "caller": "0x0046b0c0",
+      "callee": "0x004936a0",
+      "caller_name": "FUN_0046b0c0",
+      "callee_name": "FUN_004936a0"
+    },
+    {
+      "caller": "0x0046b0c0",
+      "callee": "0xEXTERNAL:0000001a",
+      "caller_name": "FUN_0046b0c0",
+      "callee_name": "createData"
+    },
+    {
+      "caller": "0x0046b0c0",
+      "callee": "0x0046b860",
+      "caller_name": "FUN_0046b0c0",
+      "callee_name": "FUN_0046b860"
+    },
+    {
+      "caller": "0x0046b150",
+      "callee": "0xEXTERNAL:0000001a",
+      "caller_name": "FUN_0046b150",
+      "callee_name": "createData"
+    },
+    {
+      "caller": "0x0046b150",
+      "callee": "0x00493790",
+      "caller_name": "FUN_0046b150",
+      "callee_name": "FUN_00493790"
+    },
+    {
+      "caller": "0x0046b150",
+      "callee": "0x0046e9c0",
+      "caller_name": "FUN_0046b150",
+      "callee_name": "FUN_0046e9c0"
+    },
+    {
+      "caller": "0x0046b1e0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0046b1e0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0046b1e0",
+      "callee": "0xEXTERNAL:0000003e",
+      "caller_name": "FUN_0046b1e0",
+      "callee_name": "dispose"
+    },
+    {
+      "caller": "0x0046b290",
+      "callee": "0xEXTERNAL:0000003e",
+      "caller_name": "FUN_0046b290",
+      "callee_name": "dispose"
+    },
+    {
+      "caller": "0x0046b2c0",
+      "callee": "0x0046687c",
+      "caller_name": "FUN_0046b2c0",
+      "callee_name": "strlen"
+    },
+    {
+      "caller": "0x0046b2c0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0046b2c0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0046b2c0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0046b2c0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0046b2c0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0046b2c0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0046b360",
+      "callee": "0x0046687c",
+      "caller_name": "FUN_0046b360",
+      "callee_name": "strlen"
+    },
+    {
+      "caller": "0x0046b360",
+      "callee": "0xEXTERNAL:00000038",
+      "caller_name": "FUN_0046b360",
+      "callee_name": "fromAscii_helper"
+    },
+    {
+      "caller": "0x0046b3a0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0046b3a0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0046b3e0",
+      "callee": "0x0046687c",
+      "caller_name": "FUN_0046b3e0",
+      "callee_name": "strlen"
+    },
+    {
+      "caller": "0x0046b3e0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0046b3e0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0046b3e0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_0046b3e0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x0046b3e0",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_0046b3e0",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:00000147",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "style"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:000000ab",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "QStyleOptionTab"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:0000005d",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "rotate"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:00000051",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "~QIcon"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:0000013b",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "count"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:00000065",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "~QPainter"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:0000013c",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "tabRect"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:0000005f",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "restore"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:00000063",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "translate"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:0000005b",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "save"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:00000064",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "QPainter"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:00000138",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "initStyleOption"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:0000005c",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "begin"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:00000023",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "transpose"
+    },
+    {
+      "caller": "0x0046b480",
+      "callee": "0xEXTERNAL:000000a3",
+      "caller_name": "FUN_0046b480",
+      "callee_name": "~QStyleOption"
+    },
+    {
+      "caller": "0x0046b860",
+      "callee": "0xEXTERNAL:0000001f",
+      "caller_name": "FUN_0046b860",
+      "callee_name": "freeTree"
+    },
+    {
+      "caller": "0x0046b860",
+      "callee": "0xEXTERNAL:0000001e",
+      "caller_name": "FUN_0046b860",
+      "callee_name": "freeData"
+    },
+    {
+      "caller": "0x0046b860",
+      "callee": "0x00471b20",
+      "caller_name": "FUN_0046b860",
+      "callee_name": "FUN_00471b20"
+    },
+    {
+      "caller": "0x0046b860",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0046b860",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0046b860",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0046b860",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x0046e9c0",
+      "callee": "0xEXTERNAL:0000001f",
+      "caller_name": "FUN_0046e9c0",
+      "callee_name": "freeTree"
+    },
+    {
+      "caller": "0x0046e9c0",
+      "callee": "0xEXTERNAL:0000001e",
+      "caller_name": "FUN_0046e9c0",
+      "callee_name": "freeData"
+    },
+    {
+      "caller": "0x0046e9c0",
+      "callee": "0x00472010",
+      "caller_name": "FUN_0046e9c0",
+      "callee_name": "FUN_00472010"
+    },
+    {
+      "caller": "0x0046e9c0",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_0046e9c0",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x0046e9c0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_0046e9c0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00471b20",
+      "callee": "0x00471b20",
+      "caller_name": "FUN_00471b20",
+      "callee_name": "FUN_00471b20"
+    },
+    {
+      "caller": "0x00471b20",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00471b20",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00472010",
+      "callee": "0x00472010",
+      "caller_name": "FUN_00472010",
+      "callee_name": "FUN_00472010"
+    },
+    {
+      "caller": "0x00472010",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00472010",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00472650",
+      "callee": "0xEXTERNAL:00000021",
+      "caller_name": "FUN_00472650",
+      "callee_name": "translate"
+    },
+    {
+      "caller": "0x00472650",
+      "callee": "0xEXTERNAL:000000ac",
+      "caller_name": "FUN_00472650",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x00472650",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00472650",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00472650",
+      "callee": "0xEXTERNAL:000000a7",
+      "caller_name": "FUN_00472650",
+      "callee_name": "setText"
+    },
+    {
+      "caller": "0x00472650",
+      "callee": "0xEXTERNAL:0000006d",
+      "caller_name": "FUN_00472650",
+      "callee_name": "setTabText"
+    },
+    {
+      "caller": "0x00472650",
+      "callee": "0xEXTERNAL:000000f3",
+      "caller_name": "FUN_00472650",
+      "callee_name": "setWindowTitle"
+    },
+    {
+      "caller": "0x00472650",
+      "callee": "0xEXTERNAL:0000011a",
+      "caller_name": "FUN_00472650",
+      "callee_name": "indexOf"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000100",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setAutoFillBackground"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000069",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "addLayout"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000085",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setVerticalSpacing"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000032",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setObjectName"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000007f",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "addTab"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000002a",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QLocale"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000010b",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setLocale"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000004a",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setPointSize"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000006a",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "addWidget"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000fe",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setLayoutDirection"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000fa",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setSizeIncrement"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000a8",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setMaximum"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000e2",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setBaseSize"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000079",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setCurrentIndex"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000088",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "addLayout"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000004b",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setStyle"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000009a",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QPushButton"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000087",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "addItem"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000044",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "objectName"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000082",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QTabWidget"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000008d",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QHBoxLayout"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0x00466808",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "operator.new"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000007a",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setDocumentMode"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000006c",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setMovable"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000010d",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QWidget"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000068",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setStretch"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000104",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "raise"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000e3",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setGeometry"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000008a",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "addWidget"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000c2",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QSlider"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000e9",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setSizePolicy"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000f0",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setMaximumSize"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000a9",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setOrientation"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000110",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setMaximum"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000074",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setTabShape"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000004f",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QFont"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000012",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "connectSlotsByName"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000067",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setSpacing"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000007b",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setTabsClosable"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000008b",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QGridLayout"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000d9",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setEnabled"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000008c",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QGridLayout"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000099",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setFlat"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000086",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setHorizontalSpacing"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000105",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "resize"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0x0046b3a0",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "FUN_0046b3a0"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0x00472650",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "FUN_00472650"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000002b",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "~QLocale"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000013f",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "sizePolicy"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000114",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QTextEdit"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000a5",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setIconSize"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000073",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setIconSize"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000050",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "~QFont"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000ea",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setStyleSheet"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000004c",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setFamily"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000004d",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setWeight"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000076",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setElideMode"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000ae",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QLabel"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000106",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setFont"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000c1",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setContentsMargins"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000078",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setTabPosition"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:000000f1",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setMinimumSize"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000007c",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setTabBarAutoHide"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:0000007d",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "setUsesScrollButtons"
+    },
+    {
+      "caller": "0x00477fa0",
+      "callee": "0xEXTERNAL:00000112",
+      "caller_name": "FUN_00477fa0",
+      "callee_name": "QSpinBox"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:0000005f",
+      "caller_name": "FUN_00493300",
+      "callee_name": "restore"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000052",
+      "caller_name": "FUN_00493300",
+      "callee_name": "QBrush"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000053",
+      "caller_name": "FUN_00493300",
+      "callee_name": "~QBrush"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:0000011d",
+      "caller_name": "FUN_00493300",
+      "callee_name": "drawControl"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:0000005b",
+      "caller_name": "FUN_00493300",
+      "callee_name": "save"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000061",
+      "caller_name": "FUN_00493300",
+      "callee_name": "setBrush"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000062",
+      "caller_name": "FUN_00493300",
+      "callee_name": "drawRects"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000047",
+      "caller_name": "FUN_00493300",
+      "callee_name": "QTextOption"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000054",
+      "caller_name": "FUN_00493300",
+      "callee_name": "QColor"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:0000005e",
+      "caller_name": "FUN_00493300",
+      "callee_name": "setPen"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000048",
+      "caller_name": "FUN_00493300",
+      "callee_name": "~QTextOption"
+    },
+    {
+      "caller": "0x00493300",
+      "callee": "0xEXTERNAL:00000060",
+      "caller_name": "FUN_00493300",
+      "callee_name": "drawText"
+    },
+    {
+      "caller": "0x00493630",
+      "callee": "0xEXTERNAL:00000046",
+      "caller_name": "FUN_00493630",
+      "callee_name": "operator\u003c"
+    },
+    {
+      "caller": "0x004936a0",
+      "callee": "0x004936a0",
+      "caller_name": "FUN_004936a0",
+      "callee_name": "FUN_004936a0"
+    },
+    {
+      "caller": "0x004936a0",
+      "callee": "0xEXTERNAL:0000001b",
+      "caller_name": "FUN_004936a0",
+      "callee_name": "createNode"
+    },
+    {
+      "caller": "0x00493790",
+      "callee": "0xEXTERNAL:0000001b",
+      "caller_name": "FUN_00493790",
+      "callee_name": "createNode"
+    },
+    {
+      "caller": "0x00493790",
+      "callee": "0x00493790",
+      "caller_name": "FUN_00493790",
+      "callee_name": "FUN_00493790"
+    },
+    {
+      "caller": "0x00493910",
+      "callee": "0xEXTERNAL:00000036",
+      "caller_name": "FUN_00493910",
+      "callee_name": "compare_helper"
+    },
+    {
+      "caller": "0x00493950",
+      "callee": "0x0046687c",
+      "caller_name": "FUN_00493950",
+      "callee_name": "strlen"
+    },
+    {
+      "caller": "0x00493950",
+      "callee": "0xEXTERNAL:0000000f",
+      "caller_name": "FUN_00493950",
+      "callee_name": "deallocate"
+    },
+    {
+      "caller": "0x00493950",
+      "callee": "0xEXTERNAL:00000037",
+      "caller_name": "FUN_00493950",
+      "callee_name": "fromUtf8_helper"
+    },
+    {
+      "caller": "0x00493950",
+      "callee": "0xEXTERNAL:00000039",
+      "caller_name": "FUN_00493950",
+      "callee_name": "append"
+    },
+    {
+      "caller": "0x00493a20",
+      "callee": "0x004014c0",
+      "caller_name": "FUN_00493a20",
+      "callee_name": "FUN_004014c0"
+    },
+    {
+      "caller": "0x00493af0",
+      "callee": "0x00465790",
+      "caller_name": "FUN_00493af0",
+      "callee_name": "FUN_00465790"
+    },
+    {
+      "caller": "0x00493af0",
+      "callee": "0x00466660",
+      "caller_name": "FUN_00493af0",
+      "callee_name": "FUN_00466660"
+    },
+    {
+      "caller": "0x00493b40",
+      "callee": "0x004668a4",
+      "caller_name": "FUN_00493b40",
+      "callee_name": "fwrite"
+    },
+    {
+      "caller": "0x00493b40",
+      "callee": "0x0046686c",
+      "caller_name": "FUN_00493b40",
+      "callee_name": "vfprintf"
+    },
+    {
+      "caller": "0x00493b40",
+      "callee": "0x00466920",
+      "caller_name": "FUN_00493b40",
+      "callee_name": "FUN_00466920"
+    },
+    {
+      "caller": "0x00493b40",
+      "callee": "0x004668cc",
+      "caller_name": "FUN_00493b40",
+      "callee_name": "abort"
+    },
+    {
+      "caller": "0x00493ba0",
+      "callee": "0x004014e0",
+      "caller_name": "FUN_00493ba0",
+      "callee_name": "FUN_004014e0"
+    }
+  ]
+}

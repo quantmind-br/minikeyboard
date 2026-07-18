@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "Key_Delay_Page_Opt",
+  "address": "0x0000c1e0",
+  "signature": "undefined Key_Delay_Page_Opt(void)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

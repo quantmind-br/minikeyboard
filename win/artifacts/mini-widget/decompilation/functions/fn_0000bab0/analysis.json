@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "SetMulKey",
+  "address": "0x0000bab0",
+  "signature": "undefined SetMulKey(int param_1)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

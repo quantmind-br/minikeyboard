@@ -1,0 +1,4699 @@
+{
+  "schema_version": 1,
+  "program": "MINI_KEYBOARD.exe",
+  "count": 1173,
+  "strings": [
+    {
+      "address": "0x0049f000",
+      "value": "libgcc_s_dw2-1.dll"
+    },
+    {
+      "address": "0x0049f013",
+      "value": "__register_frame_info"
+    },
+    {
+      "address": "0x0049f029",
+      "value": "__deregister_frame_info"
+    },
+    {
+      "address": "0x0049f048",
+      "value": "Dialog1"
+    },
+    {
+      "address": "0x0049f050",
+      "value": "background-color: rgb(172, 172, 172);"
+    },
+    {
+      "address": "0x0049f076",
+      "value": "KB_12key_2VT"
+    },
+    {
+      "address": "0x0049f083",
+      "value": "KB_3key_1VT_Mute"
+    },
+    {
+      "address": "0x0049f094",
+      "value": "KB_5key_Mute"
+    },
+    {
+      "address": "0x0049f0a1",
+      "value": "BT_12key_2VT"
+    },
+    {
+      "address": "0x0049f0ae",
+      "value": "BT_5key_Mute"
+    },
+    {
+      "address": "0x0049f0bb",
+      "value": "BT_3key_1VT_Mute"
+    },
+    {
+      "address": "0x0049f0cc",
+      "value": "KB_6key_0VT"
+    },
+    {
+      "address": "0x0049f0d8",
+      "value": "BT_6key_0VT"
+    },
+    {
+      "address": "0x0049f0e4",
+      "value": "BT_6key_2VT"
+    },
+    {
+      "address": "0x0049f0f0",
+      "value": "KB_6key_2VT"
+    },
+    {
+      "address": "0x0049f0fc",
+      "value": "pushButton"
+    },
+    {
+      "address": "0x0049f107",
+      "value": "Arial"
+    },
+    {
+      "address": "0x0049f10d",
+      "value": "KB_9key_3VT"
+    },
+    {
+      "address": "0x0049f119",
+      "value": "BT_9key_3VT"
+    },
+    {
+      "address": "0x0049f125",
+      "value": "Dialog"
+    },
+    {
+      "address": "0x0049f12c",
+      "value": "TextLabel"
+    },
+    {
+      "address": "0x0049f14d",
+      "value": "  /  Please select your keyboard"
+    },
+    {
+      "address": "0x0049f16e",
+      "value": "1on_changeButtonGroup(int)"
+    },
+    {
+      "address": "0x0049f189",
+      "value": "2buttonClicked(int)"
+    },
+    {
+      "address": "0x0049f19d",
+      "value": "default"
+    },
+    {
+      "address": "0x0049f1a5",
+      "value": "Select_PHY_Key value is  %d "
+    },
+    {
+      "address": "0x0049f1c4",
+      "value": "QPushButton{background-color: rgb(125, 125, 125);border-radius:10px;color:#ffffff;}"
+    },
+    {
+      "address": "0x0049f218",
+      "value": "QPushButton{background-color: rgba(125, 125, 125, 5);border-radius:10px;color:#FFFFFF;}"
+    },
+    {
+      "address": "0x0049f270",
+      "value": ":/image/KB_12ADD2"
+    },
+    {
+      "address": "0x0049f282",
+      "value": ":/image/KB_5KEY_MUTE"
+    },
+    {
+      "address": "0x0049f297",
+      "value": ":/image/KB_3ADD1"
+    },
+    {
+      "address": "0x0049f2a8",
+      "value": ":/image/KB_6ADD2"
+    },
+    {
+      "address": "0x0049f2b9",
+      "value": ":/image/KB_6KEY"
+    },
+    {
+      "address": "0x0049f2c9",
+      "value": ":/image/KB_9ADD3.png"
+    },
+    {
+      "address": "0x0049f357",
+      "value": "?Dialog"
+    },
+    {
+      "address": "0x0049f35f",
+      "value": "Dialog2"
+    },
+    {
+      "address": "0x0049f36c",
+      "value": "gridLayout_3"
+    },
+    {
+      "address": "0x0049f379",
+      "value": "gridLayout_2"
+    },
+    {
+      "address": "0x0049f386",
+      "value": "k3_left"
+    },
+    {
+      "address": "0x0049f38f",
+      "value": "k3_middle"
+    },
+    {
+      "address": "0x0049f399",
+      "value": "k3_right"
+    },
+    {
+      "address": "0x0049f3a2",
+      "value": "horizontalLayout_3"
+    },
+    {
+      "address": "0x0049f3b5",
+      "value": "k1_left"
+    },
+    {
+      "address": "0x0049f3bd",
+      "value": "k1_middle"
+    },
+    {
+      "address": "0x0049f3c7",
+      "value": "k1_right"
+    },
+    {
+      "address": "0x0049f3d0",
+      "value": "k2_left"
+    },
+    {
+      "address": "0x0049f3d8",
+      "value": "k2_middle"
+    },
+    {
+      "address": "0x0049f3e2",
+      "value": "k2_right"
+    },
+    {
+      "address": "0x0049f3eb",
+      "value": "horizontalLayout"
+    },
+    {
+      "address": "0x0049f3fc",
+      "value": "gridLayout"
+    },
+    {
+      "address": "0x0049f407",
+      "value": "pushButton_K4"
+    },
+    {
+      "address": "0x0049f415",
+      "value": "pushButton_K3"
+    },
+    {
+      "address": "0x0049f423",
+      "value": "pushButton_K1"
+    },
+    {
+      "address": "0x0049f431",
+      "value": "pushButton_K2"
+    },
+    {
+      "address": "0x0049f43f",
+      "value": "pushButton_K5"
+    },
+    {
+      "address": "0x0049f44d",
+      "value": "pushButton_K6"
+    },
+    {
+      "address": "0x0049f45b",
+      "value": "pushButton_K7"
+    },
+    {
+      "address": "0x0049f469",
+      "value": "pushButton_K8"
+    },
+    {
+      "address": "0x0049f477",
+      "value": "pushButton_K9"
+    },
+    {
+      "address": "0x0049f485",
+      "value": "pushButton_K10"
+    },
+    {
+      "address": "0x0049f494",
+      "value": "pushButton_K11"
+    },
+    {
+      "address": "0x0049f4a3",
+      "value": "pushButton_K12"
+    },
+    {
+      "address": "0x0049f4b2",
+      "value": "pushButton_K13"
+    },
+    {
+      "address": "0x0049f4c1",
+      "value": "pushButton_K14"
+    },
+    {
+      "address": "0x0049f4d0",
+      "value": "pushButton_K15"
+    },
+    {
+      "address": "0x0049f4df",
+      "value": "1on_changeButtonGroup(int)"
+    },
+    {
+      "address": "0x0049f4fa",
+      "value": "2buttonClicked(int)"
+    },
+    {
+      "address": "0x0049f50e",
+      "value": "default"
+    },
+    {
+      "address": "0x0049f516",
+      "value": "receiveData the value is "
+    },
+    {
+      "address": "0x0049f546",
+      "value": "objectName\u003d\u003d%1"
+    },
+    {
+      "address": "0x0049f555",
+      "value": "k4_left"
+    },
+    {
+      "address": "0x0049f55d",
+      "value": "k4_middle"
+    },
+    {
+      "address": "0x0049f567",
+      "value": "k4_right"
+    },
+    {
+      "address": "0x0049f570",
+      "value": "Select_PHY_Key the value is "
+    },
+    {
+      "address": "0x0049f658",
+      "value": "Ctrl+"
+    },
+    {
+      "address": "0x0049f65e",
+      "value": "Shift+"
+    },
+    {
+      "address": "0x0049f66f",
+      "value": "Right Ctrl+"
+    },
+    {
+      "address": "0x0049f67b",
+      "value": "Right Shift+"
+    },
+    {
+      "address": "0x0049f688",
+      "value": "Right Alt+"
+    },
+    {
+      "address": "0x0049f693",
+      "value": "Right Win+"
+    },
+    {
+      "address": "0x0049f768",
+      "value": ":/lanague_cn.qm"
+    },
+    {
+      "address": "0x0049f778",
+      "value": "ANTICATER"
+    },
+    {
+      "address": "0x0049f782",
+      "value": "MINI_KEYBOARD"
+    },
+    {
+      "address": "0x0049f7b0",
+      "value": "MINI_KEYBOARD"
+    },
+    {
+      "address": "0x0049f7be",
+      "value": "Widget"
+    },
+    {
+      "address": "0x0049f7ca",
+      "value": "English"
+    },
+    {
+      "address": "0x0049f7d2",
+      "value": "Ctrl+"
+    },
+    {
+      "address": "0x0049f7d8",
+      "value": "Shift+"
+    },
+    {
+      "address": "0x0049f7e9",
+      "value": "Space"
+    },
+    {
+      "address": "0x0049f86f",
+      "value": "Caps Lock"
+    },
+    {
+      "address": "0x0049f879",
+      "value": "ENTER"
+    },
+    {
+      "address": "0x0049f8c7",
+      "value": "Scroll\nLock"
+    },
+    {
+      "address": "0x0049f8d3",
+      "value": "PrtSc\nSysRq"
+    },
+    {
+      "address": "0x0049f8df",
+      "value": "Insert"
+    },
+    {
+      "address": "0x0049f8ea",
+      "value": "Delete"
+    },
+    {
+      "address": "0x0049f8f6",
+      "value": "Page\nUp"
+    },
+    {
+      "address": "0x0049f8fe",
+      "value": "Page\nDown"
+    },
+    {
+      "address": "0x0049f908",
+      "value": "Pause\nBreak"
+    },
+    {
+      "address": "0x0049f917",
+      "value": "Back\nspace"
+    },
+    {
+      "address": "0x0049f926",
+      "value": "NumLock"
+    },
+    {
+      "address": "0x0049f92e",
+      "value": "Enter"
+    },
+    {
+      "address": "0x0049f959",
+      "value": "Shift+Win+"
+    },
+    {
+      "address": "0x0049f964",
+      "value": "Alt+Shift+"
+    },
+    {
+      "address": "0x0049f96f",
+      "value": "Ctrl+Shift+"
+    },
+    {
+      "address": "0x0049f97b",
+      "value": "Ctrl+Alt+"
+    },
+    {
+      "address": "0x0049f985",
+      "value": "Right Shift+"
+    },
+    {
+      "address": "0x0049f992",
+      "value": "Right Alt+"
+    },
+    {
+      "address": "0x0049f99d",
+      "value": "Right Ctrl+"
+    },
+    {
+      "address": "0x0049f9a9",
+      "value": "Right Win+"
+    },
+    {
+      "address": "0x0049f9de",
+      "value": "Ctrl+Alt+Shift+Win+"
+    },
+    {
+      "address": "0x0049f9f2",
+      "value": "Ctrl+Alt+Win+"
+    },
+    {
+      "address": "0x0049fa00",
+      "value": "Ctrl+Shift+Alt+"
+    },
+    {
+      "address": "0x0049fa10",
+      "value": "command"
+    },
+    {
+      "address": "0x0049fa3a",
+      "value": "option"
+    },
+    {
+      "address": "0x0049fa41",
+      "value": "control"
+    },
+    {
+      "address": "0x0049fa49",
+      "value": "Right option"
+    },
+    {
+      "address": "0x0049fa56",
+      "value": "Right command"
+    },
+    {
+      "address": "0x0049fa74",
+      "value": "Ctrl Shift Alt"
+    },
+    {
+      "address": "0x0049fcf8",
+      "value": "TextLabel"
+    },
+    {
+      "address": "0x0049fd28",
+      "value": "background-color: rgb(30, 30, 30);"
+    },
+    {
+      "address": "0x0049fd4b",
+      "value": "pushButton_K1"
+    },
+    {
+      "address": "0x0049fd68",
+      "value": "QPushButton{\n    color: #FFFFFF;\n    background-color: rgba(67, 67, 67);\n} \n"
+    },
+    {
+      "address": "0x0049fdb5",
+      "value": "change"
+    },
+    {
+      "address": "0x0049fdbc",
+      "value": "pushButton_K2"
+    },
+    {
+      "address": "0x0049fdcc",
+      "value": "QPushButton{\n    color: #FFFFFF;\n} "
+    },
+    {
+      "address": "0x0049fdf0",
+      "value": "pushButton_K5"
+    },
+    {
+      "address": "0x0049fdfe",
+      "value": "pushButton_K6"
+    },
+    {
+      "address": "0x0049fe0c",
+      "value": "pushButton_K14"
+    },
+    {
+      "address": "0x0049fe1b",
+      "value": "pushButton_K7"
+    },
+    {
+      "address": "0x0049fe29",
+      "value": "pushButton_K9"
+    },
+    {
+      "address": "0x0049fe37",
+      "value": "pushButton_K10"
+    },
+    {
+      "address": "0x0049fe46",
+      "value": "pushButton_K13"
+    },
+    {
+      "address": "0x0049fe55",
+      "value": "pushButton_K11"
+    },
+    {
+      "address": "0x0049fe64",
+      "value": "pushButton_K12"
+    },
+    {
+      "address": "0x0049fe73",
+      "value": "pushButton_K8"
+    },
+    {
+      "address": "0x0049fe81",
+      "value": "pushButton_K4"
+    },
+    {
+      "address": "0x0049fe8f",
+      "value": "pushButton_K3"
+    },
+    {
+      "address": "0x0049fe9d",
+      "value": "pushButton_K15"
+    },
+    {
+      "address": "0x0049feac",
+      "value": "tabWidget"
+    },
+    {
+      "address": "0x004a008e",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x004a0100",
+      "value": "QWidget{\n\tbackground-color: rgb(36, 36, 36);\n}"
+    },
+    {
+      "address": "0x004a012f",
+      "value": "gridLayout_11"
+    },
+    {
+      "address": "0x004a013d",
+      "value": "horizontalLayout_17"
+    },
+    {
+      "address": "0x004a0151",
+      "value": "pushButton_Ctrl"
+    },
+    {
+      "address": "0x004a034f",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x004a03bb",
+      "value": "pushButton_Shift"
+    },
+    {
+      "address": "0x004a03cc",
+      "value": "pushButton_Win"
+    },
+    {
+      "address": "0x004a03db",
+      "value": "pushButton_Alt"
+    },
+    {
+      "address": "0x004a03ea",
+      "value": "pushButton_Space"
+    },
+    {
+      "address": "0x004a03fb",
+      "value": "pushButton_ADD"
+    },
+    {
+      "address": "0x004a040a",
+      "value": "pushButton_SUB"
+    },
+    {
+      "address": "0x004a0419",
+      "value": "pushButton_MUL"
+    },
+    {
+      "address": "0x004a0428",
+      "value": "pushButton_DIV"
+    },
+    {
+      "address": "0x004a0437",
+      "value": "pushButton_DeWen1"
+    },
+    {
+      "address": "0x004a0449",
+      "value": "horizontalLayout_13"
+    },
+    {
+      "address": "0x004a045d",
+      "value": "pushButton_20"
+    },
+    {
+      "address": "0x004a046b",
+      "value": "pushButton_NUM1"
+    },
+    {
+      "address": "0x004a047b",
+      "value": "pushButton_NUM2"
+    },
+    {
+      "address": "0x004a048b",
+      "value": "pushButton_NUM3"
+    },
+    {
+      "address": "0x004a049b",
+      "value": "pushButton_NUM4"
+    },
+    {
+      "address": "0x004a04ab",
+      "value": "pushButton_NUM5"
+    },
+    {
+      "address": "0x004a04bb",
+      "value": "pushButton_NUM6"
+    },
+    {
+      "address": "0x004a04cb",
+      "value": "pushButton_NUM7"
+    },
+    {
+      "address": "0x004a04db",
+      "value": "pushButton_NUM8"
+    },
+    {
+      "address": "0x004a04eb",
+      "value": "pushButton_NUM9"
+    },
+    {
+      "address": "0x004a04fb",
+      "value": "pushButton_NUM0"
+    },
+    {
+      "address": "0x004a050b",
+      "value": "pushButton_SubUnd"
+    },
+    {
+      "address": "0x004a051d",
+      "value": "pushButton_EqAdd"
+    },
+    {
+      "address": "0x004a052e",
+      "value": "pushButton_ArrowsUp"
+    },
+    {
+      "address": "0x004a0542",
+      "value": "horizontalLayout_15"
+    },
+    {
+      "address": "0x004a0556",
+      "value": "pushButton_N"
+    },
+    {
+      "address": "0x004a0563",
+      "value": "pushButton_O"
+    },
+    {
+      "address": "0x004a0570",
+      "value": "pushButton_P"
+    },
+    {
+      "address": "0x004a057d",
+      "value": "pushButton_Q"
+    },
+    {
+      "address": "0x004a058a",
+      "value": "pushButton_R"
+    },
+    {
+      "address": "0x004a0597",
+      "value": "pushButton_S"
+    },
+    {
+      "address": "0x004a05a4",
+      "value": "pushButton_T"
+    },
+    {
+      "address": "0x004a05b1",
+      "value": "pushButton_U"
+    },
+    {
+      "address": "0x004a05be",
+      "value": "pushButton_V"
+    },
+    {
+      "address": "0x004a05cb",
+      "value": "pushButton_W"
+    },
+    {
+      "address": "0x004a05d8",
+      "value": "pushButton_X"
+    },
+    {
+      "address": "0x004a05e5",
+      "value": "pushButton_Y"
+    },
+    {
+      "address": "0x004a05f2",
+      "value": "pushButton_Z"
+    },
+    {
+      "address": "0x004a05ff",
+      "value": "pushButton_App"
+    },
+    {
+      "address": "0x004a060e",
+      "value": "horizontalLayout_14"
+    },
+    {
+      "address": "0x004a0622",
+      "value": "pushButton_A"
+    },
+    {
+      "address": "0x004a062f",
+      "value": "pushButton_B"
+    },
+    {
+      "address": "0x004a063c",
+      "value": "pushButton_C"
+    },
+    {
+      "address": "0x004a0649",
+      "value": "pushButton_D"
+    },
+    {
+      "address": "0x004a0656",
+      "value": "pushButton_E"
+    },
+    {
+      "address": "0x004a0663",
+      "value": "pushButton_F"
+    },
+    {
+      "address": "0x004a0670",
+      "value": "pushButton_G"
+    },
+    {
+      "address": "0x004a067d",
+      "value": "pushButton_H"
+    },
+    {
+      "address": "0x004a068a",
+      "value": "pushButton_I"
+    },
+    {
+      "address": "0x004a0697",
+      "value": "pushButton_J"
+    },
+    {
+      "address": "0x004a06a4",
+      "value": "pushButton_K"
+    },
+    {
+      "address": "0x004a06b1",
+      "value": "pushButton_L"
+    },
+    {
+      "address": "0x004a06be",
+      "value": "pushButton_M"
+    },
+    {
+      "address": "0x004a06cb",
+      "value": "pushButton_ArrowsDown"
+    },
+    {
+      "address": "0x004a06e1",
+      "value": "horizontalLayout_16"
+    },
+    {
+      "address": "0x004a06f5",
+      "value": "pushButton_TAB"
+    },
+    {
+      "address": "0x004a0704",
+      "value": "pushButton_CapsLock"
+    },
+    {
+      "address": "0x004a0718",
+      "value": "pushButton_Enter"
+    },
+    {
+      "address": "0x004a0729",
+      "value": "pushButton_LZ_bracket"
+    },
+    {
+      "address": "0x004a073f",
+      "value": "pushButton_RZ_bracket"
+    },
+    {
+      "address": "0x004a0755",
+      "value": "pushButton_backslash"
+    },
+    {
+      "address": "0x004a076a",
+      "value": "pushButton_SemDwu"
+    },
+    {
+      "address": "0x004a077c",
+      "value": "pushButton_Sd_Quo"
+    },
+    {
+      "address": "0x004a078e",
+      "value": "pushButton_ComLAngBra"
+    },
+    {
+      "address": "0x004a07a4",
+      "value": "pushButton_FullRAngBra"
+    },
+    {
+      "address": "0x004a07bb",
+      "value": "pushButton_SlashW"
+    },
+    {
+      "address": "0x004a07cd",
+      "value": "horizontalLayout_11"
+    },
+    {
+      "address": "0x004a07e1",
+      "value": "pushButton_ESC"
+    },
+    {
+      "address": "0x004a09dc",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x004a0a48",
+      "value": "pushButton_F1"
+    },
+    {
+      "address": "0x004a0a56",
+      "value": "pushButton_F2"
+    },
+    {
+      "address": "0x004a0a64",
+      "value": "pushButton_F3"
+    },
+    {
+      "address": "0x004a0a72",
+      "value": "pushButton_F4"
+    },
+    {
+      "address": "0x004a0a80",
+      "value": "pushButton_F5"
+    },
+    {
+      "address": "0x004a0a8e",
+      "value": "pushButton_F6"
+    },
+    {
+      "address": "0x004a0a9c",
+      "value": "pushButton_F7"
+    },
+    {
+      "address": "0x004a0aaa",
+      "value": "pushButton_F8"
+    },
+    {
+      "address": "0x004a0ab8",
+      "value": "pushButton_F9"
+    },
+    {
+      "address": "0x004a0ac6",
+      "value": "pushButton_F10"
+    },
+    {
+      "address": "0x004a0ad5",
+      "value": "pushButton_F11"
+    },
+    {
+      "address": "0x004a0ae4",
+      "value": "pushButton_F12"
+    },
+    {
+      "address": "0x004a0af3",
+      "value": "pushButton_ArrowsLeft"
+    },
+    {
+      "address": "0x004a0b09",
+      "value": "horizontalLayout_12"
+    },
+    {
+      "address": "0x004a0b1d",
+      "value": "pushButton_ScrLock"
+    },
+    {
+      "address": "0x004a0b30",
+      "value": "pushButton_PrtScSysRq"
+    },
+    {
+      "address": "0x004a0b46",
+      "value": "pushButton_Insert"
+    },
+    {
+      "address": "0x004a0b58",
+      "value": "pushButton_End"
+    },
+    {
+      "address": "0x004a0b67",
+      "value": "pushButton_Delete"
+    },
+    {
+      "address": "0x004a0b79",
+      "value": "pushButton_Home"
+    },
+    {
+      "address": "0x004a0b89",
+      "value": "pushButton_PageUp"
+    },
+    {
+      "address": "0x004a0b9b",
+      "value": "pushButton_PageDown"
+    },
+    {
+      "address": "0x004a0baf",
+      "value": "pushButton_Pause"
+    },
+    {
+      "address": "0x004a0bc0",
+      "value": "pushButton_Backspace"
+    },
+    {
+      "address": "0x004a0bd5",
+      "value": "pushButton_ArrowsRight"
+    },
+    {
+      "address": "0x004a0bec",
+      "value": "horizontalLayout_18"
+    },
+    {
+      "address": "0x004a0c00",
+      "value": "pushButton_NumLock"
+    },
+    {
+      "address": "0x004a0c13",
+      "value": "pushButton_Enter_2"
+    },
+    {
+      "address": "0x004a0c26",
+      "value": "pushButton_M_NUM1"
+    },
+    {
+      "address": "0x004a0c38",
+      "value": "pushButton_M_NUM2"
+    },
+    {
+      "address": "0x004a0c4a",
+      "value": "pushButton_M_NUM3"
+    },
+    {
+      "address": "0x004a0c5c",
+      "value": "pushButton_M_NUM4"
+    },
+    {
+      "address": "0x004a0c6e",
+      "value": "pushButton_M_NUM5"
+    },
+    {
+      "address": "0x004a0c80",
+      "value": "pushButton_M_NUM6"
+    },
+    {
+      "address": "0x004a0c92",
+      "value": "pushButton_M_NUM7"
+    },
+    {
+      "address": "0x004a0ca4",
+      "value": "pushButton_M_NUM8"
+    },
+    {
+      "address": "0x004a0cb6",
+      "value": "pushButton_M_NUM9"
+    },
+    {
+      "address": "0x004a0cc8",
+      "value": "pushButton_M_NUM0"
+    },
+    {
+      "address": "0x004a0cda",
+      "value": "pushButton_M_NUM_Dot"
+    },
+    {
+      "address": "0x004a0cef",
+      "value": "pushButton_NULL"
+    },
+    {
+      "address": "0x004a0d04",
+      "value": "gridLayout_4"
+    },
+    {
+      "address": "0x004a0d11",
+      "value": "horizontalLayout_7"
+    },
+    {
+      "address": "0x004a0d24",
+      "value": "ShiftWina"
+    },
+    {
+      "address": "0x004a0d2e",
+      "value": "AltShifta"
+    },
+    {
+      "address": "0x004a0d38",
+      "value": "CtrlShifta"
+    },
+    {
+      "address": "0x004a0d43",
+      "value": "CtrlAlta"
+    },
+    {
+      "address": "0x004a0d4c",
+      "value": "horizontalLayout_5"
+    },
+    {
+      "address": "0x004a0d5f",
+      "value": "RightShifta"
+    },
+    {
+      "address": "0x004a0d6b",
+      "value": "RightAlta"
+    },
+    {
+      "address": "0x004a0d75",
+      "value": "RightCtrla"
+    },
+    {
+      "address": "0x004a0d80",
+      "value": "RightWina"
+    },
+    {
+      "address": "0x004a0d8a",
+      "value": "horizontalLayout_21"
+    },
+    {
+      "address": "0x004a0d9e",
+      "value": "spe_o"
+    },
+    {
+      "address": "0x004a0da4",
+      "value": "spe_p"
+    },
+    {
+      "address": "0x004a0daa",
+      "value": "spe_q"
+    },
+    {
+      "address": "0x004a0db0",
+      "value": "spe_r"
+    },
+    {
+      "address": "0x004a0db6",
+      "value": "spe_s"
+    },
+    {
+      "address": "0x004a0dbc",
+      "value": "spe_t"
+    },
+    {
+      "address": "0x004a0dc2",
+      "value": "spe_u"
+    },
+    {
+      "address": "0x004a0dc8",
+      "value": "horizontalLayout_22"
+    },
+    {
+      "address": "0x004a0ddc",
+      "value": "spe_u_2"
+    },
+    {
+      "address": "0x004a0de4",
+      "value": "spe_u_3"
+    },
+    {
+      "address": "0x004a0dec",
+      "value": "spe_u_4"
+    },
+    {
+      "address": "0x004a0df4",
+      "value": "spe_u_5"
+    },
+    {
+      "address": "0x004a0dfc",
+      "value": "spe_u_6"
+    },
+    {
+      "address": "0x004a0e04",
+      "value": "spe_u_7"
+    },
+    {
+      "address": "0x004a0e0c",
+      "value": "spe_u_8"
+    },
+    {
+      "address": "0x004a0e14",
+      "value": "horizontalLayout_2"
+    },
+    {
+      "address": "0x004a0e2c",
+      "value": "Shifta"
+    },
+    {
+      "address": "0x004a0e38",
+      "value": "ctrla"
+    },
+    {
+      "address": "0x004a0e3e",
+      "value": "horizontalLayout_8"
+    },
+    {
+      "address": "0x004a0e51",
+      "value": "CtrlAltShiftWin"
+    },
+    {
+      "address": "0x004a0e61",
+      "value": "CtrlAltWina"
+    },
+    {
+      "address": "0x004a0e6d",
+      "value": "CtrlShiftAlta"
+    },
+    {
+      "address": "0x004a0e7b",
+      "value": "CtrlAlta_4"
+    },
+    {
+      "address": "0x004a0e86",
+      "value": "horizontalLayout_23"
+    },
+    {
+      "address": "0x004a0e9a",
+      "value": "spe_u_9"
+    },
+    {
+      "address": "0x004a0ea2",
+      "value": "spe_u_10"
+    },
+    {
+      "address": "0x004a0eab",
+      "value": "spe_u_11"
+    },
+    {
+      "address": "0x004a0eb4",
+      "value": "spe_u_12"
+    },
+    {
+      "address": "0x004a0ebd",
+      "value": "spe_u_13"
+    },
+    {
+      "address": "0x004a0ec6",
+      "value": "horizontalLayout_19"
+    },
+    {
+      "address": "0x004a0eda",
+      "value": "spe_a"
+    },
+    {
+      "address": "0x004a0ee0",
+      "value": "spe_b"
+    },
+    {
+      "address": "0x004a0ee6",
+      "value": "spe_c"
+    },
+    {
+      "address": "0x004a0eec",
+      "value": "spe_d"
+    },
+    {
+      "address": "0x004a0ef2",
+      "value": "spe_e"
+    },
+    {
+      "address": "0x004a0ef8",
+      "value": "spe_f"
+    },
+    {
+      "address": "0x004a0efe",
+      "value": "spe_g"
+    },
+    {
+      "address": "0x004a0f04",
+      "value": "horizontalLayout_9"
+    },
+    {
+      "address": "0x004a0f17",
+      "value": "CtrlAlta_3"
+    },
+    {
+      "address": "0x004a0f22",
+      "value": "CtrlAlta_2"
+    },
+    {
+      "address": "0x004a0f2d",
+      "value": "CtrlAlta_6"
+    },
+    {
+      "address": "0x004a0f38",
+      "value": "CtrlAlta_5"
+    },
+    {
+      "address": "0x004a0f43",
+      "value": "horizontalLayout_20"
+    },
+    {
+      "address": "0x004a0f57",
+      "value": "spe_h"
+    },
+    {
+      "address": "0x004a0f5d",
+      "value": "spe_i"
+    },
+    {
+      "address": "0x004a0f63",
+      "value": "spe_j"
+    },
+    {
+      "address": "0x004a0f69",
+      "value": "spe_k"
+    },
+    {
+      "address": "0x004a0f6f",
+      "value": "spe_l"
+    },
+    {
+      "address": "0x004a0f75",
+      "value": "spe_m"
+    },
+    {
+      "address": "0x004a0f7b",
+      "value": "spe_n"
+    },
+    {
+      "address": "0x004a0f86",
+      "value": "gridLayout_6"
+    },
+    {
+      "address": "0x004a0f93",
+      "value": "horizontalLayout_10"
+    },
+    {
+      "address": "0x004a0fa7",
+      "value": "after"
+    },
+    {
+      "address": "0x004a0fad",
+      "value": "volminus_5"
+    },
+    {
+      "address": "0x004a0fb8",
+      "value": "before"
+    },
+    {
+      "address": "0x004a0fbf",
+      "value": "start_pause"
+    },
+    {
+      "address": "0x004a0fcb",
+      "value": "volminus_11"
+    },
+    {
+      "address": "0x004a0fd7",
+      "value": "volminus_2"
+    },
+    {
+      "address": "0x004a0fe2",
+      "value": "volminus_12"
+    },
+    {
+      "address": "0x004a0fee",
+      "value": "horizontalLayout_25"
+    },
+    {
+      "address": "0x004a1002",
+      "value": "volminus_7"
+    },
+    {
+      "address": "0x004a100d",
+      "value": "volminus_14"
+    },
+    {
+      "address": "0x004a1019",
+      "value": "volminus_9"
+    },
+    {
+      "address": "0x004a1024",
+      "value": "volminus_8"
+    },
+    {
+      "address": "0x004a102f",
+      "value": "volminus_15"
+    },
+    {
+      "address": "0x004a103b",
+      "value": "volminus_6"
+    },
+    {
+      "address": "0x004a1046",
+      "value": "volminus_16"
+    },
+    {
+      "address": "0x004a1052",
+      "value": "horizontalLayout_24"
+    },
+    {
+      "address": "0x004a1066",
+      "value": "volminus"
+    },
+    {
+      "address": "0x004a106f",
+      "value": "voladd"
+    },
+    {
+      "address": "0x004a1076",
+      "value": "silent"
+    },
+    {
+      "address": "0x004a107d",
+      "value": "volminus_4"
+    },
+    {
+      "address": "0x004a1088",
+      "value": "volminus_3"
+    },
+    {
+      "address": "0x004a1093",
+      "value": "volminus_10"
+    },
+    {
+      "address": "0x004a109f",
+      "value": "volminus_13"
+    },
+    {
+      "address": "0x004a10b0",
+      "value": "gridLayout"
+    },
+    {
+      "address": "0x004a10bb",
+      "value": "gridLayout_12"
+    },
+    {
+      "address": "0x004a10c9",
+      "value": "LED_color_6"
+    },
+    {
+      "address": "0x004a10d5",
+      "value": "Arial"
+    },
+    {
+      "address": "0x004a10db",
+      "value": "LED_Mode_4"
+    },
+    {
+      "address": "0x004a10e6",
+      "value": "LED_color_4"
+    },
+    {
+      "address": "0x004a10f2",
+      "value": "LED_color_5"
+    },
+    {
+      "address": "0x004a10fe",
+      "value": "LED_Mode_1"
+    },
+    {
+      "address": "0x004a1109",
+      "value": "LED_color_2"
+    },
+    {
+      "address": "0x004a1115",
+      "value": "LED_Mode_5"
+    },
+    {
+      "address": "0x004a1120",
+      "value": "LED_color_1"
+    },
+    {
+      "address": "0x004a112c",
+      "value": "LED_color_7"
+    },
+    {
+      "address": "0x004a1138",
+      "value": "LED_color_3"
+    },
+    {
+      "address": "0x004a1144",
+      "value": "LED_Mode_3"
+    },
+    {
+      "address": "0x004a114f",
+      "value": "LED_Mode_2"
+    },
+    {
+      "address": "0x004a115a",
+      "value": "LED_Mode_0"
+    },
+    {
+      "address": "0x004a116a",
+      "value": "gridLayout_9"
+    },
+    {
+      "address": "0x004a1177",
+      "value": "horizontalLayout_6"
+    },
+    {
+      "address": "0x004a118a",
+      "value": "gridLayout_8"
+    },
+    {
+      "address": "0x004a1197",
+      "value": "mouse_right"
+    },
+    {
+      "address": "0x004a11a3",
+      "value": "mouse_middle"
+    },
+    {
+      "address": "0x004a11b0",
+      "value": "pushButton_2"
+    },
+    {
+      "address": "0x004a11bd",
+      "value": "pushButton_4"
+    },
+    {
+      "address": "0x004a11ca",
+      "value": "pushButton_5"
+    },
+    {
+      "address": "0x004a11d7",
+      "value": "mouse_left"
+    },
+    {
+      "address": "0x004a11e2",
+      "value": "pushButton_3"
+    },
+    {
+      "address": "0x004a11ef",
+      "value": "pushButton_8"
+    },
+    {
+      "address": "0x004a11fc",
+      "value": "pushButton_6"
+    },
+    {
+      "address": "0x004a1209",
+      "value": "pushButton_7"
+    },
+    {
+      "address": "0x004a1216",
+      "value": "pushButton"
+    },
+    {
+      "address": "0x004a1226",
+      "value": "gridLayout_14"
+    },
+    {
+      "address": "0x004a1234",
+      "value": "horizontalLayout_4"
+    },
+    {
+      "address": "0x004a1247",
+      "value": "label"
+    },
+    {
+      "address": "0x004a1250",
+      "value": "QLabel{\n    color: #FFFFFF;\n} "
+    },
+    {
+      "address": "0x004a126f",
+      "value": "horizontalSlider"
+    },
+    {
+      "address": "0x004a1280",
+      "value": "spinBox"
+    },
+    {
+      "address": "0x004a1288",
+      "value": "QSpinBox{\n    color: #FFFFFF;\n} "
+    },
+    {
+      "address": "0x004a12a9",
+      "value": "label_2"
+    },
+    {
+      "address": "0x004a12b1",
+      "value": "pushButton_SeleKey"
+    },
+    {
+      "address": "0x004a12c4",
+      "value": "Dev_Sta_Dsp"
+    },
+    {
+      "address": "0x004a12d0",
+      "value": "background-color: rgb(50, 50, 50);\ncolor: rgb(255, 255, 255);"
+    },
+    {
+      "address": "0x004a130e",
+      "value": "Read_Configuration"
+    },
+    {
+      "address": "0x004a1596",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x004a1602",
+      "value": "cancel_2"
+    },
+    {
+      "address": "0x004a160b",
+      "value": "download"
+    },
+    {
+      "address": "0x004a1614",
+      "value": "cancel"
+    },
+    {
+      "address": "0x004a161b",
+      "value": "k2_middle"
+    },
+    {
+      "address": "0x004a1625",
+      "value": "k3_middle"
+    },
+    {
+      "address": "0x004a162f",
+      "value": "k1_left"
+    },
+    {
+      "address": "0x004a1638",
+      "value": "QPushButton{\n    color: #FFFFFF;\n    background-color: rgba(67, 67, 67,5);\n} "
+    },
+    {
+      "address": "0x004a1686",
+      "value": "k2_left"
+    },
+    {
+      "address": "0x004a168e",
+      "value": "k1_middle"
+    },
+    {
+      "address": "0x004a1698",
+      "value": "k3_left"
+    },
+    {
+      "address": "0x004a16a0",
+      "value": "k3_right"
+    },
+    {
+      "address": "0x004a16a9",
+      "value": "k2_right"
+    },
+    {
+      "address": "0x004a16b2",
+      "value": "k1_right"
+    },
+    {
+      "address": "0x004a16bb",
+      "value": "dowload_kuang"
+    },
+    {
+      "address": "0x004a16cc",
+      "value": "background-color: rgb(35, 35, 35);"
+    },
+    {
+      "address": "0x004a16ef",
+      "value": "KN1_LEFT_BK"
+    },
+    {
+      "address": "0x004a16fc",
+      "value": "background-color: rgb(52, 52, 52);"
+    },
+    {
+      "address": "0x004a171f",
+      "value": "KN1_RIGHT_BK"
+    },
+    {
+      "address": "0x004a172c",
+      "value": "KN2_LEFT_BK"
+    },
+    {
+      "address": "0x004a1738",
+      "value": "KN2_RIGHT_BK"
+    },
+    {
+      "address": "0x004a1745",
+      "value": "KN3_LEFT_BK"
+    },
+    {
+      "address": "0x004a1751",
+      "value": "KN3_RIGHT_BK"
+    },
+    {
+      "address": "0x004a175e",
+      "value": "KN1_MIDDLE_BK"
+    },
+    {
+      "address": "0x004a176c",
+      "value": "background-color: rgba(52, 52, 52,5);"
+    },
+    {
+      "address": "0x004a1792",
+      "value": "KN2_MIDDLE_BK"
+    },
+    {
+      "address": "0x004a17a0",
+      "value": "KN3_MIDDLE_BK"
+    },
+    {
+      "address": "0x004a17ae",
+      "value": "ALL_KEY_BK"
+    },
+    {
+      "address": "0x004a17bc",
+      "value": "QLabel\n{\n\tborder:5px solid #838383;\n    border-radius:25px;\n\tbackground-color: rgb(52, 52, 52);\n}"
+    },
+    {
+      "address": "0x004a181e",
+      "value": "Layer1"
+    },
+    {
+      "address": "0x004a1825",
+      "value": "Layer2"
+    },
+    {
+      "address": "0x004a182c",
+      "value": "Layer3"
+    },
+    {
+      "address": "0x004a1833",
+      "value": "LAYER_SELE"
+    },
+    {
+      "address": "0x004a1840",
+      "value": "QPushButton{\n    color: #FFFFFF;\n\tbackground-color: rgba(30, 30, 30, 5);\n} "
+    },
+    {
+      "address": "0x004a188c",
+      "value": "pushButton_K1_BK"
+    },
+    {
+      "address": "0x004a189d",
+      "value": "pushButton_K2_BK"
+    },
+    {
+      "address": "0x004a18ae",
+      "value": "pushButton_K3_BK"
+    },
+    {
+      "address": "0x004a18bf",
+      "value": "pushButton_K4_BK"
+    },
+    {
+      "address": "0x004a18d0",
+      "value": "pushButton_K5_BK"
+    },
+    {
+      "address": "0x004a18e1",
+      "value": "pushButton_K6_BK"
+    },
+    {
+      "address": "0x004a18f2",
+      "value": "pushButton_K7_BK"
+    },
+    {
+      "address": "0x004a1903",
+      "value": "pushButton_K8_BK"
+    },
+    {
+      "address": "0x004a1914",
+      "value": "pushButton_K9_BK"
+    },
+    {
+      "address": "0x004a1925",
+      "value": "pushButton_K10_BK"
+    },
+    {
+      "address": "0x004a1937",
+      "value": "pushButton_K11_BK"
+    },
+    {
+      "address": "0x004a1949",
+      "value": "pushButton_K12_BK"
+    },
+    {
+      "address": "0x004a195b",
+      "value": "pushButton_K13_BK"
+    },
+    {
+      "address": "0x004a196d",
+      "value": "pushButton_K14_BK"
+    },
+    {
+      "address": "0x004a197f",
+      "value": "pushButton_K15_BK"
+    },
+    {
+      "address": "0x004a1991",
+      "value": "lineEdit"
+    },
+    {
+      "address": "0x004a199c",
+      "value": "QTextEdit\n{\n\tcolor: rgb(255, 255, 255);\n\tborder:2px solid #838383;\n    border-radius:10px;\n\tbackground-color: rgb(52, 52, 52);\n}"
+    },
+    {
+      "address": "0x004a1a1d",
+      "value": "UPDATA_BT"
+    },
+    {
+      "address": "0x004a1a28",
+      "value": "background-color: rgb(245, 238, 252);"
+    },
+    {
+      "address": "0x004a1a4e",
+      "value": "KB_6ADD2_QR_CODE"
+    },
+    {
+      "address": "0x004a1a5f",
+      "value": "k4_left"
+    },
+    {
+      "address": "0x004a1a67",
+      "value": "k4_middle"
+    },
+    {
+      "address": "0x004a1a71",
+      "value": "k4_right"
+    },
+    {
+      "address": "0x004a1a7a",
+      "value": "KN4_LEFT_BK"
+    },
+    {
+      "address": "0x004a1a86",
+      "value": "KN4_MIDDLE_BK"
+    },
+    {
+      "address": "0x004a1a94",
+      "value": "KN4_RIGHT_BK"
+    },
+    {
+      "address": "0x004a1aa1",
+      "value": "default"
+    },
+    {
+      "address": "0x004a1aa9",
+      "value": "err_string \u003d %ls\n"
+    },
+    {
+      "address": "0x004a1abb",
+      "value": "Witer OKOK Key Num \u003d "
+    },
+    {
+      "address": "0x004a1b38",
+      "value": "QPushButton{background-color: rgb(125, 125, 125);border-radius:5px;color:#FFFFFF;font-size : 25px;}"
+    },
+    {
+      "address": "0x004a1b9c",
+      "value": "1Set_Keyboard_Ver_SLOT(int)"
+    },
+    {
+      "address": "0x004a1bb8",
+      "value": "2buttonClicked(int)"
+    },
+    {
+      "address": "0x004a1bcc",
+      "value": "background-color: rgb(0,225,40);border:0px;"
+    },
+    {
+      "address": "0x004a1bf8",
+      "value": "Saved successfully"
+    },
+    {
+      "address": "0x004a1c0b",
+      "value": "Download succesee"
+    },
+    {
+      "address": "0x004a1c37",
+      "value": "1onTimeupDestroy()"
+    },
+    {
+      "address": "0x004a1c4a",
+      "value": "2timeout()"
+    },
+    {
+      "address": "0x004a1c58",
+      "value": "background-color: rgb(60,60,60);border:0px;color:#FFFFFF;"
+    },
+    {
+      "address": "0x004a1c92",
+      "value": "Device Disconnect"
+    },
+    {
+      "address": "0x004a1cb4",
+      "value": "Device Connect"
+    },
+    {
+      "address": "0x004a1cd3",
+      "value": "Witer OKOK Key Num \u003d %d"
+    },
+    {
+      "address": "0x004a1ceb",
+      "value": "download ok....\n"
+    },
+    {
+      "address": "0x004a1d68",
+      "value": "Modify key value Flag: Layer\u003d%d  Key\u003d%d \n"
+    },
+    {
+      "address": "0x004a1d92",
+      "value": "Key_array %d %x"
+    },
+    {
+      "address": "0x004a1da2",
+      "value": "SetRgb_Led_Key(int index) %d"
+    },
+    {
+      "address": "0x004a1df4",
+      "value": "Select_PHY_Key the value is "
+    },
+    {
+      "address": "0x004a1edc",
+      "value": "PHY_KEY_Value[%d]:%02x"
+    },
+    {
+      "address": "0x004a1ef4",
+      "value": "QPushButton{background-color: #FFFFFF;color:#383838;}"
+    },
+    {
+      "address": "0x004a1f2c",
+      "value": "QPushButton{background-color: #383838;color:#FFFFFF;}"
+    },
+    {
+      "address": "0x004a1f62",
+      "value": "Select_PHY_Key_Layer \u003d %d\n"
+    },
+    {
+      "address": "0x004a1f80",
+      "value": "QPushButton{background-color: rgba(125, 125, 125, 5);border-radius:10px;color:#FFFFFF;}"
+    },
+    {
+      "address": "0x004a1fd8",
+      "value": "QPushButton{background-color: rgba(125, 125, 125, 5);border-radius:10px;color:#FFFFFF;border:4px solid #e1e100;}"
+    },
+    {
+      "address": "0x004a2049",
+      "value": "Select_PHY_Key_Mode \u003d %d\n"
+    },
+    {
+      "address": "0x004a2076",
+      "value": "objectName\u003d\u003d%1"
+    },
+    {
+      "address": "0x004a2085",
+      "value": "Select_PHY_Key value is  %d "
+    },
+    {
+      "address": "0x004a20a2",
+      "value": "all ley is "
+    },
+    {
+      "address": "0x004a20ae",
+      "value": "the  count is "
+    },
+    {
+      "address": "0x004a20c1",
+      "value": "all num is "
+    },
+    {
+      "address": "0x004a20cd",
+      "value": "1SendLayer(int)"
+    },
+    {
+      "address": "0x004a20dd",
+      "value": "1Read_configuration_clicked()"
+    },
+    {
+      "address": "0x004a20fb",
+      "value": "2clicked(bool)"
+    },
+    {
+      "address": "0x004a210a",
+      "value": "1on_confirmButton_clicked()"
+    },
+    {
+      "address": "0x004a2126",
+      "value": "1on_CleanButton_clicked()"
+    },
+    {
+      "address": "0x004a2140",
+      "value": "1on_CleanALLButton_clicked()"
+    },
+    {
+      "address": "0x004a215d",
+      "value": "1KB_UpData_SoftWare()"
+    },
+    {
+      "address": "0x004a2173",
+      "value": "select the value is "
+    },
+    {
+      "address": "0x004a2188",
+      "value": "KEY Touch"
+    },
+    {
+      "address": "0x004a2192",
+      "value": ":/image/KN_LEFT114x97.png"
+    },
+    {
+      "address": "0x004a21ac",
+      "value": "QPushButton{background-color: rgba(125, 125, 125, 5);border-radius:"
+    },
+    {
+      "address": "0x004a21f0",
+      "value": "px;color:#FFFFFF;}"
+    },
+    {
+      "address": "0x004a2203",
+      "value": ":/image/KN_IN150x150.png"
+    },
+    {
+      "address": "0x004a221c",
+      "value": ":/image/KN_RIGHT114x97.png"
+    },
+    {
+      "address": "0x004a2237",
+      "value": ":/image/KN_LEFT114x97_2.png"
+    },
+    {
+      "address": "0x004a2253",
+      "value": ":/image/KN_RIGHT114x97_2.png"
+    },
+    {
+      "address": "0x004a2270",
+      "value": "border-radius:"
+    },
+    {
+      "address": "0x004a2284",
+      "value": ":/image/KEY1.png"
+    },
+    {
+      "address": "0x004a2295",
+      "value": ":/image/KEY2.png"
+    },
+    {
+      "address": "0x004a22a6",
+      "value": ":/image/KEY3.png"
+    },
+    {
+      "address": "0x004a22b7",
+      "value": ":/image/KEY4.png"
+    },
+    {
+      "address": "0x004a22c8",
+      "value": ":/image/KEY5.png"
+    },
+    {
+      "address": "0x004a22d9",
+      "value": ":/image/KEY6.png"
+    },
+    {
+      "address": "0x004a22ec",
+      "value": ":/image/LAN_KD/KH_QR_CODE_EN.png"
+    },
+    {
+      "address": "0x004a230d",
+      "value": ":/image/KEY7.png"
+    },
+    {
+      "address": "0x004a231e",
+      "value": ":/image/KEY8.png"
+    },
+    {
+      "address": "0x004a232f",
+      "value": ":/image/KEY9.png"
+    },
+    {
+      "address": "0x004a2340",
+      "value": ":/image/KEY10.png"
+    },
+    {
+      "address": "0x004a2352",
+      "value": ":/image/KEY11.png"
+    },
+    {
+      "address": "0x004a2364",
+      "value": ":/image/KEY12.png"
+    },
+    {
+      "address": "0x004a2376",
+      "value": ":/image/KEY7_2.png"
+    },
+    {
+      "address": "0x004a2389",
+      "value": ":/image/KEY9_2.png"
+    },
+    {
+      "address": "0x004a239c",
+      "value": ":/image/KEY10_2.png"
+    },
+    {
+      "address": "0x004a23b0",
+      "value": ":/image/KEY11_2.png"
+    },
+    {
+      "address": "0x004a23c4",
+      "value": ":/image/KEY13.png"
+    },
+    {
+      "address": "0x004a23d6",
+      "value": ":/image/KEY14.png"
+    },
+    {
+      "address": "0x004a23e8",
+      "value": ":/image/KEY15.png"
+    },
+    {
+      "address": "0x004a23fa",
+      "value": ":/image/KEY16.png"
+    },
+    {
+      "address": "0x004a240c",
+      "value": ":/image/KEY17.png"
+    },
+    {
+      "address": "0x004a241e",
+      "value": ":/image/KEY18.png"
+    },
+    {
+      "address": "0x004a2430",
+      "value": ":/image/KEY19.png"
+    },
+    {
+      "address": "0x004a2442",
+      "value": ":/image/KEY20.png"
+    },
+    {
+      "address": "0x004a2454",
+      "value": ":/image/KEY21.png"
+    },
+    {
+      "address": "0x004a2466",
+      "value": "timeout"
+    },
+    {
+      "address": "0x004a246e",
+      "value": "hid_read_timeout \u003d %s\n"
+    },
+    {
+      "address": "0x004a2485",
+      "value": "read ok"
+    },
+    {
+      "address": "0x004a248d",
+      "value": "hid_read_timeout \u003d %d %d\n"
+    },
+    {
+      "address": "0x004a24a7",
+      "value": "en key is \u003d %d"
+    },
+    {
+      "address": "0x004a24b6",
+      "value": "1234567"
+    },
+    {
+      "address": "0x004a2500",
+      "value": "interface_number:%s"
+    },
+    {
+      "address": "0x004a2514",
+      "value": ":/lanague_en2.qm"
+    },
+    {
+      "address": "0x004a252c",
+      "value": ":/lanague_cn2.qm"
+    },
+    {
+      "address": "0x004a253d",
+      "value": ":/lanague_en.qm"
+    },
+    {
+      "address": "0x004a254d",
+      "value": ":/lanague_cn.qm"
+    },
+    {
+      "address": "0x004a258a",
+      "value": "KEY10"
+    },
+    {
+      "address": "0x004a2590",
+      "value": "KEY11"
+    },
+    {
+      "address": "0x004a2596",
+      "value": "KEY12"
+    },
+    {
+      "address": "0x004a259c",
+      "value": "KEY13"
+    },
+    {
+      "address": "0x004a25a2",
+      "value": "KEY14"
+    },
+    {
+      "address": "0x004a25a8",
+      "value": "KEY15"
+    },
+    {
+      "address": "0x004a2704",
+      "value": "Play/Pause"
+    },
+    {
+      "address": "0x004a270f",
+      "value": "Play/Pause1"
+    },
+    {
+      "address": "0x004a2720",
+      "value": "Stop1"
+    },
+    {
+      "address": "0x004a2726",
+      "value": "Previous track"
+    },
+    {
+      "address": "0x004a2735",
+      "value": "Previous track1"
+    },
+    {
+      "address": "0x004a2745",
+      "value": "Next track"
+    },
+    {
+      "address": "0x004a2750",
+      "value": "Next track1"
+    },
+    {
+      "address": "0x004a275c",
+      "value": "My Computer"
+    },
+    {
+      "address": "0x004a2768",
+      "value": "My Computer1"
+    },
+    {
+      "address": "0x004a2775",
+      "value": "Screen brightness+"
+    },
+    {
+      "address": "0x004a2788",
+      "value": "Screen brightness+1"
+    },
+    {
+      "address": "0x004a279c",
+      "value": "Screen brightness-"
+    },
+    {
+      "address": "0x004a27af",
+      "value": "Screen brightness-1"
+    },
+    {
+      "address": "0x004a27c3",
+      "value": "Multimedia"
+    },
+    {
+      "address": "0x004a27ce",
+      "value": "Multimedia1"
+    },
+    {
+      "address": "0x004a27df",
+      "value": "Mute1"
+    },
+    {
+      "address": "0x004a27e5",
+      "value": "Volume+"
+    },
+    {
+      "address": "0x004a27ed",
+      "value": "Volume+1"
+    },
+    {
+      "address": "0x004a27f6",
+      "value": "Volume-"
+    },
+    {
+      "address": "0x004a27fe",
+      "value": "Volume-1"
+    },
+    {
+      "address": "0x004a2807",
+      "value": "Calculator"
+    },
+    {
+      "address": "0x004a2812",
+      "value": "Calculator1"
+    },
+    {
+      "address": "0x004a281e",
+      "value": "WWW home"
+    },
+    {
+      "address": "0x004a2827",
+      "value": "WWW home1"
+    },
+    {
+      "address": "0x004a2831",
+      "value": "E-mail"
+    },
+    {
+      "address": "0x004a2838",
+      "value": "E-mail1"
+    },
+    {
+      "address": "0x004a2840",
+      "value": "Bass+"
+    },
+    {
+      "address": "0x004a2846",
+      "value": "Bass+1"
+    },
+    {
+      "address": "0x004a284d",
+      "value": "Bass-"
+    },
+    {
+      "address": "0x004a2853",
+      "value": "Bass-1"
+    },
+    {
+      "address": "0x004a285a",
+      "value": "Treble+"
+    },
+    {
+      "address": "0x004a2862",
+      "value": "Treble+1"
+    },
+    {
+      "address": "0x004a286b",
+      "value": "Treble-"
+    },
+    {
+      "address": "0x004a2873",
+      "value": "Treble-1"
+    },
+    {
+      "address": "0x004a287c",
+      "value": "WWW Pagerefresh"
+    },
+    {
+      "address": "0x004a288c",
+      "value": "WWW Pagerefresh1"
+    },
+    {
+      "address": "0x004a289d",
+      "value": "WWW Pageforward"
+    },
+    {
+      "address": "0x004a28ad",
+      "value": "WWW Pageforward1"
+    },
+    {
+      "address": "0x004a28be",
+      "value": "WWW Pageback"
+    },
+    {
+      "address": "0x004a28cb",
+      "value": "WWW Pageback1"
+    },
+    {
+      "address": "0x004a28dd",
+      "value": "Orange"
+    },
+    {
+      "address": "0x004a28e4",
+      "value": "Yellow"
+    },
+    {
+      "address": "0x004a28eb",
+      "value": "Green"
+    },
+    {
+      "address": "0x004a28fb",
+      "value": "Purple"
+    },
+    {
+      "address": "0x004a2902",
+      "value": "LED Mode0"
+    },
+    {
+      "address": "0x004a290c",
+      "value": "LED Mode1"
+    },
+    {
+      "address": "0x004a2916",
+      "value": "LED Mode2"
+    },
+    {
+      "address": "0x004a2920",
+      "value": "LED Mode3"
+    },
+    {
+      "address": "0x004a292a",
+      "value": "LED Mode4"
+    },
+    {
+      "address": "0x004a2934",
+      "value": "LED Mode5"
+    },
+    {
+      "address": "0x004a293e",
+      "value": "Mouse LeftKey"
+    },
+    {
+      "address": "0x004a294c",
+      "value": "Mouse Middle"
+    },
+    {
+      "address": "0x004a2959",
+      "value": "Mouse Right"
+    },
+    {
+      "address": "0x004a2965",
+      "value": "Mouse Wheel+"
+    },
+    {
+      "address": "0x004a2972",
+      "value": "Mouse Wheel-"
+    },
+    {
+      "address": "0x004a297f",
+      "value": "Ctrl+Mouse Up"
+    },
+    {
+      "address": "0x004a298d",
+      "value": "Ctrl+Mouse Down"
+    },
+    {
+      "address": "0x004a299d",
+      "value": "Shift+Mouse Up"
+    },
+    {
+      "address": "0x004a29ac",
+      "value": "Shift+Mouse Down"
+    },
+    {
+      "address": "0x004a29bd",
+      "value": "Alt+Mouse Up"
+    },
+    {
+      "address": "0x004a29ca",
+      "value": "Alt+Mouse Down"
+    },
+    {
+      "address": "0x004a29d9",
+      "value": "1on_changeButtonGroup(int)"
+    },
+    {
+      "address": "0x004a29f4",
+      "value": "QTabWidget::pane{ order: 1px solid rgb(108, 117, 125, 65);}"
+    },
+    {
+      "address": "0x004a2a30",
+      "value": "1slotSpinbox_slider()"
+    },
+    {
+      "address": "0x004a2a46",
+      "value": "2valueChanged(int)"
+    },
+    {
+      "address": "0x004a2a59",
+      "value": "1slotslider_Spinbox()"
+    },
+    {
+      "address": "0x004a3aab",
+      "value": "KH_QR_CODE_EN.png"
+    },
+    {
+      "address": "0x004c0977",
+      "value": "Adobe Photoshop 21.2 (Windows)"
+    },
+    {
+      "address": "0x004c0a3d",
+      "value": "Adobe_CM"
+    },
+    {
+      "address": "0x004c0cee",
+      "value": "Photoshop 3.0"
+    },
+    {
+      "address": "0x004c0d32",
+      "value": "printOutput"
+    },
+    {
+      "address": "0x004c0d52",
+      "value": "Inteenum"
+    },
+    {
+      "address": "0x004c0d6e",
+      "value": "printSixteenBitbool"
+    },
+    {
+      "address": "0x004c0d86",
+      "value": "printerNameTEXT"
+    },
+    {
+      "address": "0x004c0d9f",
+      "value": "printProofSetupObjc"
+    },
+    {
+      "address": "0x004c0dc3",
+      "value": "\nproofSetup"
+    },
+    {
+      "address": "0x004c0dd6",
+      "value": "Bltnenum"
+    },
+    {
+      "address": "0x004c0de2",
+      "value": "builtinProof"
+    },
+    {
+      "address": "0x004c0e16",
+      "value": "printOutputOptions"
+    },
+    {
+      "address": "0x004c0e30",
+      "value": "Cptnbool"
+    },
+    {
+      "address": "0x004c0e3d",
+      "value": "Clbrbool"
+    },
+    {
+      "address": "0x004c0e4a",
+      "value": "RgsMbool"
+    },
+    {
+      "address": "0x004c0e57",
+      "value": "CrnCbool"
+    },
+    {
+      "address": "0x004c0e64",
+      "value": "CntCbool"
+    },
+    {
+      "address": "0x004c0e8b",
+      "value": "EmlDbool"
+    },
+    {
+      "address": "0x004c0e98",
+      "value": "Intrbool"
+    },
+    {
+      "address": "0x004c0f17",
+      "value": "Bld UntF#Rlt"
+    },
+    {
+      "address": "0x004c0f5a",
+      "value": "PgPsenum"
+    },
+    {
+      "address": "0x004c0f76",
+      "value": "LeftUntF#Rlt"
+    },
+    {
+      "address": "0x004c0f8e",
+      "value": "Top UntF#Rlt"
+    },
+    {
+      "address": "0x004c0fbe",
+      "value": "cropWhenPrintingbool"
+    },
+    {
+      "address": "0x004c0fd7",
+      "value": "cropRectBottomlong"
+    },
+    {
+      "address": "0x004c0ff1",
+      "value": "cropRectLeftlong"
+    },
+    {
+      "address": "0x004c1008",
+      "value": "\rcropRectRightlong"
+    },
+    {
+      "address": "0x004c1022",
+      "value": "cropRectToplong"
+    },
+    {
+      "address": "0x004c1285",
+      "value": "boundsObjc"
+    },
+    {
+      "address": "0x004c12a5",
+      "value": "Top long"
+    },
+    {
+      "address": "0x004c12b5",
+      "value": "Leftlong"
+    },
+    {
+      "address": "0x004c12c5",
+      "value": "Btomlong"
+    },
+    {
+      "address": "0x004c12d5",
+      "value": "Rghtlong"
+    },
+    {
+      "address": "0x004c12e5",
+      "value": "slicesVlLs"
+    },
+    {
+      "address": "0x004c1301",
+      "value": "slice"
+    },
+    {
+      "address": "0x004c130e",
+      "value": "sliceIDlong"
+    },
+    {
+      "address": "0x004c1321",
+      "value": "groupIDlong"
+    },
+    {
+      "address": "0x004c1334",
+      "value": "originenum"
+    },
+    {
+      "address": "0x004c1342",
+      "value": "ESliceOrigin"
+    },
+    {
+      "address": "0x004c1351",
+      "value": "\rautoGenerated"
+    },
+    {
+      "address": "0x004c1363",
+      "value": "Typeenum"
+    },
+    {
+      "address": "0x004c136e",
+      "value": "\nESliceType"
+    },
+    {
+      "address": "0x004c1385",
+      "value": "boundsObjc"
+    },
+    {
+      "address": "0x004c13a5",
+      "value": "Top long"
+    },
+    {
+      "address": "0x004c13b5",
+      "value": "Leftlong"
+    },
+    {
+      "address": "0x004c13c5",
+      "value": "Btomlong"
+    },
+    {
+      "address": "0x004c13d5",
+      "value": "Rghtlong"
+    },
+    {
+      "address": "0x004c13e5",
+      "value": "urlTEXT"
+    },
+    {
+      "address": "0x004c13f6",
+      "value": "nullTEXT"
+    },
+    {
+      "address": "0x004c1408",
+      "value": "MsgeTEXT"
+    },
+    {
+      "address": "0x004c141a",
+      "value": "altTagTEXT"
+    },
+    {
+      "address": "0x004c1445",
+      "value": "cellTextTEXT"
+    },
+    {
+      "address": "0x004c145a",
+      "value": "\thorzAlignenum"
+    },
+    {
+      "address": "0x004c146c",
+      "value": "ESliceHorzAlign"
+    },
+    {
+      "address": "0x004c147f",
+      "value": "default"
+    },
+    {
+      "address": "0x004c1489",
+      "value": "\tvertAlignenum"
+    },
+    {
+      "address": "0x004c149b",
+      "value": "ESliceVertAlign"
+    },
+    {
+      "address": "0x004c14ae",
+      "value": "default"
+    },
+    {
+      "address": "0x004c14b9",
+      "value": "bgColorTypeenum"
+    },
+    {
+      "address": "0x004c14cc",
+      "value": "ESliceBGColorType"
+    },
+    {
+      "address": "0x004c14e8",
+      "value": "\ttopOutsetlong"
+    },
+    {
+      "address": "0x004c14fd",
+      "value": "\nleftOutsetlong"
+    },
+    {
+      "address": "0x004c1514",
+      "value": "bottomOutsetlong"
+    },
+    {
+      "address": "0x004c152c",
+      "value": "rightOutsetlong"
+    },
+    {
+      "address": "0x004c1596",
+      "value": "Adobe_CM"
+    },
+    {
+      "address": "0x004c185a",
+      "value": "Adobe Photoshop"
+    },
+    {
+      "address": "0x004c187c",
+      "value": "Adobe Photoshop 2020"
+    },
+    {
+      "address": "0x004c18c0",
+      "value": "http://ns.adobe.com/xap/1.0/"
+    },
+    {
+      "address": "0x004c277c",
+      "value": "XICC_PROFILE"
+    },
+    {
+      "address": "0x004c28e3",
+      "value": "Copyright (c) 1998 Hewlett-Packard Company"
+    },
+    {
+      "address": "0x004c29eb",
+      "value": "IEC http://www.iec.ch"
+    },
+    {
+      "address": "0x004c2a0c",
+      "value": "IEC http://www.iec.ch"
+    },
+    {
+      "address": "0x004c2a5a",
+      "value": ".IEC 61966-2.1 Default RGB colour space - sRGB"
+    },
+    {
+      "address": "0x004c2a93",
+      "value": ".IEC 61966-2.1 Default RGB colour space - sRGB"
+    },
+    {
+      "address": "0x004c2ae2",
+      "value": ",Reference Viewing Condition in IEC61966-2.1"
+    },
+    {
+      "address": "0x004c2b19",
+      "value": ",Reference Viewing Condition in IEC61966-2.1"
+    },
+    {
+      "address": "0x004c2bc3",
+      "value": "CRT curv"
+    },
+    {
+      "address": "0x006192e0",
+      "value": "Dialog1"
+    },
+    {
+      "address": "0x006192e8",
+      "value": "on_changeButtonGroup"
+    },
+    {
+      "address": "0x00619450",
+      "value": "Dialog2"
+    },
+    {
+      "address": "0x00619458",
+      "value": "sendData"
+    },
+    {
+      "address": "0x0061946a",
+      "value": "on_changeButtonGroup"
+    },
+    {
+      "address": "0x0061947f",
+      "value": "receiveData"
+    },
+    {
+      "address": "0x006194e0",
+      "value": "HID_Key_Val"
+    },
+    {
+      "address": "0x00619820",
+      "value": "Widget"
+    },
+    {
+      "address": "0x00619827",
+      "value": "on_confirmButton_clicked"
+    },
+    {
+      "address": "0x00619841",
+      "value": "on_CleanButton_clicked"
+    },
+    {
+      "address": "0x00619858",
+      "value": "on_CleanALLButton_clicked"
+    },
+    {
+      "address": "0x00619872",
+      "value": "Read_configuration_clicked"
+    },
+    {
+      "address": "0x0061988d",
+      "value": "on_clean_DevData"
+    },
+    {
+      "address": "0x0061989e",
+      "value": "SendLayer"
+    },
+    {
+      "address": "0x006198a8",
+      "value": "index"
+    },
+    {
+      "address": "0x006198ae",
+      "value": "timeoutSlot"
+    },
+    {
+      "address": "0x006198ba",
+      "value": "on_changeButtonGroup"
+    },
+    {
+      "address": "0x006198d2",
+      "value": "Set_Keyboard_Ver_SLOT"
+    },
+    {
+      "address": "0x006198e8",
+      "value": "on_tabWidget_currentChanged"
+    },
+    {
+      "address": "0x00619904",
+      "value": "on_download_clicked"
+    },
+    {
+      "address": "0x00619918",
+      "value": "slotSpinbox_slider"
+    },
+    {
+      "address": "0x0061992b",
+      "value": "slotslider_Spinbox"
+    },
+    {
+      "address": "0x0061993e",
+      "value": "onTimeupDestroy"
+    },
+    {
+      "address": "0x0061994e",
+      "value": "on_change_clicked"
+    },
+    {
+      "address": "0x00619960",
+      "value": "KB_UpData_SoftWare"
+    },
+    {
+      "address": "0x006199a4",
+      "value": "Unknown error"
+    },
+    {
+      "address": "0x006199b4",
+      "value": "_matherr(): %s in %s(%g, %g)  (retval\u003d%g)\n"
+    },
+    {
+      "address": "0x006199e0",
+      "value": "Argument domain error (DOMAIN)"
+    },
+    {
+      "address": "0x006199ff",
+      "value": "Argument singularity (SIGN)"
+    },
+    {
+      "address": "0x00619a1c",
+      "value": "Overflow range error (OVERFLOW)"
+    },
+    {
+      "address": "0x00619a3c",
+      "value": "The result is too small to be represented (UNDERFLOW)"
+    },
+    {
+      "address": "0x00619a74",
+      "value": "Total loss of significance (TLOSS)"
+    },
+    {
+      "address": "0x00619a98",
+      "value": "Partial loss of significance (PLOSS)"
+    },
+    {
+      "address": "0x00619ad8",
+      "value": "Mingw-w64 runtime failure:\n"
+    },
+    {
+      "address": "0x00619af4",
+      "value": "Address %p has no image-section"
+    },
+    {
+      "address": "0x00619b14",
+      "value": "  VirtualQuery failed for %d bytes at address %p"
+    },
+    {
+      "address": "0x00619b48",
+      "value": "  VirtualProtect failed with code 0x%x"
+    },
+    {
+      "address": "0x00619b70",
+      "value": "  Unknown pseudo relocation protocol version %d.\n"
+    },
+    {
+      "address": "0x00619ba4",
+      "value": "  Unknown pseudo relocation bit size %d.\n"
+    },
+    {
+      "address": "0x00619cb0",
+      "value": "10QTabWidget"
+    },
+    {
+      "address": "0x00619cc0",
+      "value": "11HID_Key_Val"
+    },
+    {
+      "address": "0x00619cd0",
+      "value": "11QProxyStyle"
+    },
+    {
+      "address": "0x00619ce0",
+      "value": "12QCommonStyle"
+    },
+    {
+      "address": "0x00619cf0",
+      "value": "12QPaintDevice"
+    },
+    {
+      "address": "0x00619d00",
+      "value": "14CustomTabStyle"
+    },
+    {
+      "address": "0x00619d14",
+      "value": "6QStyle"
+    },
+    {
+      "address": "0x00619d1c",
+      "value": "6Widget"
+    },
+    {
+      "address": "0x00619d24",
+      "value": "7Dialog1"
+    },
+    {
+      "address": "0x00619d30",
+      "value": "7Dialog2"
+    },
+    {
+      "address": "0x00619d3c",
+      "value": "7QDialog"
+    },
+    {
+      "address": "0x00619d48",
+      "value": "7QObject"
+    },
+    {
+      "address": "0x00619d54",
+      "value": "7QTabBar"
+    },
+    {
+      "address": "0x00619d60",
+      "value": "7QWidget"
+    },
+    {
+      "address": "0x00619d6c",
+      "value": "7TabBars"
+    },
+    {
+      "address": "0x00619d78",
+      "value": "9TabWidget"
+    },
+    {
+      "address": "0x0061a35c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a39c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a3dc",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a41c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a45c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a49c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a4dc",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a51c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a55c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x0061a59c",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    },
+    {
+      "address": "0x00621da2",
+      "value": "hid_close"
+    },
+    {
+      "address": "0x00621dae",
+      "value": "hid_enumerate"
+    },
+    {
+      "address": "0x00621dbe",
+      "value": "hid_error"
+    },
+    {
+      "address": "0x00621dca",
+      "value": "hid_exit"
+    },
+    {
+      "address": "0x00621dd6",
+      "value": "hid_free_enumeration"
+    },
+    {
+      "address": "0x00621dee",
+      "value": "hid_open_path"
+    },
+    {
+      "address": "0x00621dfe",
+      "value": "hid_read"
+    },
+    {
+      "address": "0x00621e0a",
+      "value": "hid_read_timeout"
+    },
+    {
+      "address": "0x00621e1e",
+      "value": "hid_set_nonblocking"
+    },
+    {
+      "address": "0x00621e36",
+      "value": "hid_write"
+    },
+    {
+      "address": "0x00621e42",
+      "value": "_Z20qResourceFeatureZlibv"
+    },
+    {
+      "address": "0x00621e5e",
+      "value": "_Z21qRegisterResourceDataiPKhS0_S0_"
+    },
+    {
+      "address": "0x00621e86",
+      "value": "_Z23qUnregisterResourceDataiPKhS0_S0_"
+    },
+    {
+      "address": "0x00621eae",
+      "value": "_Z23qt_qFindChildren_helperPK7QObjectRK7QStringRK11QMetaObjectP5QListIPvE6QFlagsIN2Qt15FindChildOptionEE"
+    },
+    {
+      "address": "0x00621f1a",
+      "value": "_ZN10QArrayData10deallocateEPS_jj"
+    },
+    {
+      "address": "0x00621f3e",
+      "value": "_ZN10QArrayData11shared_nullE"
+    },
+    {
+      "address": "0x00621f5e",
+      "value": "_ZN11QMetaObject10ConnectionD1Ev"
+    },
+    {
+      "address": "0x00621f82",
+      "value": "_ZN11QMetaObject18connectSlotsByNameEP7QObject"
+    },
+    {
+      "address": "0x00621fb6",
+      "value": "_ZN11QMetaObject8activateEP7QObjectPKS_iPPv"
+    },
+    {
+      "address": "0x00621fe6",
+      "value": "_ZN11QTextStreamlsERK7QString"
+    },
+    {
+      "address": "0x00622006",
+      "value": "_ZN11QTextStreamlsEc"
+    },
+    {
+      "address": "0x0062201e",
+      "value": "_ZN11QTextStreamlsEi"
+    },
+    {
+      "address": "0x00622036",
+      "value": "_ZN11QTranslator4loadERK7QStringS2_S2_S2_"
+    },
+    {
+      "address": "0x00622062",
+      "value": "_ZN11QTranslatorC1EP7QObject"
+    },
+    {
+      "address": "0x00622082",
+      "value": "_ZN11QTranslatorD1Ev"
+    },
+    {
+      "address": "0x0062209a",
+      "value": "_ZN12QMapDataBase10createDataEv"
+    },
+    {
+      "address": "0x006220be",
+      "value": "_ZN12QMapDataBase10createNodeEiiP12QMapNodeBaseb"
+    },
+    {
+      "address": "0x006220f2",
+      "value": "_ZN12QMapDataBase11shared_nullE"
+    },
+    {
+      "address": "0x00622116",
+      "value": "_ZN12QMapDataBase18recalcMostLeftNodeEv"
+    },
+    {
+      "address": "0x00622142",
+      "value": "_ZN12QMapDataBase8freeDataEPS_"
+    },
+    {
+      "address": "0x00622166",
+      "value": "_ZN12QMapDataBase8freeTreeEP12QMapNodeBasei"
+    },
+    {
+      "address": "0x00622196",
+      "value": "_ZN16QCoreApplication17installTranslatorEP11QTranslator"
+    },
+    {
+      "address": "0x006221d2",
+      "value": "_ZN16QCoreApplication9translateEPKcS1_S1_i"
+    },
+    {
+      "address": "0x00622202",
+      "value": "_ZN20QTextStreamFunctions4endlER11QTextStream"
+    },
+    {
+      "address": "0x00622232",
+      "value": "_ZN5QSize9transposeEv"
+    },
+    {
+      "address": "0x0062224a",
+      "value": "_ZN6QDebug9putStringEPK5QCharj"
+    },
+    {
+      "address": "0x0062226e",
+      "value": "_ZN6QDebugD1Ev"
+    },
+    {
+      "address": "0x00622282",
+      "value": "_ZN6QTimer16staticMetaObjectE"
+    },
+    {
+      "address": "0x006222a2",
+      "value": "_ZN6QTimer5startEi"
+    },
+    {
+      "address": "0x006222ba",
+      "value": "_ZN6QTimer7timeoutENS_14QPrivateSignalE"
+    },
+    {
+      "address": "0x006222e6",
+      "value": "_ZN6QTimerC1EP7QObject"
+    },
+    {
+      "address": "0x00622302",
+      "value": "_ZN7QLocaleC1ENS_8LanguageENS_7CountryE"
+    },
+    {
+      "address": "0x0062232e",
+      "value": "_ZN7QLocaleD1Ev"
+    },
+    {
+      "address": "0x00622342",
+      "value": "_ZN7QObject10childEventEP11QChildEvent"
+    },
+    {
+      "address": "0x0062236e",
+      "value": "_ZN7QObject10timerEventEP11QTimerEvent"
+    },
+    {
+      "address": "0x0062239a",
+      "value": "_ZN7QObject11connectImplEPKS_PPvS1_S3_PN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeEPKiPK11QMetaObject"
+    },
+    {
+      "address": "0x0062240a",
+      "value": "_ZN7QObject11customEventEP6QEvent"
+    },
+    {
+      "address": "0x0062242e",
+      "value": "_ZN7QObject11eventFilterEPS_P6QEvent"
+    },
+    {
+      "address": "0x00622456",
+      "value": "_ZN7QObject13connectNotifyERK11QMetaMethod"
+    },
+    {
+      "address": "0x00622486",
+      "value": "_ZN7QObject13setObjectNameERK7QString"
+    },
+    {
+      "address": "0x006224ae",
+      "value": "_ZN7QObject16disconnectNotifyERK11QMetaMethod"
+    },
+    {
+      "address": "0x006224de",
+      "value": "_ZN7QObject18installEventFilterEPS_"
+    },
+    {
+      "address": "0x00622506",
+      "value": "_ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE"
+    },
+    {
+      "address": "0x00622542",
+      "value": "_ZN7QString14compare_helperEPK5QChariPKciN2Qt15CaseSensitivityE"
+    },
+    {
+      "address": "0x00622586",
+      "value": "_ZN7QString15fromUtf8_helperEPKci"
+    },
+    {
+      "address": "0x006225aa",
+      "value": "_ZN7QString16fromAscii_helperEPKci"
+    },
+    {
+      "address": "0x006225d2",
+      "value": "_ZN7QString6appendERKS_"
+    },
+    {
+      "address": "0x006225ee",
+      "value": "_ZN7QString6numberEii"
+    },
+    {
+      "address": "0x00622606",
+      "value": "_ZN7QString6numberEji"
+    },
+    {
+      "address": "0x0062261e",
+      "value": "_ZN7QStringaSERKS_"
+    },
+    {
+      "address": "0x00622636",
+      "value": "_ZN9QListData11shared_nullE"
+    },
+    {
+      "address": "0x00622656",
+      "value": "_ZN9QListData7disposeEPNS_4DataE"
+    },
+    {
+      "address": "0x0062267a",
+      "value": "_ZNK11QMetaObject2trEPKcS1_i"
+    },
+    {
+      "address": "0x0062269a",
+      "value": "_ZNK11QMetaObject4castEP7QObject"
+    },
+    {
+      "address": "0x006226be",
+      "value": "_ZNK11QObjectData17dynamicMetaObjectEv"
+    },
+    {
+      "address": "0x006226ea",
+      "value": "_ZNK14QMessageLogger5debugEPKcz"
+    },
+    {
+      "address": "0x0062270e",
+      "value": "_ZNK14QMessageLogger5debugEv"
+    },
+    {
+      "address": "0x0062272e",
+      "value": "_ZNK7QObject10objectNameEv"
+    },
+    {
+      "address": "0x0062274e",
+      "value": "_ZNK7QString3argERKS_i5QChar"
+    },
+    {
+      "address": "0x0062276e",
+      "value": "_ZltRK7QStringS1_"
+    },
+    {
+      "address": "0x00622782",
+      "value": "_ZN11QTextOptionC1Ev"
+    },
+    {
+      "address": "0x0062279a",
+      "value": "_ZN11QTextOptionD1Ev"
+    },
+    {
+      "address": "0x006227b2",
+      "value": "_ZN5QFont12setPixelSizeEi"
+    },
+    {
+      "address": "0x006227ce",
+      "value": "_ZN5QFont12setPointSizeEi"
+    },
+    {
+      "address": "0x006227ea",
+      "value": "_ZN5QFont8setStyleENS_5StyleE"
+    },
+    {
+      "address": "0x0062280a",
+      "value": "_ZN5QFont9setFamilyERK7QString"
+    },
+    {
+      "address": "0x0062282e",
+      "value": "_ZN5QFont9setWeightEi"
+    },
+    {
+      "address": "0x00622846",
+      "value": "_ZN5QFontC1ERK7QStringiib"
+    },
+    {
+      "address": "0x00622862",
+      "value": "_ZN5QFontC1Ev"
+    },
+    {
+      "address": "0x00622872",
+      "value": "_ZN5QFontD1Ev"
+    },
+    {
+      "address": "0x00622882",
+      "value": "_ZN5QIconD1Ev"
+    },
+    {
+      "address": "0x00622892",
+      "value": "_ZN6QBrushC1ERK6QColorN2Qt10BrushStyleE"
+    },
+    {
+      "address": "0x006228be",
+      "value": "_ZN6QBrushD1Ev"
+    },
+    {
+      "address": "0x006228d2",
+      "value": "_ZN6QColorC1Ej"
+    },
+    {
+      "address": "0x006228e6",
+      "value": "_ZN6QImageC1ERK7QStringPKc"
+    },
+    {
+      "address": "0x00622906",
+      "value": "_ZN6QImageD1Ev"
+    },
+    {
+      "address": "0x0062291a",
+      "value": "_ZN7QMatrixC1Ev"
+    },
+    {
+      "address": "0x0062292e",
+      "value": "_ZN7QPixmap9fromImageERK6QImage6QFlagsIN2Qt19ImageConversionFlagEE"
+    },
+    {
+      "address": "0x00622976",
+      "value": "_ZN7QPixmapC1Ev"
+    },
+    {
+      "address": "0x0062298a",
+      "value": "_ZN7QPixmapD1Ev"
+    },
+    {
+      "address": "0x0062299e",
+      "value": "_ZN8QPainter4saveEv"
+    },
+    {
+      "address": "0x006229b6",
+      "value": "_ZN8QPainter5beginEP12QPaintDevice"
+    },
+    {
+      "address": "0x006229de",
+      "value": "_ZN8QPainter6rotateEd"
+    },
+    {
+      "address": "0x006229f6",
+      "value": "_ZN8QPainter6setPenERK6QColor"
+    },
+    {
+      "address": "0x00622a16",
+      "value": "_ZN8QPainter7restoreEv"
+    },
+    {
+      "address": "0x00622a32",
+      "value": "_ZN8QPainter8drawTextERK6QRectFRK7QStringRK11QTextOption"
+    },
+    {
+      "address": "0x00622a6e",
+      "value": "_ZN8QPainter8setBrushERK6QBrush"
+    },
+    {
+      "address": "0x00622a92",
+      "value": "_ZN8QPainter9drawRectsEPK5QRecti"
+    },
+    {
+      "address": "0x00622ab6",
+      "value": "_ZN8QPainter9translateERK7QPointF"
+    },
+    {
+      "address": "0x00622ada",
+      "value": "_ZN8QPainterC2Ev"
+    },
+    {
+      "address": "0x00622aee",
+      "value": "_ZN8QPainterD2Ev"
+    },
+    {
+      "address": "0x00622b02",
+      "value": "_ZNK7QPixmap6scaledERK5QSizeN2Qt15AspectRatioModeENS3_18TransformationModeE"
+    },
+    {
+      "address": "0x00622b52",
+      "value": "_ZN10QBoxLayout10setSpacingEi"
+    },
+    {
+      "address": "0x00622b72",
+      "value": "_ZN10QBoxLayout10setStretchEii"
+    },
+    {
+      "address": "0x00622b96",
+      "value": "_ZN10QBoxLayout9addLayoutEP7QLayouti"
+    },
+    {
+      "address": "0x00622bbe",
+      "value": "_ZN10QBoxLayout9addWidgetEP7QWidgeti6QFlagsIN2Qt13AlignmentFlagEE"
+    },
+    {
+      "address": "0x00622c02",
+      "value": "_ZN10QTabWidget10paintEventEP11QPaintEvent"
+    },
+    {
+      "address": "0x00622c32",
+      "value": "_ZN10QTabWidget10setMovableEb"
+    },
+    {
+      "address": "0x00622c52",
+      "value": "_ZN10QTabWidget10setTabTextEiRK7QString"
+    },
+    {
+      "address": "0x00622c7e",
+      "value": "_ZN10QTabWidget10tabRemovedEi"
+    },
+    {
+      "address": "0x00622c9e",
+      "value": "_ZN10QTabWidget11changeEventEP6QEvent"
+    },
+    {
+      "address": "0x00622cc6",
+      "value": "_ZN10QTabWidget11qt_metacallEN11QMetaObject4CallEiPPv"
+    },
+    {
+      "address": "0x00622cfe",
+      "value": "_ZN10QTabWidget11qt_metacastEPKc"
+    },
+    {
+      "address": "0x00622d22",
+      "value": "_ZN10QTabWidget11resizeEventEP12QResizeEvent"
+    },
+    {
+      "address": "0x00622d52",
+      "value": "_ZN10QTabWidget11setIconSizeERK5QSize"
+    },
+    {
+      "address": "0x00622d7a",
+      "value": "_ZN10QTabWidget11setTabShapeENS_8TabShapeE"
+    },
+    {
+      "address": "0x00622daa",
+      "value": "_ZN10QTabWidget11tabInsertedEi"
+    },
+    {
+      "address": "0x00622dce",
+      "value": "_ZN10QTabWidget12setElideModeEN2Qt13TextElideModeE"
+    },
+    {
+      "address": "0x00622e06",
+      "value": "_ZN10QTabWidget13keyPressEventEP9QKeyEvent"
+    },
+    {
+      "address": "0x00622e36",
+      "value": "_ZN10QTabWidget14setTabPositionENS_11TabPositionE"
+    },
+    {
+      "address": "0x00622e6a",
+      "value": "_ZN10QTabWidget15setCurrentIndexEi"
+    },
+    {
+      "address": "0x00622e92",
+      "value": "_ZN10QTabWidget15setDocumentModeEb"
+    },
+    {
+      "address": "0x00622eba",
+      "value": "_ZN10QTabWidget15setTabsClosableEb"
+    },
+    {
+      "address": "0x00622ee2",
+      "value": "_ZN10QTabWidget17setTabBarAutoHideEb"
+    },
+    {
+      "address": "0x00622f0a",
+      "value": "_ZN10QTabWidget20setUsesScrollButtonsEb"
+    },
+    {
+      "address": "0x00622f36",
+      "value": "_ZN10QTabWidget5eventEP6QEvent"
+    },
+    {
+      "address": "0x00622f5a",
+      "value": "_ZN10QTabWidget6addTabEP7QWidgetRK7QString"
+    },
+    {
+      "address": "0x00622f8a",
+      "value": "_ZN10QTabWidget9setTabBarEP7QTabBar"
+    },
+    {
+      "address": "0x00622fb2",
+      "value": "_ZN10QTabWidget9showEventEP10QShowEvent"
+    },
+    {
+      "address": "0x00622fde",
+      "value": "_ZN10QTabWidgetC1EP7QWidget"
+    },
+    {
+      "address": "0x00622ffe",
+      "value": "_ZN10QTabWidgetC2EP7QWidget"
+    },
+    {
+      "address": "0x0062301e",
+      "value": "_ZN10QTabWidgetD2Ev"
+    },
+    {
+      "address": "0x00623036",
+      "value": "_ZN11QGridLayout18setVerticalSpacingEi"
+    },
+    {
+      "address": "0x00623062",
+      "value": "_ZN11QGridLayout20setHorizontalSpacingEi"
+    },
+    {
+      "address": "0x0062308e",
+      "value": "_ZN11QGridLayout7addItemEP11QLayoutItemiiii6QFlagsIN2Qt13AlignmentFlagEE"
+    },
+    {
+      "address": "0x006230da",
+      "value": "_ZN11QGridLayout9addLayoutEP7QLayoutiiii6QFlagsIN2Qt13AlignmentFlagEE"
+    },
+    {
+      "address": "0x00623122",
+      "value": "_ZN11QGridLayout9addWidgetEP7QWidgetii6QFlagsIN2Qt13AlignmentFlagEE"
+    },
+    {
+      "address": "0x0062316a",
+      "value": "_ZN11QGridLayout9addWidgetEP7QWidgetiiii6QFlagsIN2Qt13AlignmentFlagEE"
+    },
+    {
+      "address": "0x006231b2",
+      "value": "_ZN11QGridLayoutC1EP7QWidget"
+    },
+    {
+      "address": "0x006231d2",
+      "value": "_ZN11QGridLayoutC1Ev"
+    },
+    {
+      "address": "0x006231ea",
+      "value": "_ZN11QHBoxLayoutC1Ev"
+    },
+    {
+      "address": "0x00623202",
+      "value": "_ZN11QProxyStyle11qt_metacallEN11QMetaObject4CallEiPPv"
+    },
+    {
+      "address": "0x0062323e",
+      "value": "_ZN11QProxyStyle11qt_metacastEPKc"
+    },
+    {
+      "address": "0x00623262",
+      "value": "_ZN11QProxyStyle5eventEP6QEvent"
+    },
+    {
+      "address": "0x00623286",
+      "value": "_ZN11QProxyStyle6polishEP12QApplication"
+    },
+    {
+      "address": "0x006232b2",
+      "value": "_ZN11QProxyStyle6polishEP7QWidget"
+    },
+    {
+      "address": "0x006232d6",
+      "value": "_ZN11QProxyStyle6polishER8QPalette"
+    },
+    {
+      "address": "0x006232fe",
+      "value": "_ZN11QProxyStyle8unpolishEP12QApplication"
+    },
+    {
+      "address": "0x0062332a",
+      "value": "_ZN11QProxyStyle8unpolishEP7QWidget"
+    },
+    {
+      "address": "0x00623352",
+      "value": "_ZN11QProxyStyleC2EP6QStyle"
+    },
+    {
+      "address": "0x00623372",
+      "value": "_ZN11QProxyStyleD2Ev"
+    },
+    {
+      "address": "0x0062338a",
+      "value": "_ZN11QPushButton16staticMetaObjectE"
+    },
+    {
+      "address": "0x006233b2",
+      "value": "_ZN11QPushButton7setFlatEb"
+    },
+    {
+      "address": "0x006233d2",
+      "value": "_ZN11QPushButtonC1EP7QWidget"
+    },
+    {
+      "address": "0x006233f2",
+      "value": "_ZN12QApplication4execEv"
+    },
+    {
+      "address": "0x0062340e",
+      "value": "_ZN12QApplication7desktopEv"
+    },
+    {
+      "address": "0x0062342e",
+      "value": "_ZN12QApplication7setFontERK5QFontPKc"
+    },
+    {
+      "address": "0x00623456",
+      "value": "_ZN12QApplicationC1ERiPPci"
+    },
+    {
+      "address": "0x00623476",
+      "value": "_ZN12QApplicationD1Ev"
+    },
+    {
+      "address": "0x0062348e",
+      "value": "_ZN12QButtonGroup12setExclusiveEb"
+    },
+    {
+      "address": "0x006234b2",
+      "value": "_ZN12QButtonGroup9addButtonEP15QAbstractButtoni"
+    },
+    {
+      "address": "0x006234e6",
+      "value": "_ZN12QButtonGroupC1EP7QObject"
+    },
+    {
+      "address": "0x00623506",
+      "value": "_ZN12QStyleOptionD2Ev"
+    },
+    {
+      "address": "0x0062351e",
+      "value": "_ZN15QAbstractButton10setCheckedEb"
+    },
+    {
+      "address": "0x00623546",
+      "value": "_ZN15QAbstractButton11setIconSizeERK5QSize"
+    },
+    {
+      "address": "0x00623576",
+      "value": "_ZN15QAbstractButton12setCheckableEb"
+    },
+    {
+      "address": "0x0062359e",
+      "value": "_ZN15QAbstractButton7setTextERK7QString"
+    },
+    {
+      "address": "0x006235ca",
+      "value": "_ZN15QAbstractSlider10setMaximumEi"
+    },
+    {
+      "address": "0x006235f2",
+      "value": "_ZN15QAbstractSlider14setOrientationEN2Qt11OrientationE"
+    },
+    {
+      "address": "0x0062362e",
+      "value": "_ZN15QAbstractSlider8setValueEi"
+    },
+    {
+      "address": "0x00623652",
+      "value": "_ZN15QStyleOptionTabC1Ev"
+    },
+    {
+      "address": "0x0062366e",
+      "value": "_ZN6QLabel7setTextERK7QString"
+    },
+    {
+      "address": "0x0062368e",
+      "value": "_ZN6QLabel9setPixmapERK7QPixmap"
+    },
+    {
+      "address": "0x006236b2",
+      "value": "_ZN6QLabelC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE"
+    },
+    {
+      "address": "0x006236e6",
+      "value": "_ZN7QDialog10closeEventEP11QCloseEvent"
+    },
+    {
+      "address": "0x00623712",
+      "value": "_ZN7QDialog10setVisibleEb"
+    },
+    {
+      "address": "0x0062372e",
+      "value": "_ZN7QDialog11eventFilterEP7QObjectP6QEvent"
+    },
+    {
+      "address": "0x0062375e",
+      "value": "_ZN7QDialog11qt_metacallEN11QMetaObject4CallEiPPv"
+    },
+    {
+      "address": "0x00623792",
+      "value": "_ZN7QDialog11qt_metacastEPKc"
+    },
+    {
+      "address": "0x006237b2",
+      "value": "_ZN7QDialog11resizeEventEP12QResizeEvent"
+    },
+    {
+      "address": "0x006237de",
+      "value": "_ZN7QDialog13keyPressEventEP9QKeyEvent"
+    },
+    {
+      "address": "0x0062380a",
+      "value": "_ZN7QDialog16contextMenuEventEP17QContextMenuEvent"
+    },
+    {
+      "address": "0x00623842",
+      "value": "_ZN7QDialog16staticMetaObjectE"
+    },
+    {
+      "address": "0x00623866",
+      "value": "_ZN7QDialog4doneEi"
+    },
+    {
+      "address": "0x0062387e",
+      "value": "_ZN7QDialog4execEv"
+    },
+    {
+      "address": "0x00623896",
+      "value": "_ZN7QDialog4openEv"
+    },
+    {
+      "address": "0x006238ae",
+      "value": "_ZN7QDialog6acceptEv"
+    },
+    {
+      "address": "0x006238c6",
+      "value": "_ZN7QDialog6rejectEv"
+    },
+    {
+      "address": "0x006238de",
+      "value": "_ZN7QDialog9showEventEP10QShowEvent"
+    },
+    {
+      "address": "0x00623906",
+      "value": "_ZN7QDialogC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE"
+    },
+    {
+      "address": "0x0062393a",
+      "value": "_ZN7QDialogD2Ev"
+    },
+    {
+      "address": "0x0062394e",
+      "value": "_ZN7QLayout17setSizeConstraintENS_14SizeConstraintE"
+    },
+    {
+      "address": "0x00623986",
+      "value": "_ZN7QLayout18setContentsMarginsEiiii"
+    },
+    {
+      "address": "0x006239ae",
+      "value": "_ZN7QSliderC1EP7QWidget"
+    },
+    {
+      "address": "0x006239ca",
+      "value": "_ZN7QTabBar10tabRemovedEi"
+    },
+    {
+      "address": "0x006239e6",
+      "value": "_ZN7QTabBar10timerEventEP11QTimerEvent"
+    },
+    {
+      "address": "0x00623a12",
+      "value": "_ZN7QTabBar10wheelEventEP11QWheelEvent"
+    },
+    {
+      "address": "0x00623a3e",
+      "value": "_ZN7QTabBar11changeEventEP6QEvent"
+    },
+    {
+      "address": "0x00623a62",
+      "value": "_ZN7QTabBar11qt_metacallEN11QMetaObject4CallEiPPv"
+    },
+    {
+      "address": "0x00623a96",
+      "value": "_ZN7QTabBar11qt_metacastEPKc"
+    },
+    {
+      "address": "0x00623ab6",
+      "value": "_ZN7QTabBar11resizeEventEP12QResizeEvent"
+    },
+    {
+      "address": "0x00623ae2",
+      "value": "_ZN7QTabBar11tabInsertedEi"
+    },
+    {
+      "address": "0x00623b02",
+      "value": "_ZN7QTabBar13keyPressEventEP9QKeyEvent"
+    },
+    {
+      "address": "0x00623b2e",
+      "value": "_ZN7QTabBar14mouseMoveEventEP11QMouseEvent"
+    },
+    {
+      "address": "0x00623b5e",
+      "value": "_ZN7QTabBar15mousePressEventEP11QMouseEvent"
+    },
+    {
+      "address": "0x00623b8e",
+      "value": "_ZN7QTabBar15tabLayoutChangeEv"
+    },
+    {
+      "address": "0x00623bb2",
+      "value": "_ZN7QTabBar17mouseReleaseEventEP11QMouseEvent"
+    },
+    {
+      "address": "0x00623be2",
+      "value": "_ZN7QTabBar5eventEP6QEvent"
+    },
+    {
+      "address": "0x00623c02",
+      "value": "_ZN7QTabBar9hideEventEP10QHideEvent"
+    },
+    {
+      "address": "0x00623c2a",
+      "value": "_ZN7QTabBar9showEventEP10QShowEvent"
+    },
+    {
+      "address": "0x00623c52",
+      "value": "_ZN7QTabBarC2EP7QWidget"
+    },
+    {
+      "address": "0x00623c6e",
+      "value": "_ZN7QTabBarD2Ev"
+    },
+    {
+      "address": "0x00623c82",
+      "value": "_ZN7QWidget10closeEventEP11QCloseEvent"
+    },
+    {
+      "address": "0x00623cae",
+      "value": "_ZN7QWidget10enterEventEP6QEvent"
+    },
+    {
+      "address": "0x00623cd2",
+      "value": "_ZN7QWidget10leaveEventEP6QEvent"
+    },
+    {
+      "address": "0x00623cf6",
+      "value": "_ZN7QWidget10paintEventEP11QPaintEvent"
+    },
+    {
+      "address": "0x00623d22",
+      "value": "_ZN7QWidget10setEnabledEb"
+    },
+    {
+      "address": "0x00623d3e",
+      "value": "_ZN7QWidget10setVisibleEb"
+    },
+    {
+      "address": "0x00623d5a",
+      "value": "_ZN7QWidget10wheelEventEP11QWheelEvent"
+    },
+    {
+      "address": "0x00623d86",
+      "value": "_ZN7QWidget11actionEventEP12QActionEvent"
+    },
+    {
+      "address": "0x00623db2",
+      "value": "_ZN7QWidget11changeEventEP6QEvent"
+    },
+    {
+      "address": "0x00623dd6",
+      "value": "_ZN7QWidget11nativeEventERK10QByteArrayPvPl"
+    },
+    {
+      "address": "0x00623e06",
+      "value": "_ZN7QWidget11qt_metacallEN11QMetaObject4CallEiPPv"
+    },
+    {
+      "address": "0x00623e3a",
+      "value": "_ZN7QWidget11qt_metacastEPKc"
+    },
+    {
+      "address": "0x00623e5a",
+      "value": "_ZN7QWidget11resizeEventEP12QResizeEvent"
+    },
+    {
+      "address": "0x00623e86",
+      "value": "_ZN7QWidget11setBaseSizeEii"
+    },
+    {
+      "address": "0x00623ea6",
+      "value": "_ZN7QWidget11setGeometryERK5QRect"
+    },
+    {
+      "address": "0x00623eca",
+      "value": "_ZN7QWidget11tabletEventEP12QTabletEvent"
+    },
+    {
+      "address": "0x00623ef6",
+      "value": "_ZN7QWidget12focusInEventEP11QFocusEvent"
+    },
+    {
+      "address": "0x00623f22",
+      "value": "_ZN7QWidget13dragMoveEventEP14QDragMoveEvent"
+    },
+    {
+      "address": "0x00623f52",
+      "value": "_ZN7QWidget13focusOutEventEP11QFocusEvent"
+    },
+    {
+      "address": "0x00623f7e",
+      "value": "_ZN7QWidget13keyPressEventEP9QKeyEvent"
+    },
+    {
+      "address": "0x00623faa",
+      "value": "_ZN7QWidget13setSizePolicyE11QSizePolicy"
+    },
+    {
+      "address": "0x00623fd6",
+      "value": "_ZN7QWidget13setStyleSheetERK7QString"
+    },
+    {
+      "address": "0x00623ffe",
+      "value": "_ZN7QWidget13setWindowFlagEN2Qt10WindowTypeEb"
+    },
+    {
+      "address": "0x0062402e",
+      "value": "_ZN7QWidget13showMaximizedEv"
+    },
+    {
+      "address": "0x0062404e",
+      "value": "_ZN7QWidget14dragEnterEventEP15QDragEnterEvent"
+    },
+    {
+      "address": "0x00624082",
+      "value": "_ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent"
+    },
+    {
+      "address": "0x006240b6",
+      "value": "_ZN7QWidget14mouseMoveEventEP11QMouseEvent"
+    },
+    {
+      "address": "0x006240e6",
+      "value": "_ZN7QWidget14setMaximumSizeEii"
+    },
+    {
+      "address": "0x0062410a",
+      "value": "_ZN7QWidget14setMinimumSizeEii"
+    },
+    {
+      "address": "0x0062412e",
+      "value": "_ZN7QWidget14setWindowStateE6QFlagsIN2Qt11WindowStateEE"
+    },
+    {
+      "address": "0x0062416a",
+      "value": "_ZN7QWidget14setWindowTitleERK7QString"
+    },
+    {
+      "address": "0x00624196",
+      "value": "_ZN7QWidget15keyReleaseEventEP9QKeyEvent"
+    },
+    {
+      "address": "0x006241c2",
+      "value": "_ZN7QWidget15mousePressEventEP11QMouseEvent"
+    },
+    {
+      "address": "0x006241f2",
+      "value": "_ZN7QWidget15setMaximumWidthEi"
+    },
+    {
+      "address": "0x00624216",
+      "value": "_ZN7QWidget16contextMenuEventEP17QContextMenuEvent"
+    },
+    {
+      "address": "0x0062424e",
+      "value": "_ZN7QWidget16inputMethodEventEP17QInputMethodEvent"
+    },
+    {
+      "address": "0x00624286",
+      "value": "_ZN7QWidget16setMinimumHeightEi"
+    },
+    {
+      "address": "0x006242aa",
+      "value": "_ZN7QWidget16setSizeIncrementEii"
+    },
+    {
+      "address": "0x006242ce",
+      "value": "_ZN7QWidget16staticMetaObjectE"
+    },
+    {
+      "address": "0x006242f2",
+      "value": "_ZN7QWidget17mouseReleaseEventEP11QMouseEvent"
+    },
+    {
+      "address": "0x00624322",
+      "value": "_ZN7QWidget18focusNextPrevChildEb"
+    },
+    {
+      "address": "0x00624346",
+      "value": "_ZN7QWidget18setLayoutDirectionEN2Qt15LayoutDirectionE"
+    },
+    {
+      "address": "0x00624382",
+      "value": "_ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent"
+    },
+    {
+      "address": "0x006243b6",
+      "value": "_ZN7QWidget21setAutoFillBackgroundEb"
+    },
+    {
+      "address": "0x006243de",
+      "value": "_ZN7QWidget4hideEv"
+    },
+    {
+      "address": "0x006243f6",
+      "value": "_ZN7QWidget4showEv"
+    },
+    {
+      "address": "0x0062440e",
+      "value": "_ZN7QWidget5eventEP6QEvent"
+    },
+    {
+      "address": "0x0062442e",
+      "value": "_ZN7QWidget5raiseEv"
+    },
+    {
+      "address": "0x00624446",
+      "value": "_ZN7QWidget6resizeERK5QSize"
+    },
+    {
+      "address": "0x00624466",
+      "value": "_ZN7QWidget7setFontERK5QFont"
+    },
+    {
+      "address": "0x00624486",
+      "value": "_ZN7QWidget8setStyleEP6QStyle"
+    },
+    {
+      "address": "0x006244a6",
+      "value": "_ZN7QWidget9dropEventEP10QDropEvent"
+    },
+    {
+      "address": "0x006244ce",
+      "value": "_ZN7QWidget9hideEventEP10QHideEvent"
+    },
+    {
+      "address": "0x006244f6",
+      "value": "_ZN7QWidget9moveEventEP10QMoveEvent"
+    },
+    {
+      "address": "0x0062451e",
+      "value": "_ZN7QWidget9setLocaleERK7QLocale"
+    },
+    {
+      "address": "0x00624542",
+      "value": "_ZN7QWidget9showEventEP10QShowEvent"
+    },
+    {
+      "address": "0x0062456a",
+      "value": "_ZN7QWidgetC1EPS_6QFlagsIN2Qt10WindowTypeEE"
+    },
+    {
+      "address": "0x0062459a",
+      "value": "_ZN7QWidgetC2EPS_6QFlagsIN2Qt10WindowTypeEE"
+    },
+    {
+      "address": "0x006245ca",
+      "value": "_ZN7QWidgetD2Ev"
+    },
+    {
+      "address": "0x006245de",
+      "value": "_ZN8QSpinBox10setMaximumEi"
+    },
+    {
+      "address": "0x006245fe",
+      "value": "_ZN8QSpinBox8setValueEi"
+    },
+    {
+      "address": "0x0062461a",
+      "value": "_ZN8QSpinBoxC1EP7QWidget"
+    },
+    {
+      "address": "0x00624636",
+      "value": "_ZN9QTextEdit7setTextERK7QString"
+    },
+    {
+      "address": "0x0062465a",
+      "value": "_ZN9QTextEditC1EP7QWidget"
+    },
+    {
+      "address": "0x00624676",
+      "value": "_ZNK10QTabWidget10metaObjectEv"
+    },
+    {
+      "address": "0x0062469a",
+      "value": "_ZNK10QTabWidget14heightForWidthEi"
+    },
+    {
+      "address": "0x006246c2",
+      "value": "_ZNK10QTabWidget15minimumSizeHintEv"
+    },
+    {
+      "address": "0x006246ea",
+      "value": "_ZNK10QTabWidget17hasHeightForWidthEv"
+    },
+    {
+      "address": "0x00624712",
+      "value": "_ZNK10QTabWidget6tabBarEv"
+    },
+    {
+      "address": "0x0062472e",
+      "value": "_ZNK10QTabWidget7indexOfEP7QWidget"
+    },
+    {
+      "address": "0x00624756",
+      "value": "_ZNK10QTabWidget8sizeHintEv"
+    },
+    {
+      "address": "0x00624776",
+      "value": "_ZNK11QProxyStyle10metaObjectEv"
+    },
+    {
+      "address": "0x0062479a",
+      "value": "_ZNK11QProxyStyle11drawControlEN6QStyle14ControlElementEPK12QStyleOptionP8QPainterPK7QWidget"
+    },
+    {
+      "address": "0x006247fa",
+      "value": "_ZNK11QProxyStyle11pixelMetricEN6QStyle11PixelMetricEPK12QStyleOptionPK7QWidget"
+    },
+    {
+      "address": "0x0062484e",
+      "value": "_ZNK11QProxyStyle12drawItemTextEP8QPainterRK5QRectiRK8QPalettebRK7QStringNS5_9ColorRoleE"
+    },
+    {
+      "address": "0x006248aa",
+      "value": "_ZNK11QProxyStyle12itemTextRectERK12QFontMetricsRK5QRectibRK7QString"
+    },
+    {
+      "address": "0x006248f2",
+      "value": "_ZNK11QProxyStyle12standardIconEN6QStyle14StandardPixmapEPK12QStyleOptionPK7QWidget"
+    },
+    {
+      "address": "0x0062494a",
+      "value": "_ZNK11QProxyStyle13drawPrimitiveEN6QStyle16PrimitiveElementEPK12QStyleOptionP8QPainterPK7QWidget"
+    },
+    {
+      "address": "0x006249ae",
+      "value": "_ZNK11QProxyStyle13layoutSpacingEN11QSizePolicy11ControlTypeES1_N2Qt11OrientationEPK12QStyleOptionPK7QWidget"
+    },
+    {
+      "address": "0x00624a1e",
+      "value": "_ZNK11QProxyStyle14drawItemPixmapEP8QPainterRK5QRectiRK7QPixmap"
+    },
+    {
+      "address": "0x00624a62",
+      "value": "_ZNK11QProxyStyle14itemPixmapRectERK5QRectiRK7QPixmap"
+    },
+    {
+      "address": "0x00624a9a",
+      "value": "_ZNK11QProxyStyle14standardPixmapEN6QStyle14StandardPixmapEPK12QStyleOptionPK7QWidget"
+    },
+    {
+      "address": "0x00624af2",
+      "value": "_ZNK11QProxyStyle14subControlRectEN6QStyle14ComplexControlEPK19QStyleOptionComplexNS0_10SubControlEPK7QWidget"
+    },
+    {
+      "address": "0x00624b62",
+      "value": "_ZNK11QProxyStyle14subElementRectEN6QStyle10SubElementEPK12QStyleOptionPK7QWidget"
+    },
+    {
+      "address": "0x00624bb6",
+      "value": "_ZNK11QProxyStyle15standardPaletteEv"
+    },
+    {
+      "address": "0x00624bde",
+      "value": "_ZNK11QProxyStyle16sizeFromContentsEN6QStyle12ContentsTypeEPK12QStyleOptionRK5QSizePK7QWidget"
+    },
+    {
+      "address": "0x00624c3e",
+      "value": "_ZNK11QProxyStyle18drawComplexControlEN6QStyle14ComplexControlEPK19QStyleOptionComplexP8QPainterPK7QWidget"
+    },
+    {
+      "address": "0x00624cae",
+      "value": "_ZNK11QProxyStyle19generatedIconPixmapEN5QIcon4ModeERK7QPixmapPK12QStyleOption"
+    },
+    {
+      "address": "0x00624d02",
+      "value": "_ZNK11QProxyStyle21hitTestComplexControlEN6QStyle14ComplexControlEPK19QStyleOptionComplexRK6QPointPK7QWidget"
+    },
+    {
+      "address": "0x00624d72",
+      "value": "_ZNK11QProxyStyle9styleHintEN6QStyle9StyleHintEPK12QStyleOptionPK7QWidgetP16QStyleHintReturn"
+    },
+    {
+      "address": "0x00624dd2",
+      "value": "_ZNK12QButtonGroup13checkedButtonEv"
+    },
+    {
+      "address": "0x00624dfa",
+      "value": "_ZNK12QButtonGroup6buttonEi"
+    },
+    {
+      "address": "0x00624e1a",
+      "value": "_ZNK14QDesktopWidget17availableGeometryEi"
+    },
+    {
+      "address": "0x00624e46",
+      "value": "_ZNK15QAbstractButton4textEv"
+    },
+    {
+      "address": "0x00624e66",
+      "value": "_ZNK15QAbstractSlider5valueEv"
+    },
+    {
+      "address": "0x00624e86",
+      "value": "_ZNK7QDialog15minimumSizeHintEv"
+    },
+    {
+      "address": "0x00624eaa",
+      "value": "_ZNK7QDialog8sizeHintEv"
+    },
+    {
+      "address": "0x00624ec6",
+      "value": "_ZNK7QTabBar10metaObjectEv"
+    },
+    {
+      "address": "0x00624ee6",
+      "value": "_ZNK7QTabBar11tabSizeHintEi"
+    },
+    {
+      "address": "0x00624f06",
+      "value": "_ZNK7QTabBar15initStyleOptionEP15QStyleOptionTabi"
+    },
+    {
+      "address": "0x00624f3a",
+      "value": "_ZNK7QTabBar15minimumSizeHintEv"
+    },
+    {
+      "address": "0x00624f5e",
+      "value": "_ZNK7QTabBar18minimumTabSizeHintEi"
+    },
+    {
+      "address": "0x00624f86",
+      "value": "_ZNK7QTabBar5countEv"
+    },
+    {
+      "address": "0x00624f9e",
+      "value": "_ZNK7QTabBar7tabRectEi"
+    },
+    {
+      "address": "0x00624fba",
+      "value": "_ZNK7QTabBar8sizeHintEv"
+    },
+    {
+      "address": "0x00624fd6",
+      "value": "_ZNK7QWidget10redirectedEP6QPoint"
+    },
+    {
+      "address": "0x00624ffa",
+      "value": "_ZNK7QWidget10sizePolicyEv"
+    },
+    {
+      "address": "0x0062501a",
+      "value": "_ZNK7QWidget11initPainterEP8QPainter"
+    },
+    {
+      "address": "0x00625042",
+      "value": "_ZNK7QWidget11paintEngineEv"
+    },
+    {
+      "address": "0x00625062",
+      "value": "_ZNK7QWidget13sharedPainterEv"
+    },
+    {
+      "address": "0x00625082",
+      "value": "_ZNK7QWidget14heightForWidthEi"
+    },
+    {
+      "address": "0x006250a6",
+      "value": "_ZNK7QWidget15minimumSizeHintEv"
+    },
+    {
+      "address": "0x006250ca",
+      "value": "_ZNK7QWidget16inputMethodQueryEN2Qt16InputMethodQueryE"
+    },
+    {
+      "address": "0x00625106",
+      "value": "_ZNK7QWidget17hasHeightForWidthEv"
+    },
+    {
+      "address": "0x0062512a",
+      "value": "_ZNK7QWidget5styleEv"
+    },
+    {
+      "address": "0x00625142",
+      "value": "_ZNK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE"
+    },
+    {
+      "address": "0x0062517e",
+      "value": "_ZNK7QWidget7devTypeEv"
+    },
+    {
+      "address": "0x0062519a",
+      "value": "_ZNK7QWidget8sizeHintEv"
+    },
+    {
+      "address": "0x006251b6",
+      "value": "_ZNK8QSpinBox5valueEv"
+    },
+    {
+      "address": "0x006251ce",
+      "value": "_ZNK9QTextEdit11toPlainTextEv"
+    },
+    {
+      "address": "0x006251ee",
+      "value": "_ZTV11QSpacerItem"
+    },
+    {
+      "address": "0x00625202",
+      "value": "_ZThn8_NK7QWidget10redirectedEP6QPoint"
+    },
+    {
+      "address": "0x0062522e",
+      "value": "_ZThn8_NK7QWidget11initPainterEP8QPainter"
+    },
+    {
+      "address": "0x0062525a",
+      "value": "_ZThn8_NK7QWidget11paintEngineEv"
+    },
+    {
+      "address": "0x0062527e",
+      "value": "_ZThn8_NK7QWidget13sharedPainterEv"
+    },
+    {
+      "address": "0x006252a6",
+      "value": "_ZThn8_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE"
+    },
+    {
+      "address": "0x006252e6",
+      "value": "_ZThn8_NK7QWidget7devTypeEv"
+    },
+    {
+      "address": "0x00625306",
+      "value": "_Unwind_Resume"
+    },
+    {
+      "address": "0x0062531a",
+      "value": "__deregister_frame_info"
+    },
+    {
+      "address": "0x00625336",
+      "value": "__register_frame_info"
+    },
+    {
+      "address": "0x0062534e",
+      "value": "DeleteCriticalSection"
+    },
+    {
+      "address": "0x00625366",
+      "value": "EnterCriticalSection"
+    },
+    {
+      "address": "0x0062537e",
+      "value": "FreeLibrary"
+    },
+    {
+      "address": "0x0062538c",
+      "value": "GetCommandLineW"
+    },
+    {
+      "address": "0x0062539e",
+      "value": "GetCurrentProcess"
+    },
+    {
+      "address": "0x006253b2",
+      "value": "GetCurrentProcessId"
+    },
+    {
+      "address": "0x006253c8",
+      "value": "GetCurrentThreadId"
+    },
+    {
+      "address": "0x006253de",
+      "value": "GetLastError"
+    },
+    {
+      "address": "0x006253ee",
+      "value": "GetModuleHandleA"
+    },
+    {
+      "address": "0x00625402",
+      "value": "GetProcAddress"
+    },
+    {
+      "address": "0x00625414",
+      "value": "GetStartupInfoA"
+    },
+    {
+      "address": "0x00625426",
+      "value": "GetSystemTimeAsFileTime"
+    },
+    {
+      "address": "0x00625440",
+      "value": "GetTickCount"
+    },
+    {
+      "address": "0x00625450",
+      "value": "InitializeCriticalSection"
+    },
+    {
+      "address": "0x0062546c",
+      "value": "LeaveCriticalSection"
+    },
+    {
+      "address": "0x00625484",
+      "value": "LoadLibraryA"
+    },
+    {
+      "address": "0x00625494",
+      "value": "LocalFree"
+    },
+    {
+      "address": "0x006254a0",
+      "value": "QueryPerformanceCounter"
+    },
+    {
+      "address": "0x006254ba",
+      "value": "SetUnhandledExceptionFilter"
+    },
+    {
+      "address": "0x006254d8",
+      "value": "Sleep"
+    },
+    {
+      "address": "0x006254e0",
+      "value": "TerminateProcess"
+    },
+    {
+      "address": "0x006254f4",
+      "value": "TlsGetValue"
+    },
+    {
+      "address": "0x00625502",
+      "value": "UnhandledExceptionFilter"
+    },
+    {
+      "address": "0x0062551e",
+      "value": "VirtualProtect"
+    },
+    {
+      "address": "0x00625530",
+      "value": "VirtualQuery"
+    },
+    {
+      "address": "0x00625540",
+      "value": "WideCharToMultiByte"
+    },
+    {
+      "address": "0x00625556",
+      "value": "__getmainargs"
+    },
+    {
+      "address": "0x00625566",
+      "value": "__initenv"
+    },
+    {
+      "address": "0x00625572",
+      "value": "__lconv_init"
+    },
+    {
+      "address": "0x00625582",
+      "value": "__p__acmdln"
+    },
+    {
+      "address": "0x00625590",
+      "value": "__p__fmode"
+    },
+    {
+      "address": "0x0062559e",
+      "value": "__set_app_type"
+    },
+    {
+      "address": "0x006255b0",
+      "value": "__setusermatherr"
+    },
+    {
+      "address": "0x006255c4",
+      "value": "_amsg_exit"
+    },
+    {
+      "address": "0x006255d2",
+      "value": "_cexit"
+    },
+    {
+      "address": "0x006255dc",
+      "value": "_initterm"
+    },
+    {
+      "address": "0x006255e8",
+      "value": "_iob"
+    },
+    {
+      "address": "0x006255f0",
+      "value": "_onexit"
+    },
+    {
+      "address": "0x006255fa",
+      "value": "abort"
+    },
+    {
+      "address": "0x00625602",
+      "value": "calloc"
+    },
+    {
+      "address": "0x0062560c",
+      "value": "exit"
+    },
+    {
+      "address": "0x00625614",
+      "value": "fprintf"
+    },
+    {
+      "address": "0x0062561e",
+      "value": "free"
+    },
+    {
+      "address": "0x00625626",
+      "value": "fwrite"
+    },
+    {
+      "address": "0x00625630",
+      "value": "malloc"
+    },
+    {
+      "address": "0x0062563a",
+      "value": "memcpy"
+    },
+    {
+      "address": "0x00625644",
+      "value": "signal"
+    },
+    {
+      "address": "0x0062564e",
+      "value": "strcmp"
+    },
+    {
+      "address": "0x00625658",
+      "value": "strlen"
+    },
+    {
+      "address": "0x00625662",
+      "value": "strncmp"
+    },
+    {
+      "address": "0x0062566c",
+      "value": "vfprintf"
+    },
+    {
+      "address": "0x00625678",
+      "value": "CommandLineToArgvW"
+    },
+    {
+      "address": "0x0062568e",
+      "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+      "address": "0x006256b6",
+      "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+      "address": "0x006256e2",
+      "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE"
+    },
+    {
+      "address": "0x0062570e",
+      "value": "_ZdaPv"
+    },
+    {
+      "address": "0x0062571a",
+      "value": "_ZdlPv"
+    },
+    {
+      "address": "0x00625726",
+      "value": "_Znaj"
+    },
+    {
+      "address": "0x0062572e",
+      "value": "_Znwj"
+    },
+    {
+      "address": "0x00625736",
+      "value": "__gxx_personality_v0"
+    },
+    {
+      "address": "0x00625774",
+      "value": "hidapi.dll"
+    },
+    {
+      "address": "0x00625870",
+      "value": "Qt5Core.dll"
+    },
+    {
+      "address": "0x006258fc",
+      "value": "Qt5Gui.dll"
+    },
+    {
+      "address": "0x00625cbc",
+      "value": "Qt5Widgets.dll"
+    },
+    {
+      "address": "0x00625cd8",
+      "value": "libgcc_s_dw2-1.dll"
+    },
+    {
+      "address": "0x00625d54",
+      "value": "KERNEL32.dll"
+    },
+    {
+      "address": "0x00625dc8",
+      "value": "msvcrt.dll"
+    },
+    {
+      "address": "0x00625dd8",
+      "value": "SHELL32.dll"
+    },
+    {
+      "address": "0x00625e04",
+      "value": "libstdc++-6.dll"
+    },
+    {
+      "address": "0x0062a722",
+      "value": "StringFileInfo"
+    },
+    {
+      "address": "0x0062a746",
+      "value": "040904b0"
+    },
+    {
+      "address": "0x0062a75e",
+      "value": "CompanyName"
+    },
+    {
+      "address": "0x0062a778",
+      "value": ""
+    },
+    {
+      "address": "0x0062a782",
+      "value": "FileDescription"
+    },
+    {
+      "address": "0x0062a7a4",
+      "value": ""
+    },
+    {
+      "address": "0x0062a7ae",
+      "value": "FileVersion"
+    },
+    {
+      "address": "0x0062a7c8",
+      "value": "0.0.0.0"
+    },
+    {
+      "address": "0x0062a7de",
+      "value": "LegalCopyright"
+    },
+    {
+      "address": "0x0062a7fc",
+      "value": ""
+    },
+    {
+      "address": "0x0062a806",
+      "value": "OriginalFilename"
+    },
+    {
+      "address": "0x0062a828",
+      "value": "MINI_KEYBOARD.exe"
+    },
+    {
+      "address": "0x0062a852",
+      "value": "ProductName"
+    },
+    {
+      "address": "0x0062a86c",
+      "value": "MINI_KEYBOARD"
+    },
+    {
+      "address": "0x0062a88e",
+      "value": "ProductVersion"
+    },
+    {
+      "address": "0x0062a8ac",
+      "value": "0.0.0.0"
+    },
+    {
+      "address": "0x0062a8c2",
+      "value": "VarFileInfo"
+    },
+    {
+      "address": "0x0062a8e2",
+      "value": "Translation"
+    }
+  ]
+}

@@ -1,0 +1,1682 @@
+{
+  "schema_version": 1,
+  "program": "MINI_KEYBOARD.exe",
+  "count": 335,
+  "types": [
+    {
+      "name": "_CONTEXT",
+      "category": "/excpt.h",
+      "length": 716
+    },
+    {
+      "name": "_EXCEPTION_POINTERS",
+      "category": "/excpt.h",
+      "length": 8
+    },
+    {
+      "name": "_EXCEPTION_POINTERS *",
+      "category": "/excpt.h",
+      "length": 4
+    },
+    {
+      "name": "_EXCEPTION_RECORD",
+      "category": "/excpt.h",
+      "length": 80
+    },
+    {
+      "name": "_EXCEPTION_RECORD *",
+      "category": "/excpt.h",
+      "length": 4
+    },
+    {
+      "name": "_FILETIME",
+      "category": "/WinDef.h",
+      "length": 8
+    },
+    {
+      "name": "_FILETIME *",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "_FLOATING_SAVE_AREA",
+      "category": "/winnt.h",
+      "length": 112
+    },
+    {
+      "name": "_iobuf",
+      "category": "/mbstring.h",
+      "length": 32
+    },
+    {
+      "name": "_LARGE_INTEGER",
+      "category": "/winnt.h",
+      "length": 8
+    },
+    {
+      "name": "_LIST_ENTRY",
+      "category": "/winnt.h",
+      "length": 8
+    },
+    {
+      "name": "_LIST_ENTRY *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "_MEMORY_BASIC_INFORMATION",
+      "category": "/winnt.h",
+      "length": 28
+    },
+    {
+      "name": "_MEMORY_BASIC_INFORMATION *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "_onexit_t",
+      "category": "/stdlib.h",
+      "length": 4
+    },
+    {
+      "name": "_onexit_t",
+      "category": "/stdlib.h/functions",
+      "length": -1
+    },
+    {
+      "name": "_onexit_t *",
+      "category": "/stdlib.h/functions",
+      "length": 4
+    },
+    {
+      "name": "_RTL_CRITICAL_SECTION",
+      "category": "/winnt.h",
+      "length": 24
+    },
+    {
+      "name": "_RTL_CRITICAL_SECTION *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "_RTL_CRITICAL_SECTION_DEBUG",
+      "category": "/winnt.h",
+      "length": 32
+    },
+    {
+      "name": "_RTL_CRITICAL_SECTION_DEBUG *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "_startupinfo",
+      "category": "/internal.h",
+      "length": 4
+    },
+    {
+      "name": "_startupinfo *",
+      "category": "/internal.h",
+      "length": 4
+    },
+    {
+      "name": "_STARTUPINFOA",
+      "category": "/winbase.h",
+      "length": 68
+    },
+    {
+      "name": "_STARTUPINFOA *",
+      "category": "/winbase.h",
+      "length": 4
+    },
+    {
+      "name": "_struct_19",
+      "category": "/winnt.h",
+      "length": 8
+    },
+    {
+      "name": "_struct_20",
+      "category": "/winnt.h",
+      "length": 8
+    },
+    {
+      "name": "AspectRatioMode",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "BOOL",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "BOOL *",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "bool",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "BrushStyle",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "BYTE",
+      "category": "/WinDef.h",
+      "length": 1
+    },
+    {
+      "name": "BYTE *",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "byte",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "byte[2]",
+      "category": "/",
+      "length": 2
+    },
+    {
+      "name": "BYTE[512]",
+      "category": "/WinDef.h",
+      "length": 512
+    },
+    {
+      "name": "byte[64]",
+      "category": "/",
+      "length": 64
+    },
+    {
+      "name": "BYTE[80]",
+      "category": "/WinDef.h",
+      "length": 80
+    },
+    {
+      "name": "Call",
+      "category": "/Demangler/QMetaObject",
+      "length": 1
+    },
+    {
+      "name": "CaseSensitivity",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "CHAR",
+      "category": "/winnt.h",
+      "length": 1
+    },
+    {
+      "name": "CHAR *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "char",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "char *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "char * *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "char * * *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "char[2]",
+      "category": "/",
+      "length": 2
+    },
+    {
+      "name": "char[4]",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "char[8]",
+      "category": "/",
+      "length": 8
+    },
+    {
+      "name": "ColorRole",
+      "category": "/Demangler/QPalette",
+      "length": 1
+    },
+    {
+      "name": "ComplexControl",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "Connection",
+      "category": "/Demangler/QMetaObject",
+      "length": 1
+    },
+    {
+      "name": "ConnectionType",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "ContentsType",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "CONTEXT",
+      "category": "/winnt.h",
+      "length": 716
+    },
+    {
+      "name": "CONTEXT *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "ControlElement",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "ControlType",
+      "category": "/Demangler/QSizePolicy",
+      "length": 1
+    },
+    {
+      "name": "Country",
+      "category": "/Demangler/QLocale",
+      "length": 1
+    },
+    {
+      "name": "Data",
+      "category": "/Demangler/QListData",
+      "length": 1
+    },
+    {
+      "name": "Data *",
+      "category": "/Demangler/QListData",
+      "length": 4
+    },
+    {
+      "name": "double",
+      "category": "/",
+      "length": 8
+    },
+    {
+      "name": "DWORD",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "DWORD *",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "dword",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "dword[2]",
+      "category": "/",
+      "length": 8
+    },
+    {
+      "name": "EXCEPTION_RECORD",
+      "category": "/winnt.h",
+      "length": 80
+    },
+    {
+      "name": "EXCEPTION_RECORD *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "FARPROC",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "FARPROC",
+      "category": "/WinDef.h/functions",
+      "length": -1
+    },
+    {
+      "name": "FARPROC *",
+      "category": "/WinDef.h/functions",
+      "length": 4
+    },
+    {
+      "name": "FILE",
+      "category": "/mbstring.h",
+      "length": 32
+    },
+    {
+      "name": "FILE *",
+      "category": "/mbstring.h",
+      "length": 4
+    },
+    {
+      "name": "FLOATING_SAVE_AREA",
+      "category": "/winnt.h",
+      "length": 112
+    },
+    {
+      "name": "GroupIconResource",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "HANDLE",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "HINSTANCE",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "HINSTANCE__",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "HINSTANCE__ *",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "HLOCAL",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "HMODULE",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "IconResource",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "IMAGE_DATA_DIRECTORY",
+      "category": "/PE",
+      "length": 8
+    },
+    {
+      "name": "IMAGE_DATA_DIRECTORY[16]",
+      "category": "/PE",
+      "length": 128
+    },
+    {
+      "name": "IMAGE_DOS_HEADER",
+      "category": "/DOS",
+      "length": 128
+    },
+    {
+      "name": "IMAGE_FILE_HEADER",
+      "category": "/PE",
+      "length": 20
+    },
+    {
+      "name": "IMAGE_NT_HEADERS32",
+      "category": "/PE",
+      "length": 248
+    },
+    {
+      "name": "IMAGE_OPTIONAL_HEADER32",
+      "category": "/PE",
+      "length": 224
+    },
+    {
+      "name": "IMAGE_RESOURCE_DATA_ENTRY",
+      "category": "/PE",
+      "length": 16
+    },
+    {
+      "name": "IMAGE_RESOURCE_DIR_STRING_U_18",
+      "category": "/PE",
+      "length": 20
+    },
+    {
+      "name": "IMAGE_RESOURCE_DIRECTORY",
+      "category": "/PE",
+      "length": 16
+    },
+    {
+      "name": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+      "category": "/PE",
+      "length": 8
+    },
+    {
+      "name": "IMAGE_RESOURCE_DIRECTORY_ENTRY_DirectoryStruct",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "IMAGE_RESOURCE_DIRECTORY_ENTRY_DirectoryUnion",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "IMAGE_RESOURCE_DIRECTORY_ENTRY_NameStruct",
+      "category": "/PE",
+      "length": 4
+    },
+    {
+      "name": "IMAGE_RESOURCE_DIRECTORY_ENTRY_NameUnion",
+      "category": "/PE",
+      "length": 4
+    },
+    {
+      "name": "IMAGE_SECTION_HEADER",
+      "category": "/PE",
+      "length": 40
+    },
+    {
+      "name": "IMAGE_THUNK_DATA32",
+      "category": "/PE",
+      "length": 24
+    },
+    {
+      "name": "ImageBaseOffset32",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "InputMethodQuery",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "int",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "int *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "Language",
+      "category": "/Demangler/QLocale",
+      "length": 1
+    },
+    {
+      "name": "LARGE_INTEGER",
+      "category": "/winnt.h",
+      "length": 8
+    },
+    {
+      "name": "LARGE_INTEGER *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "LayoutDirection",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "LIST_ENTRY",
+      "category": "/winnt.h",
+      "length": 8
+    },
+    {
+      "name": "LONG",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "long",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "long *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "LONGLONG",
+      "category": "/winnt.h",
+      "length": 8
+    },
+    {
+      "name": "LPBOOL",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "LPBYTE",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "LPCRITICAL_SECTION",
+      "category": "/winbase.h",
+      "length": 4
+    },
+    {
+      "name": "LPCSTR",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "LPCVOID",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "LPCWSTR",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "LPFILETIME",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "LPSTARTUPINFOA",
+      "category": "/winbase.h",
+      "length": 4
+    },
+    {
+      "name": "LPSTR",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "LPTOP_LEVEL_EXCEPTION_FILTER",
+      "category": "/winbase.h",
+      "length": 4
+    },
+    {
+      "name": "LPVOID",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "LPWSTR",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "LPWSTR *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "Misc",
+      "category": "/PE",
+      "length": 4
+    },
+    {
+      "name": "Mode",
+      "category": "/Demangler/QIcon",
+      "length": 1
+    },
+    {
+      "name": "Orientation",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "PaintDeviceMetric",
+      "category": "/Demangler/QPaintDevice",
+      "length": 1
+    },
+    {
+      "name": "PCONTEXT",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "PDWORD",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "PEXCEPTION_RECORD",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "PixelMetric",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "PMEMORY_BASIC_INFORMATION",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "PNG-Image",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "pointer",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "pointer32",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "PrimitiveElement",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "PRTL_CRITICAL_SECTION",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "PRTL_CRITICAL_SECTION_DEBUG",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "PTOP_LEVEL_EXCEPTION_FILTER",
+      "category": "/winbase.h",
+      "length": 4
+    },
+    {
+      "name": "PTOP_LEVEL_EXCEPTION_FILTER",
+      "category": "/winbase.h/functions",
+      "length": -1
+    },
+    {
+      "name": "PTOP_LEVEL_EXCEPTION_FILTER *",
+      "category": "/winbase.h/functions",
+      "length": 4
+    },
+    {
+      "name": "PVOID",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "QAbstractButton",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QAbstractButton *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QActionEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QActionEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QApplication",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QApplication *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QArrayData",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QArrayData *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QBrush",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QBrush *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QButtonGroup",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QByteArray",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QByteArray *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QChar",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QChar *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QChildEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QChildEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QCloseEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QCloseEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QColor",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QColor *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QContextMenuEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QContextMenuEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QDebug",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QDialog",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QDragEnterEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QDragEnterEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QDragLeaveEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QDragLeaveEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QDragMoveEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QDragMoveEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QDropEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QDropEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QFlags",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QFocusEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QFocusEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QFont",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QFont *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QFontMetrics",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QFontMetrics *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QGridLayout",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QHBoxLayout",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QHideEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QHideEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QIcon",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QImage",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QImage *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QInputMethodEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QInputMethodEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QKeyEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QKeyEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QLabel",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QLayout",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QLayout *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QLayoutItem",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QLayoutItem *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QList",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QList *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QLocale",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QLocale *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QMapDataBase",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMapDataBase *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QMapNodeBase",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMapNodeBase *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QMatrix",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMetaMethod",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMetaMethod *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QMetaObject",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMetaObject *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QMouseEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMouseEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QMoveEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QMoveEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QObject",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QObject *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPaintDevice",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPaintDevice *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPainter",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPainter *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPaintEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPaintEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPalette",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPalette *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPixmap",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPixmap *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPoint",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPoint *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPointF",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPointF *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QPrivateSignal",
+      "category": "/Demangler/QTimer",
+      "length": 1
+    },
+    {
+      "name": "QProxyStyle",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QPushButton",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QRect",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QRect *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QRectF",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QRectF *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QResizeEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QResizeEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QShowEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QShowEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QSize",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QSize *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QSizePolicy",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QSlider",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QSlotObjectBase",
+      "category": "/Demangler/QtPrivate",
+      "length": 1
+    },
+    {
+      "name": "QSlotObjectBase *",
+      "category": "/Demangler/QtPrivate",
+      "length": 4
+    },
+    {
+      "name": "QSpinBox",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QString",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QString *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QStyle",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyle *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QStyleHintReturn",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyleHintReturn *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QStyleOption",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyleOption *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QStyleOptionComplex",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyleOptionComplex *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QStyleOptionTab",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QStyleOptionTab *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QTabBar",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTabBar *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QTabletEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTabletEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QTabWidget",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTextEdit",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTextOption",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTextOption *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QTextStream",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTextStream *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QTimer",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTimerEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTimerEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QTranslator",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QTranslator *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QWheelEvent",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QWheelEvent *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "QWidget",
+      "category": "/Demangler",
+      "length": 1
+    },
+    {
+      "name": "QWidget *",
+      "category": "/Demangler",
+      "length": 4
+    },
+    {
+      "name": "SectionFlags",
+      "category": "/PE",
+      "length": 4
+    },
+    {
+      "name": "SIZE_T",
+      "category": "/basetsd.h",
+      "length": 4
+    },
+    {
+      "name": "size_t",
+      "category": "/crtdefs.h",
+      "length": 4
+    },
+    {
+      "name": "SizeConstraint",
+      "category": "/Demangler/QLayout",
+      "length": 1
+    },
+    {
+      "name": "StandardPixmap",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "string",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "StringFileInfo",
+      "category": "/PE",
+      "length": 6
+    },
+    {
+      "name": "StringInfo",
+      "category": "/PE",
+      "length": 6
+    },
+    {
+      "name": "StringTable",
+      "category": "/PE",
+      "length": 6
+    },
+    {
+      "name": "Style",
+      "category": "/Demangler/QFont",
+      "length": 1
+    },
+    {
+      "name": "StyleHint",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "SubControl",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "SubElement",
+      "category": "/Demangler/QStyle",
+      "length": 1
+    },
+    {
+      "name": "TabPosition",
+      "category": "/Demangler/QTabWidget",
+      "length": 1
+    },
+    {
+      "name": "TabShape",
+      "category": "/Demangler/QTabWidget",
+      "length": 1
+    },
+    {
+      "name": "TerminatedCString",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "TerminatedUnicode",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "TextElideMode",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "TransformationMode",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "uchar",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "uchar *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "UINT",
+      "category": "/WinDef.h",
+      "length": 4
+    },
+    {
+      "name": "uint",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "ulong",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "ULONG_PTR",
+      "category": "/basetsd.h",
+      "length": 4
+    },
+    {
+      "name": "ULONG_PTR[15]",
+      "category": "/basetsd.h",
+      "length": 60
+    },
+    {
+      "name": "undefined *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "undefined *32",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "undefined1",
+      "category": "/",
+      "length": 1
+    },
+    {
+      "name": "undefined2",
+      "category": "/",
+      "length": 2
+    },
+    {
+      "name": "undefined4",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "undefined5",
+      "category": "/",
+      "length": 5
+    },
+    {
+      "name": "undefined8",
+      "category": "/",
+      "length": 8
+    },
+    {
+      "name": "unicode",
+      "category": "/",
+      "length": -1
+    },
+    {
+      "name": "ushort",
+      "category": "/",
+      "length": 2
+    },
+    {
+      "name": "va_list",
+      "category": "/vadefs.h",
+      "length": 4
+    },
+    {
+      "name": "Var",
+      "category": "/PE",
+      "length": 6
+    },
+    {
+      "name": "VarFileInfo",
+      "category": "/PE",
+      "length": 6
+    },
+    {
+      "name": "void",
+      "category": "/",
+      "length": 0
+    },
+    {
+      "name": "void *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "void * *",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "VS_VERSION_INFO",
+      "category": "/PE",
+      "length": 92
+    },
+    {
+      "name": "WCHAR",
+      "category": "/winnt.h",
+      "length": 2
+    },
+    {
+      "name": "WCHAR *",
+      "category": "/winnt.h",
+      "length": 4
+    },
+    {
+      "name": "wchar_t",
+      "category": "/",
+      "length": 2
+    },
+    {
+      "name": "WindowType",
+      "category": "/Demangler/Qt",
+      "length": 1
+    },
+    {
+      "name": "WORD",
+      "category": "/WinDef.h",
+      "length": 2
+    },
+    {
+      "name": "word",
+      "category": "/",
+      "length": 2
+    },
+    {
+      "name": "word[10]",
+      "category": "/",
+      "length": 20
+    },
+    {
+      "name": "word[2]",
+      "category": "/",
+      "length": 4
+    },
+    {
+      "name": "word[4]",
+      "category": "/",
+      "length": 8
+    }
+  ]
+}

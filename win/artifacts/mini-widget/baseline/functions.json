@@ -1,0 +1,1183 @@
+{
+  "schema_version": 1,
+  "program": "widget.o",
+  "count": 147,
+  "functions": [
+    {
+      "id": "00008140",
+      "name": "Init_All_PHY_KEY_Value",
+      "address": "0x00008140",
+      "signature": "undefined Init_All_PHY_KEY_Value(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00008190",
+      "name": "KB_UpData_SoftWare",
+      "address": "0x00008190",
+      "signature": "undefined KB_UpData_SoftWare(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00008270",
+      "name": "Set_Keyboard_Ver",
+      "address": "0x00008270",
+      "signature": "undefined Set_Keyboard_Ver(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "000090b0",
+      "name": "Display_Opt_Inf",
+      "address": "0x000090b0",
+      "signature": "undefined Display_Opt_Inf(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "000092e0",
+      "name": "onTimeupDestroy",
+      "address": "0x000092e0",
+      "signature": "undefined onTimeupDestroy(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00009380",
+      "name": "Display_Dev_Disconnect",
+      "address": "0x00009380",
+      "signature": "undefined Display_Dev_Disconnect(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00009460",
+      "name": "Display_Dev_Connect",
+      "address": "0x00009460",
+      "signature": "undefined Display_Dev_Connect(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00009540",
+      "name": "HID_write",
+      "address": "0x00009540",
+      "signature": "undefined HID_write(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00009830",
+      "name": "on_confirmButton_clicked",
+      "address": "0x00009830",
+      "signature": "undefined on_confirmButton_clicked(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00009850",
+      "name": "on_clean_DevData",
+      "address": "0x00009850",
+      "signature": "undefined on_clean_DevData(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00009860",
+      "name": "on_CleanALLButton_clicked",
+      "address": "0x00009860",
+      "signature": "undefined on_CleanALLButton_clicked(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000a550",
+      "name": "on_CleanButton_clicked",
+      "address": "0x0000a550",
+      "signature": "undefined on_CleanButton_clicked(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000aa50",
+      "name": "FirstDriveFromMask",
+      "address": "0x0000aa50",
+      "signature": "undefined FirstDriveFromMask(ulong param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000aa80",
+      "name": "Dsp_Select_PHY_KeValue",
+      "address": "0x0000aa80",
+      "signature": "undefined Dsp_Select_PHY_KeValue(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000b760",
+      "name": "Flag_KeyVale_Modify",
+      "address": "0x0000b760",
+      "signature": "undefined Flag_KeyVale_Modify(uchar param_1, uchar param_2)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000b7d0",
+      "name": "Clean_Modify_KeyVale_flag",
+      "address": "0x0000b7d0",
+      "signature": "undefined Clean_Modify_KeyVale_flag(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000b800",
+      "name": "SetBasicKey",
+      "address": "0x0000b800",
+      "signature": "undefined SetBasicKey(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000b920",
+      "name": "SetFunKey",
+      "address": "0x0000b920",
+      "signature": "undefined SetFunKey(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000bab0",
+      "name": "SetMulKey",
+      "address": "0x0000bab0",
+      "signature": "undefined SetMulKey(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000bbe0",
+      "name": "SetRgb_Led_Key",
+      "address": "0x0000bbe0",
+      "signature": "undefined SetRgb_Led_Key(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000bfc0",
+      "name": "SetMousePage",
+      "address": "0x0000bfc0",
+      "signature": "undefined SetMousePage(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000c1e0",
+      "name": "Key_Delay_Page_Opt",
+      "address": "0x0000c1e0",
+      "signature": "undefined Key_Delay_Page_Opt(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000c490",
+      "name": "slotSpinbox_slider",
+      "address": "0x0000c490",
+      "signature": "undefined slotSpinbox_slider(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000c4c0",
+      "name": "slotslider_Spinbox",
+      "address": "0x0000c4c0",
+      "signature": "undefined slotslider_Spinbox(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000c500",
+      "name": "Display_Select_Char",
+      "address": "0x0000c500",
+      "signature": "undefined Display_Select_Char(QString param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000c670",
+      "name": "on_download_clicked",
+      "address": "0x0000c670",
+      "signature": "undefined on_download_clicked(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000c680",
+      "name": "Set_SeleKeyValue",
+      "address": "0x0000c680",
+      "signature": "undefined Set_SeleKeyValue(QString param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000cac0",
+      "name": "Traversal_Key_Txt",
+      "address": "0x0000cac0",
+      "signature": "undefined Traversal_Key_Txt(uchar param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000dc00",
+      "name": "read_Hidkey_Data",
+      "address": "0x0000dc00",
+      "signature": "undefined read_Hidkey_Data(uchar param_1, uchar param_2, uchar param_3)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000e020",
+      "name": "Read_configuration_clicked",
+      "address": "0x0000e020",
+      "signature": "undefined Read_configuration_clicked(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000e050",
+      "name": "SendLayer",
+      "address": "0x0000e050",
+      "signature": "undefined SendLayer(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000e4b0",
+      "name": "PHY_KEY_Sele_Frame",
+      "address": "0x0000e4b0",
+      "signature": "undefined PHY_KEY_Sele_Frame(uchar param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000e6b0",
+      "name": "on_tabWidget_currentChanged",
+      "address": "0x0000e6b0",
+      "signature": "undefined on_tabWidget_currentChanged(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000e7a0",
+      "name": "on_changeButtonGroup",
+      "address": "0x0000e7a0",
+      "signature": "undefined on_changeButtonGroup(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000ea90",
+      "name": "GetAllBasicKey",
+      "address": "0x0000ea90",
+      "signature": "undefined GetAllBasicKey(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000eed0",
+      "name": "InitBasic",
+      "address": "0x0000eed0",
+      "signature": "undefined InitBasic(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000f370",
+      "name": "InitPara",
+      "address": "0x0000f370",
+      "signature": "undefined InitPara(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000f5b0",
+      "name": "eventFilter",
+      "address": "0x0000f5b0",
+      "signature": "undefined eventFilter(QObject * param_1, QEvent * param_2)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0000fe80",
+      "name": "InitBasicEn",
+      "address": "0x0000fe80",
+      "signature": "undefined InitBasicEn(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00010320",
+      "name": "~Widget",
+      "address": "0x00010320",
+      "signature": "undefined ~Widget(Widget * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00010780",
+      "name": "~Widget",
+      "address": "0x00010780",
+      "signature": "undefined ~Widget(Widget * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00010790",
+      "name": "~Widget",
+      "address": "0x00010790",
+      "signature": "undefined ~Widget(Widget * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "000107b0",
+      "name": "~Widget",
+      "address": "0x000107b0",
+      "signature": "undefined ~Widget(Widget * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "000107c0",
+      "name": "Set_Keyboard_0add1",
+      "address": "0x000107c0",
+      "signature": "undefined Set_Keyboard_0add1(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00011ee0",
+      "name": "Set_Keyboard_0add2",
+      "address": "0x00011ee0",
+      "signature": "undefined Set_Keyboard_0add2(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00013a00",
+      "name": "Set_Keyboard_0add3",
+      "address": "0x00013a00",
+      "signature": "undefined Set_Keyboard_0add3(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00015d50",
+      "name": "Set_Keyboard_1add0",
+      "address": "0x00015d50",
+      "signature": "undefined Set_Keyboard_1add0(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "000163a0",
+      "name": "Set_Keyboard_2add0",
+      "address": "0x000163a0",
+      "signature": "undefined Set_Keyboard_2add0(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00016ee0",
+      "name": "Set_Keyboard_3add0",
+      "address": "0x00016ee0",
+      "signature": "undefined Set_Keyboard_3add0(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00017df0",
+      "name": "Set_Keyboard_3add1",
+      "address": "0x00017df0",
+      "signature": "undefined Set_Keyboard_3add1(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00019890",
+      "name": "Set_Keyboard_4Key",
+      "address": "0x00019890",
+      "signature": "undefined Set_Keyboard_4Key(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0001ac80",
+      "name": "Set_Keyboard_4add1",
+      "address": "0x0001ac80",
+      "signature": "undefined Set_Keyboard_4add1(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0001c810",
+      "name": "Set_Keyboard_4add2",
+      "address": "0x0001c810",
+      "signature": "undefined Set_Keyboard_4add2(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0001e500",
+      "name": "Set_Keyboard_4add3",
+      "address": "0x0001e500",
+      "signature": "undefined Set_Keyboard_4add3(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00021520",
+      "name": "Set_Keyboard_5Key_Mute",
+      "address": "0x00021520",
+      "signature": "undefined Set_Keyboard_5Key_Mute(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00022c80",
+      "name": "Set_Keyboard_6Key",
+      "address": "0x00022c80",
+      "signature": "undefined Set_Keyboard_6Key(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "000248b0",
+      "name": "Set_Keyboard_6add1",
+      "address": "0x000248b0",
+      "signature": "undefined Set_Keyboard_6add1(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00026d20",
+      "name": "Set_Keyboard_6add2_Lan_KD",
+      "address": "0x00026d20",
+      "signature": "undefined Set_Keyboard_6add2_Lan_KD(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00029c90",
+      "name": "Set_Keyboard_6add2",
+      "address": "0x00029c90",
+      "signature": "undefined Set_Keyboard_6add2(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0002ca20",
+      "name": "Set_Keyboard_9add2",
+      "address": "0x0002ca20",
+      "signature": "undefined Set_Keyboard_9add2(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "000302b0",
+      "name": "Set_Keyboard_9add3",
+      "address": "0x000302b0",
+      "signature": "undefined Set_Keyboard_9add3(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00034570",
+      "name": "Set_Keyboard_12add2",
+      "address": "0x00034570",
+      "signature": "undefined Set_Keyboard_12add2(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00038940",
+      "name": "Set_Keyboard_11add3",
+      "address": "0x00038940",
+      "signature": "undefined Set_Keyboard_11add3(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0003d4b0",
+      "name": "Set_Keyboard_12add3",
+      "address": "0x0003d4b0",
+      "signature": "undefined Set_Keyboard_12add3(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00042280",
+      "name": "Set_Keyboard_12add4_Lan",
+      "address": "0x00042280",
+      "signature": "undefined Set_Keyboard_12add4_Lan(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00047b00",
+      "name": "Set_Keyboard_12add4",
+      "address": "0x00047b00",
+      "signature": "undefined Set_Keyboard_12add4(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0004d340",
+      "name": "Set_Keyboard_15add3",
+      "address": "0x0004d340",
+      "signature": "undefined Set_Keyboard_15add3(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00052c40",
+      "name": "Set_Keyboard_16add0",
+      "address": "0x00052c40",
+      "signature": "undefined Set_Keyboard_16add0(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00056af0",
+      "name": "Set_Keyboard_21add1",
+      "address": "0x00056af0",
+      "signature": "undefined Set_Keyboard_21add1(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0005c7b0",
+      "name": "Identify_KeyBoard_style",
+      "address": "0x0005c7b0",
+      "signature": "undefined Identify_KeyBoard_style(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0005ca90",
+      "name": "resizeEvent",
+      "address": "0x0005ca90",
+      "signature": "undefined resizeEvent(QResizeEvent * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0005d3e0",
+      "name": "Read_KeyBoard_KeyNum",
+      "address": "0x0005d3e0",
+      "signature": "undefined Read_KeyBoard_KeyNum(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0005d620",
+      "name": "Set_Keyboard_Ver_SLOT",
+      "address": "0x0005d620",
+      "signature": "undefined Set_Keyboard_Ver_SLOT(int param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0005d880",
+      "name": "timeoutSlot",
+      "address": "0x0005d880",
+      "signature": "undefined timeoutSlot(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0005daf0",
+      "name": "on_change_clicked",
+      "address": "0x0005daf0",
+      "signature": "undefined on_change_clicked(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0005def0",
+      "name": "Widget",
+      "address": "0x0005def0",
+      "signature": "undefined Widget(Widget * this, QWidget * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00063300",
+      "name": "drawControl",
+      "address": "0x00063300",
+      "signature": "undefined drawControl(ControlElement param_1, QStyleOption * param_2, QPainter * param_3, QWidget * param_4)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00065a00",
+      "name": "QString",
+      "address": "0x00065a00",
+      "signature": "undefined QString(QString * this, char * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00066100",
+      "name": "~QString",
+      "address": "0x00066100",
+      "signature": "undefined ~QString(QString * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00066700",
+      "name": "operator+\u003d",
+      "address": "0x00066700",
+      "signature": "undefined operator+\u003d(QString * this, char * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0006f900",
+      "name": "operator+",
+      "address": "0x0006f900",
+      "signature": "undefined operator+(QString * param_1, char * param_2)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "0006fa00",
+      "name": "retranslateUi",
+      "address": "0x0006fa00",
+      "signature": "undefined retranslateUi(QWidget * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00075400",
+      "name": "setupUi",
+      "address": "0x00075400",
+      "signature": "undefined setupUi(QWidget * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00090800",
+      "name": "~CustomTabStyle",
+      "address": "0x00090800",
+      "signature": "undefined ~CustomTabStyle(CustomTabStyle * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00090900",
+      "name": "~QList",
+      "address": "0x00090900",
+      "signature": "undefined ~QList(QList\u003cQString\u003e * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00090a00",
+      "name": "~QList",
+      "address": "0x00090a00",
+      "signature": "undefined ~QList(QList\u003cQPushButton*\u003e * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00090b00",
+      "name": "~CustomTabStyle",
+      "address": "0x00090b00",
+      "signature": "undefined ~CustomTabStyle(CustomTabStyle * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00090c00",
+      "name": "findNode",
+      "address": "0x00090c00",
+      "signature": "undefined findNode(QString * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00090d00",
+      "name": "destroySubTree",
+      "address": "0x00090d00",
+      "signature": "undefined destroySubTree(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00091200",
+      "name": "destroy",
+      "address": "0x00091200",
+      "signature": "undefined destroy(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00094400",
+      "name": "~QMap",
+      "address": "0x00094400",
+      "signature": "undefined ~QMap(QMap\u003cQString,int\u003e * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00094500",
+      "name": "destroySubTree",
+      "address": "0x00094500",
+      "signature": "undefined destroySubTree(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00094a00",
+      "name": "impl",
+      "address": "0x00094a00",
+      "signature": "undefined impl(int param_1, QSlotObjectBase * param_2, QObject * param_3, void * * param_4, bool * param_5)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00094b00",
+      "name": "destroy",
+      "address": "0x00094b00",
+      "signature": "undefined destroy(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00097d00",
+      "name": "~QMap",
+      "address": "0x00097d00",
+      "signature": "undefined ~QMap(QMap\u003cQString,unsigned_char\u003e * this)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00097e00",
+      "name": "copy",
+      "address": "0x00097e00",
+      "signature": "undefined copy(QMapData * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00097f00",
+      "name": "detach_helper",
+      "address": "0x00097f00",
+      "signature": "undefined detach_helper(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00098000",
+      "name": "copy",
+      "address": "0x00098000",
+      "signature": "undefined copy(QMapData * param_1)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00098100",
+      "name": "detach_helper",
+      "address": "0x00098100",
+      "signature": "undefined detach_helper(void)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00098300",
+      "name": "sizeFromContents",
+      "address": "0x00098300",
+      "signature": "undefined sizeFromContents(ContentsType param_1, QStyleOption * param_2, QSize * param_3, QWidget * param_4)",
+      "thunk": false,
+      "external": false
+    },
+    {
+      "id": "00099918",
+      "name": "operator.delete",
+      "address": "0x00099918",
+      "signature": "void operator.delete(void * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099920",
+      "name": "_strlen",
+      "address": "0x00099920",
+      "signature": "size_t _strlen(char * __s)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099930",
+      "name": "operator.new",
+      "address": "0x00099930",
+      "signature": "void * operator.new(uint param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099938",
+      "name": "_hid_write",
+      "address": "0x00099938",
+      "signature": "undefined _hid_write()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099940",
+      "name": "_hid_error",
+      "address": "0x00099940",
+      "signature": "undefined _hid_error()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099948",
+      "name": "_hid_read",
+      "address": "0x00099948",
+      "signature": "undefined _hid_read()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099950",
+      "name": "_hid_set_nonblocking",
+      "address": "0x00099950",
+      "signature": "undefined _hid_set_nonblocking()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099958",
+      "name": "_atexit",
+      "address": "0x00099958",
+      "signature": "int _atexit(__func * __func)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099960",
+      "name": "Set_Dsp_Kb_Size",
+      "address": "0x00099960",
+      "signature": "undefined Set_Dsp_Kb_Size(void)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099968",
+      "name": "_hid_read_timeout",
+      "address": "0x00099968",
+      "signature": "undefined _hid_read_timeout()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099970",
+      "name": "_hid_enumerate",
+      "address": "0x00099970",
+      "signature": "undefined _hid_enumerate()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099978",
+      "name": "_hid_free_enumeration",
+      "address": "0x00099978",
+      "signature": "undefined _hid_free_enumeration()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099980",
+      "name": "_hid_close",
+      "address": "0x00099980",
+      "signature": "undefined _hid_close()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099988",
+      "name": "_hid_exit",
+      "address": "0x00099988",
+      "signature": "undefined _hid_exit()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099990",
+      "name": "_hid_open_path",
+      "address": "0x00099990",
+      "signature": "undefined _hid_open_path()",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099998",
+      "name": "Dialog1",
+      "address": "0x00099998",
+      "signature": "undefined Dialog1(Dialog1 * this, QWidget * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999a0",
+      "name": "metaObject",
+      "address": "0x000999a0",
+      "signature": "undefined metaObject(void)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999a8",
+      "name": "qt_metacast",
+      "address": "0x000999a8",
+      "signature": "undefined qt_metacast(char * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999b0",
+      "name": "qt_metacall",
+      "address": "0x000999b0",
+      "signature": "undefined qt_metacall(Call param_1, int param_2, void * * param_3)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999b8",
+      "name": "event",
+      "address": "0x000999b8",
+      "signature": "undefined event(QEvent * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999c0",
+      "name": "eventFilter",
+      "address": "0x000999c0",
+      "signature": "undefined eventFilter(QObject * param_1, QEvent * param_2)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999c8",
+      "name": "timerEvent",
+      "address": "0x000999c8",
+      "signature": "undefined timerEvent(QTimerEvent * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999d0",
+      "name": "childEvent",
+      "address": "0x000999d0",
+      "signature": "undefined childEvent(QChildEvent * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999d8",
+      "name": "customEvent",
+      "address": "0x000999d8",
+      "signature": "undefined customEvent(QEvent * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999e0",
+      "name": "connectNotify",
+      "address": "0x000999e0",
+      "signature": "undefined connectNotify(QMetaMethod * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999e8",
+      "name": "disconnectNotify",
+      "address": "0x000999e8",
+      "signature": "undefined disconnectNotify(QMetaMethod * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999f0",
+      "name": "polish",
+      "address": "0x000999f0",
+      "signature": "undefined polish(QWidget * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "000999f8",
+      "name": "unpolish",
+      "address": "0x000999f8",
+      "signature": "undefined unpolish(QWidget * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a00",
+      "name": "polish",
+      "address": "0x00099a00",
+      "signature": "undefined polish(QApplication * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a08",
+      "name": "unpolish",
+      "address": "0x00099a08",
+      "signature": "undefined unpolish(QApplication * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a10",
+      "name": "polish",
+      "address": "0x00099a10",
+      "signature": "undefined polish(QPalette * param_1)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a18",
+      "name": "itemTextRect",
+      "address": "0x00099a18",
+      "signature": "undefined itemTextRect(QFontMetrics * param_1, QRect * param_2, int param_3, bool param_4, QString * param_5)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a20",
+      "name": "itemPixmapRect",
+      "address": "0x00099a20",
+      "signature": "undefined itemPixmapRect(QRect * param_1, int param_2, QPixmap * param_3)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a28",
+      "name": "drawItemText",
+      "address": "0x00099a28",
+      "signature": "undefined drawItemText(QPainter * param_1, QRect * param_2, int param_3, QPalette * param_4, bool param_5, QString * param_6, ColorRole param_7)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a30",
+      "name": "drawItemPixmap",
+      "address": "0x00099a30",
+      "signature": "undefined drawItemPixmap(QPainter * param_1, QRect * param_2, int param_3, QPixmap * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a38",
+      "name": "standardPalette",
+      "address": "0x00099a38",
+      "signature": "undefined standardPalette(void)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a40",
+      "name": "drawPrimitive",
+      "address": "0x00099a40",
+      "signature": "undefined drawPrimitive(PrimitiveElement param_1, QStyleOption * param_2, QPainter * param_3, QWidget * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a48",
+      "name": "subElementRect",
+      "address": "0x00099a48",
+      "signature": "undefined subElementRect(SubElement param_1, QStyleOption * param_2, QWidget * param_3)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a50",
+      "name": "drawComplexControl",
+      "address": "0x00099a50",
+      "signature": "undefined drawComplexControl(ComplexControl param_1, QStyleOptionComplex * param_2, QPainter * param_3, QWidget * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a58",
+      "name": "hitTestComplexControl",
+      "address": "0x00099a58",
+      "signature": "undefined hitTestComplexControl(ComplexControl param_1, QStyleOptionComplex * param_2, QPoint * param_3, QWidget * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a60",
+      "name": "subControlRect",
+      "address": "0x00099a60",
+      "signature": "undefined subControlRect(ComplexControl param_1, QStyleOptionComplex * param_2, SubControl param_3, QWidget * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a68",
+      "name": "pixelMetric",
+      "address": "0x00099a68",
+      "signature": "undefined pixelMetric(PixelMetric param_1, QStyleOption * param_2, QWidget * param_3)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a70",
+      "name": "styleHint",
+      "address": "0x00099a70",
+      "signature": "undefined styleHint(StyleHint param_1, QStyleOption * param_2, QWidget * param_3, QStyleHintReturn * param_4)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a78",
+      "name": "standardPixmap",
+      "address": "0x00099a78",
+      "signature": "undefined standardPixmap(StandardPixmap param_1, QStyleOption * param_2, QWidget * param_3)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a80",
+      "name": "standardIcon",
+      "address": "0x00099a80",
+      "signature": "undefined standardIcon(StandardPixmap param_1, QStyleOption * param_2, QWidget * param_3)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a88",
+      "name": "generatedIconPixmap",
+      "address": "0x00099a88",
+      "signature": "undefined generatedIconPixmap(Mode param_1, QPixmap * param_2, QStyleOption * param_3)",
+      "thunk": true,
+      "external": false
+    },
+    {
+      "id": "00099a90",
+      "name": "layoutSpacing",
+      "address": "0x00099a90",
+      "signature": "undefined layoutSpacing(ControlType param_1, ControlType param_2, Orientation param_3, QStyleOption * param_4, QWidget * param_5)",
+      "thunk": true,
+      "external": false
+    }
+  ]
+}

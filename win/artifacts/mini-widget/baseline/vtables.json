@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "program": "widget.o",
+  "count": 4,
+  "vtables": [
+    {
+      "name": "vtable",
+      "address": "0x00064000",
+      "namespace": "CustomTabStyle"
+    },
+    {
+      "name": "vtable",
+      "address": "0x000997a8",
+      "namespace": "Widget"
+    },
+    {
+      "name": "vtable",
+      "address": "0x00099908",
+      "namespace": "__cxxabiv1::__class_type_info"
+    },
+    {
+      "name": "vtable",
+      "address": "0x00099910",
+      "namespace": "__cxxabiv1::__si_class_type_info"
+    }
+  ]
+}

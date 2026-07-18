@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>br.com.quantmind.MiniKeyboard</id>
+  <name>Mini Keyboard</name>
+  <summary>Native Linux programmer for USB mini macro keyboards</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer_name>Quantmind</developer_name>
+  <description>
+    <p>
+      Mini Keyboard is a native Linux application for discovering, reading,
+      editing, and writing configurations on supported USB mini macro keyboards.
+      It uses GTK 4, libadwaita, and hidapi without Wine or Windows binaries.
+    </p>
+    <p>
+      Write operations stay gated until protocol mappings are verified against
+      hardware capture vectors. Unknown device variants open in read-only mode.
+    </p>
+  </description>
+  <launchable type="desktop-id">br.com.quantmind.MiniKeyboard.desktop</launchable>
+  <url type="homepage">https://github.com/quantmind/minikeyboard</url>
+  <provides>
+    <binary>minikeyboard</binary>
+  </provides>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <recommends>
+    <control>touch</control>
+  </recommends>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-07-16">
+      <description>
+        <p>Initial native Linux release scaffold with capability-gated protocol.</p>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -1,0 +1,14 @@
+option(
+  'profile',
+  type: 'combo',
+  choices: ['release', 'debug'],
+  value: 'release',
+  description: 'Cargo build profile',
+)
+
+option(
+  'udevdir',
+  type: 'string',
+  value: '/usr/lib/udev',
+  description: 'udev rules install root (rules.d appended)',
+)

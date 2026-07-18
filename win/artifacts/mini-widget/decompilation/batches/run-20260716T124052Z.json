@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "target_id": "mini-widget",
+  "source": "decompile",
+  "observed_at": "2026-07-16T12:41:09Z",
+  "run_id": "run-20260716T124052Z",
+  "succeeded": 8,
+  "failed": 0,
+  "skipped": 0,
+  "total": 8,
+  "results": [
+    {
+      "fn_id": "fn_0005daf0",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0005daf0/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0005daf0/record.json"
+    },
+    {
+      "fn_id": "fn_0005d880",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0005d880/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0005d880/record.json"
+    },
+    {
+      "fn_id": "fn_0005c7b0",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0005c7b0/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0005c7b0/record.json"
+    },
+    {
+      "fn_id": "fn_0000cac0",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000cac0/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000cac0/record.json"
+    },
+    {
+      "fn_id": "fn_0000c670",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000c670/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000c670/record.json"
+    },
+    {
+      "fn_id": "fn_00009860",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_00009860/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_00009860/record.json"
+    },
+    {
+      "fn_id": "fn_0000a550",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000a550/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000a550/record.json"
+    },
+    {
+      "fn_id": "fn_0000c1e0",
+      "status": "succeeded",
+      "source": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000c1e0/source.c",
+      "record": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/decompilation/functions/fn_0000c1e0/record.json"
+    }
+  ]
+}

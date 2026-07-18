@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "timeoutSlot",
+  "address": "0x0005d880",
+  "signature": "undefined timeoutSlot(void)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

@@ -1,0 +1,1803 @@
+{
+  "schema_version": 1,
+  "program": "widget.o",
+  "count": 449,
+  "strings": [
+    {
+      "address": "0x00004700",
+      "value": "MINI_KEYBOARD"
+    },
+    {
+      "address": "0x0000470e",
+      "value": "Widget"
+    },
+    {
+      "address": "0x0000471a",
+      "value": "English"
+    },
+    {
+      "address": "0x00004739",
+      "value": "Space"
+    },
+    {
+      "address": "0x000047bf",
+      "value": "Caps Lock"
+    },
+    {
+      "address": "0x000047c9",
+      "value": "ENTER"
+    },
+    {
+      "address": "0x00004817",
+      "value": "Scroll\nLock"
+    },
+    {
+      "address": "0x0000482f",
+      "value": "Insert"
+    },
+    {
+      "address": "0x0000483a",
+      "value": "Delete"
+    },
+    {
+      "address": "0x0000484e",
+      "value": "Page\nDown"
+    },
+    {
+      "address": "0x00004858",
+      "value": "Pause\nBreak"
+    },
+    {
+      "address": "0x00004867",
+      "value": "Back\nspace"
+    },
+    {
+      "address": "0x00004876",
+      "value": "NumLock"
+    },
+    {
+      "address": "0x0000487e",
+      "value": "Enter"
+    },
+    {
+      "address": "0x000048d5",
+      "value": "Right Shift+"
+    },
+    {
+      "address": "0x000048e2",
+      "value": "Right Alt+"
+    },
+    {
+      "address": "0x000048ed",
+      "value": "Right Ctrl+"
+    },
+    {
+      "address": "0x000048f9",
+      "value": "Right Win+"
+    },
+    {
+      "address": "0x00004960",
+      "value": "command"
+    },
+    {
+      "address": "0x0000498a",
+      "value": "option"
+    },
+    {
+      "address": "0x00004991",
+      "value": "control"
+    },
+    {
+      "address": "0x00004999",
+      "value": "Right option"
+    },
+    {
+      "address": "0x000049a6",
+      "value": "Right command"
+    },
+    {
+      "address": "0x000049c4",
+      "value": "Ctrl Shift Alt"
+    },
+    {
+      "address": "0x00004c48",
+      "value": "TextLabel"
+    },
+    {
+      "address": "0x00004c78",
+      "value": "background-color: rgb(30, 30, 30);"
+    },
+    {
+      "address": "0x00004c9b",
+      "value": "pushButton_K1"
+    },
+    {
+      "address": "0x00004cb8",
+      "value": "QPushButton{\n    color: #FFFFFF;\n    background-color: rgba(67, 67, 67);\n} \n"
+    },
+    {
+      "address": "0x00004d05",
+      "value": "change"
+    },
+    {
+      "address": "0x00004d0c",
+      "value": "pushButton_K2"
+    },
+    {
+      "address": "0x00004d1c",
+      "value": "QPushButton{\n    color: #FFFFFF;\n} "
+    },
+    {
+      "address": "0x00004d40",
+      "value": "pushButton_K5"
+    },
+    {
+      "address": "0x00004d4e",
+      "value": "pushButton_K6"
+    },
+    {
+      "address": "0x00004d5c",
+      "value": "pushButton_K14"
+    },
+    {
+      "address": "0x00004d6b",
+      "value": "pushButton_K7"
+    },
+    {
+      "address": "0x00004d79",
+      "value": "pushButton_K9"
+    },
+    {
+      "address": "0x00004d87",
+      "value": "pushButton_K10"
+    },
+    {
+      "address": "0x00004d96",
+      "value": "pushButton_K13"
+    },
+    {
+      "address": "0x00004da5",
+      "value": "pushButton_K11"
+    },
+    {
+      "address": "0x00004db4",
+      "value": "pushButton_K12"
+    },
+    {
+      "address": "0x00004dc3",
+      "value": "pushButton_K8"
+    },
+    {
+      "address": "0x00004dd1",
+      "value": "pushButton_K4"
+    },
+    {
+      "address": "0x00004ddf",
+      "value": "pushButton_K3"
+    },
+    {
+      "address": "0x00004ded",
+      "value": "pushButton_K15"
+    },
+    {
+      "address": "0x00004dfc",
+      "value": "tabWidget"
+    },
+    {
+      "address": "0x00004fde",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x00005050",
+      "value": "QWidget{\n\tbackground-color: rgb(36, 36, 36);\n}"
+    },
+    {
+      "address": "0x0000507f",
+      "value": "gridLayout_11"
+    },
+    {
+      "address": "0x0000508d",
+      "value": "horizontalLayout_17"
+    },
+    {
+      "address": "0x000050a1",
+      "value": "pushButton_Ctrl"
+    },
+    {
+      "address": "0x0000529f",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x0000530b",
+      "value": "pushButton_Shift"
+    },
+    {
+      "address": "0x0000531c",
+      "value": "pushButton_Win"
+    },
+    {
+      "address": "0x0000532b",
+      "value": "pushButton_Alt"
+    },
+    {
+      "address": "0x0000533a",
+      "value": "pushButton_Space"
+    },
+    {
+      "address": "0x0000534b",
+      "value": "pushButton_ADD"
+    },
+    {
+      "address": "0x0000535a",
+      "value": "pushButton_SUB"
+    },
+    {
+      "address": "0x00005369",
+      "value": "pushButton_MUL"
+    },
+    {
+      "address": "0x00005378",
+      "value": "pushButton_DIV"
+    },
+    {
+      "address": "0x00005387",
+      "value": "pushButton_DeWen1"
+    },
+    {
+      "address": "0x00005399",
+      "value": "horizontalLayout_13"
+    },
+    {
+      "address": "0x000053ad",
+      "value": "pushButton_20"
+    },
+    {
+      "address": "0x000053bb",
+      "value": "pushButton_NUM1"
+    },
+    {
+      "address": "0x000053cb",
+      "value": "pushButton_NUM2"
+    },
+    {
+      "address": "0x000053db",
+      "value": "pushButton_NUM3"
+    },
+    {
+      "address": "0x000053eb",
+      "value": "pushButton_NUM4"
+    },
+    {
+      "address": "0x000053fb",
+      "value": "pushButton_NUM5"
+    },
+    {
+      "address": "0x0000540b",
+      "value": "pushButton_NUM6"
+    },
+    {
+      "address": "0x0000541b",
+      "value": "pushButton_NUM7"
+    },
+    {
+      "address": "0x0000542b",
+      "value": "pushButton_NUM8"
+    },
+    {
+      "address": "0x0000543b",
+      "value": "pushButton_NUM9"
+    },
+    {
+      "address": "0x0000544b",
+      "value": "pushButton_NUM0"
+    },
+    {
+      "address": "0x0000545b",
+      "value": "pushButton_SubUnd"
+    },
+    {
+      "address": "0x0000546d",
+      "value": "pushButton_EqAdd"
+    },
+    {
+      "address": "0x0000547e",
+      "value": "pushButton_ArrowsUp"
+    },
+    {
+      "address": "0x00005492",
+      "value": "horizontalLayout_15"
+    },
+    {
+      "address": "0x000054a6",
+      "value": "pushButton_N"
+    },
+    {
+      "address": "0x000054b3",
+      "value": "pushButton_O"
+    },
+    {
+      "address": "0x000054c0",
+      "value": "pushButton_P"
+    },
+    {
+      "address": "0x000054cd",
+      "value": "pushButton_Q"
+    },
+    {
+      "address": "0x000054da",
+      "value": "pushButton_R"
+    },
+    {
+      "address": "0x000054e7",
+      "value": "pushButton_S"
+    },
+    {
+      "address": "0x000054f4",
+      "value": "pushButton_T"
+    },
+    {
+      "address": "0x00005501",
+      "value": "pushButton_U"
+    },
+    {
+      "address": "0x0000550e",
+      "value": "pushButton_V"
+    },
+    {
+      "address": "0x0000551b",
+      "value": "pushButton_W"
+    },
+    {
+      "address": "0x00005528",
+      "value": "pushButton_X"
+    },
+    {
+      "address": "0x00005535",
+      "value": "pushButton_Y"
+    },
+    {
+      "address": "0x00005542",
+      "value": "pushButton_Z"
+    },
+    {
+      "address": "0x0000554f",
+      "value": "pushButton_App"
+    },
+    {
+      "address": "0x0000555e",
+      "value": "horizontalLayout_14"
+    },
+    {
+      "address": "0x00005572",
+      "value": "pushButton_A"
+    },
+    {
+      "address": "0x0000557f",
+      "value": "pushButton_B"
+    },
+    {
+      "address": "0x0000558c",
+      "value": "pushButton_C"
+    },
+    {
+      "address": "0x00005599",
+      "value": "pushButton_D"
+    },
+    {
+      "address": "0x000055a6",
+      "value": "pushButton_E"
+    },
+    {
+      "address": "0x000055b3",
+      "value": "pushButton_F"
+    },
+    {
+      "address": "0x000055c0",
+      "value": "pushButton_G"
+    },
+    {
+      "address": "0x000055cd",
+      "value": "pushButton_H"
+    },
+    {
+      "address": "0x000055da",
+      "value": "pushButton_I"
+    },
+    {
+      "address": "0x000055e7",
+      "value": "pushButton_J"
+    },
+    {
+      "address": "0x000055f4",
+      "value": "pushButton_K"
+    },
+    {
+      "address": "0x00005601",
+      "value": "pushButton_L"
+    },
+    {
+      "address": "0x0000560e",
+      "value": "pushButton_M"
+    },
+    {
+      "address": "0x0000561b",
+      "value": "pushButton_ArrowsDown"
+    },
+    {
+      "address": "0x00005631",
+      "value": "horizontalLayout_16"
+    },
+    {
+      "address": "0x00005645",
+      "value": "pushButton_TAB"
+    },
+    {
+      "address": "0x00005654",
+      "value": "pushButton_CapsLock"
+    },
+    {
+      "address": "0x00005668",
+      "value": "pushButton_Enter"
+    },
+    {
+      "address": "0x00005679",
+      "value": "pushButton_LZ_bracket"
+    },
+    {
+      "address": "0x0000568f",
+      "value": "pushButton_RZ_bracket"
+    },
+    {
+      "address": "0x000056a5",
+      "value": "pushButton_backslash"
+    },
+    {
+      "address": "0x000056ba",
+      "value": "pushButton_SemDwu"
+    },
+    {
+      "address": "0x000056cc",
+      "value": "pushButton_Sd_Quo"
+    },
+    {
+      "address": "0x000056de",
+      "value": "pushButton_ComLAngBra"
+    },
+    {
+      "address": "0x000056f4",
+      "value": "pushButton_FullRAngBra"
+    },
+    {
+      "address": "0x0000570b",
+      "value": "pushButton_SlashW"
+    },
+    {
+      "address": "0x0000571d",
+      "value": "horizontalLayout_11"
+    },
+    {
+      "address": "0x00005731",
+      "value": "pushButton_ESC"
+    },
+    {
+      "address": "0x0000592c",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x00005998",
+      "value": "pushButton_F1"
+    },
+    {
+      "address": "0x000059a6",
+      "value": "pushButton_F2"
+    },
+    {
+      "address": "0x000059b4",
+      "value": "pushButton_F3"
+    },
+    {
+      "address": "0x000059c2",
+      "value": "pushButton_F4"
+    },
+    {
+      "address": "0x000059d0",
+      "value": "pushButton_F5"
+    },
+    {
+      "address": "0x000059de",
+      "value": "pushButton_F6"
+    },
+    {
+      "address": "0x000059ec",
+      "value": "pushButton_F7"
+    },
+    {
+      "address": "0x000059fa",
+      "value": "pushButton_F8"
+    },
+    {
+      "address": "0x00005a08",
+      "value": "pushButton_F9"
+    },
+    {
+      "address": "0x00005a16",
+      "value": "pushButton_F10"
+    },
+    {
+      "address": "0x00005a25",
+      "value": "pushButton_F11"
+    },
+    {
+      "address": "0x00005a34",
+      "value": "pushButton_F12"
+    },
+    {
+      "address": "0x00005a43",
+      "value": "pushButton_ArrowsLeft"
+    },
+    {
+      "address": "0x00005a59",
+      "value": "horizontalLayout_12"
+    },
+    {
+      "address": "0x00005a6d",
+      "value": "pushButton_ScrLock"
+    },
+    {
+      "address": "0x00005a80",
+      "value": "pushButton_PrtScSysRq"
+    },
+    {
+      "address": "0x00005a96",
+      "value": "pushButton_Insert"
+    },
+    {
+      "address": "0x00005aa8",
+      "value": "pushButton_End"
+    },
+    {
+      "address": "0x00005ab7",
+      "value": "pushButton_Delete"
+    },
+    {
+      "address": "0x00005ac9",
+      "value": "pushButton_Home"
+    },
+    {
+      "address": "0x00005ad9",
+      "value": "pushButton_PageUp"
+    },
+    {
+      "address": "0x00005aeb",
+      "value": "pushButton_PageDown"
+    },
+    {
+      "address": "0x00005aff",
+      "value": "pushButton_Pause"
+    },
+    {
+      "address": "0x00005b10",
+      "value": "pushButton_Backspace"
+    },
+    {
+      "address": "0x00005b25",
+      "value": "pushButton_ArrowsRight"
+    },
+    {
+      "address": "0x00005b3c",
+      "value": "horizontalLayout_18"
+    },
+    {
+      "address": "0x00005b50",
+      "value": "pushButton_NumLock"
+    },
+    {
+      "address": "0x00005b63",
+      "value": "pushButton_Enter_2"
+    },
+    {
+      "address": "0x00005b76",
+      "value": "pushButton_M_NUM1"
+    },
+    {
+      "address": "0x00005b88",
+      "value": "pushButton_M_NUM2"
+    },
+    {
+      "address": "0x00005b9a",
+      "value": "pushButton_M_NUM3"
+    },
+    {
+      "address": "0x00005bac",
+      "value": "pushButton_M_NUM4"
+    },
+    {
+      "address": "0x00005bbe",
+      "value": "pushButton_M_NUM5"
+    },
+    {
+      "address": "0x00005bd0",
+      "value": "pushButton_M_NUM6"
+    },
+    {
+      "address": "0x00005be2",
+      "value": "pushButton_M_NUM7"
+    },
+    {
+      "address": "0x00005bf4",
+      "value": "pushButton_M_NUM8"
+    },
+    {
+      "address": "0x00005c06",
+      "value": "pushButton_M_NUM9"
+    },
+    {
+      "address": "0x00005c18",
+      "value": "pushButton_M_NUM0"
+    },
+    {
+      "address": "0x00005c2a",
+      "value": "pushButton_M_NUM_Dot"
+    },
+    {
+      "address": "0x00005c3f",
+      "value": "pushButton_NULL"
+    },
+    {
+      "address": "0x00005c54",
+      "value": "gridLayout_4"
+    },
+    {
+      "address": "0x00005c61",
+      "value": "horizontalLayout_7"
+    },
+    {
+      "address": "0x00005c74",
+      "value": "ShiftWina"
+    },
+    {
+      "address": "0x00005c7e",
+      "value": "AltShifta"
+    },
+    {
+      "address": "0x00005c88",
+      "value": "CtrlShifta"
+    },
+    {
+      "address": "0x00005c93",
+      "value": "CtrlAlta"
+    },
+    {
+      "address": "0x00005c9c",
+      "value": "horizontalLayout_5"
+    },
+    {
+      "address": "0x00005caf",
+      "value": "RightShifta"
+    },
+    {
+      "address": "0x00005cbb",
+      "value": "RightAlta"
+    },
+    {
+      "address": "0x00005cc5",
+      "value": "RightCtrla"
+    },
+    {
+      "address": "0x00005cd0",
+      "value": "RightWina"
+    },
+    {
+      "address": "0x00005cda",
+      "value": "horizontalLayout_21"
+    },
+    {
+      "address": "0x00005d18",
+      "value": "horizontalLayout_22"
+    },
+    {
+      "address": "0x00005d64",
+      "value": "horizontalLayout_2"
+    },
+    {
+      "address": "0x00005d7c",
+      "value": "Shifta"
+    },
+    {
+      "address": "0x00005d8e",
+      "value": "horizontalLayout_8"
+    },
+    {
+      "address": "0x00005da1",
+      "value": "CtrlAltShiftWin"
+    },
+    {
+      "address": "0x00005db1",
+      "value": "CtrlAltWina"
+    },
+    {
+      "address": "0x00005dbd",
+      "value": "CtrlShiftAlta"
+    },
+    {
+      "address": "0x00005dcb",
+      "value": "CtrlAlta_4"
+    },
+    {
+      "address": "0x00005dd6",
+      "value": "horizontalLayout_23"
+    },
+    {
+      "address": "0x00005e16",
+      "value": "horizontalLayout_19"
+    },
+    {
+      "address": "0x00005e54",
+      "value": "horizontalLayout_9"
+    },
+    {
+      "address": "0x00005e67",
+      "value": "CtrlAlta_3"
+    },
+    {
+      "address": "0x00005e72",
+      "value": "CtrlAlta_2"
+    },
+    {
+      "address": "0x00005e7d",
+      "value": "CtrlAlta_6"
+    },
+    {
+      "address": "0x00005e88",
+      "value": "CtrlAlta_5"
+    },
+    {
+      "address": "0x00005e93",
+      "value": "horizontalLayout_20"
+    },
+    {
+      "address": "0x00005ed6",
+      "value": "gridLayout_6"
+    },
+    {
+      "address": "0x00005ee3",
+      "value": "horizontalLayout_10"
+    },
+    {
+      "address": "0x00005ef7",
+      "value": "after"
+    },
+    {
+      "address": "0x00005efd",
+      "value": "volminus_5"
+    },
+    {
+      "address": "0x00005f08",
+      "value": "before"
+    },
+    {
+      "address": "0x00005f0f",
+      "value": "start_pause"
+    },
+    {
+      "address": "0x00005f1b",
+      "value": "volminus_11"
+    },
+    {
+      "address": "0x00005f27",
+      "value": "volminus_2"
+    },
+    {
+      "address": "0x00005f32",
+      "value": "volminus_12"
+    },
+    {
+      "address": "0x00005f3e",
+      "value": "horizontalLayout_25"
+    },
+    {
+      "address": "0x00005f52",
+      "value": "volminus_7"
+    },
+    {
+      "address": "0x00005f5d",
+      "value": "volminus_14"
+    },
+    {
+      "address": "0x00005f69",
+      "value": "volminus_9"
+    },
+    {
+      "address": "0x00005f74",
+      "value": "volminus_8"
+    },
+    {
+      "address": "0x00005f7f",
+      "value": "volminus_15"
+    },
+    {
+      "address": "0x00005f8b",
+      "value": "volminus_6"
+    },
+    {
+      "address": "0x00005f96",
+      "value": "volminus_16"
+    },
+    {
+      "address": "0x00005fa2",
+      "value": "horizontalLayout_24"
+    },
+    {
+      "address": "0x00005fb6",
+      "value": "volminus"
+    },
+    {
+      "address": "0x00005fbf",
+      "value": "voladd"
+    },
+    {
+      "address": "0x00005fc6",
+      "value": "silent"
+    },
+    {
+      "address": "0x00005fcd",
+      "value": "volminus_4"
+    },
+    {
+      "address": "0x00005fd8",
+      "value": "volminus_3"
+    },
+    {
+      "address": "0x00005fe3",
+      "value": "volminus_10"
+    },
+    {
+      "address": "0x00005fef",
+      "value": "volminus_13"
+    },
+    {
+      "address": "0x00006000",
+      "value": "gridLayout"
+    },
+    {
+      "address": "0x0000600b",
+      "value": "gridLayout_12"
+    },
+    {
+      "address": "0x00006019",
+      "value": "LED_color_6"
+    },
+    {
+      "address": "0x00006025",
+      "value": "Arial"
+    },
+    {
+      "address": "0x0000602b",
+      "value": "LED_Mode_4"
+    },
+    {
+      "address": "0x00006036",
+      "value": "LED_color_4"
+    },
+    {
+      "address": "0x00006042",
+      "value": "LED_color_5"
+    },
+    {
+      "address": "0x0000604e",
+      "value": "LED_Mode_1"
+    },
+    {
+      "address": "0x00006059",
+      "value": "LED_color_2"
+    },
+    {
+      "address": "0x00006065",
+      "value": "LED_Mode_5"
+    },
+    {
+      "address": "0x00006070",
+      "value": "LED_color_1"
+    },
+    {
+      "address": "0x0000607c",
+      "value": "LED_color_7"
+    },
+    {
+      "address": "0x00006088",
+      "value": "LED_color_3"
+    },
+    {
+      "address": "0x00006094",
+      "value": "LED_Mode_3"
+    },
+    {
+      "address": "0x0000609f",
+      "value": "LED_Mode_2"
+    },
+    {
+      "address": "0x000060aa",
+      "value": "LED_Mode_0"
+    },
+    {
+      "address": "0x000060ba",
+      "value": "gridLayout_9"
+    },
+    {
+      "address": "0x000060c7",
+      "value": "horizontalLayout_6"
+    },
+    {
+      "address": "0x000060da",
+      "value": "gridLayout_8"
+    },
+    {
+      "address": "0x000060e7",
+      "value": "mouse_right"
+    },
+    {
+      "address": "0x000060f3",
+      "value": "mouse_middle"
+    },
+    {
+      "address": "0x00006100",
+      "value": "pushButton_2"
+    },
+    {
+      "address": "0x0000610d",
+      "value": "pushButton_4"
+    },
+    {
+      "address": "0x0000611a",
+      "value": "pushButton_5"
+    },
+    {
+      "address": "0x00006127",
+      "value": "mouse_left"
+    },
+    {
+      "address": "0x00006132",
+      "value": "pushButton_3"
+    },
+    {
+      "address": "0x0000613f",
+      "value": "pushButton_8"
+    },
+    {
+      "address": "0x0000614c",
+      "value": "pushButton_6"
+    },
+    {
+      "address": "0x00006159",
+      "value": "pushButton_7"
+    },
+    {
+      "address": "0x00006166",
+      "value": "pushButton"
+    },
+    {
+      "address": "0x00006176",
+      "value": "gridLayout_14"
+    },
+    {
+      "address": "0x00006184",
+      "value": "horizontalLayout_4"
+    },
+    {
+      "address": "0x00006197",
+      "value": "label"
+    },
+    {
+      "address": "0x000061a0",
+      "value": "QLabel{\n    color: #FFFFFF;\n} "
+    },
+    {
+      "address": "0x000061bf",
+      "value": "horizontalSlider"
+    },
+    {
+      "address": "0x000061d0",
+      "value": "spinBox"
+    },
+    {
+      "address": "0x000061d8",
+      "value": "QSpinBox{\n    color: #FFFFFF;\n} "
+    },
+    {
+      "address": "0x000061f9",
+      "value": "label_2"
+    },
+    {
+      "address": "0x00006201",
+      "value": "pushButton_SeleKey"
+    },
+    {
+      "address": "0x00006214",
+      "value": "Dev_Sta_Dsp"
+    },
+    {
+      "address": "0x00006220",
+      "value": "background-color: rgb(50, 50, 50);\ncolor: rgb(255, 255, 255);"
+    },
+    {
+      "address": "0x0000625e",
+      "value": "Read_Configuration"
+    },
+    {
+      "address": "0x000064e6",
+      "value": "**/\nQPushButton::disabled{\n    color: #FFFFFF;\n    background-color: #dcdde1;\n    border-color: #dcdde1;\n}\n"
+    },
+    {
+      "address": "0x00006552",
+      "value": "cancel_2"
+    },
+    {
+      "address": "0x0000655b",
+      "value": "download"
+    },
+    {
+      "address": "0x00006564",
+      "value": "cancel"
+    },
+    {
+      "address": "0x0000656b",
+      "value": "k2_middle"
+    },
+    {
+      "address": "0x00006575",
+      "value": "k3_middle"
+    },
+    {
+      "address": "0x00006588",
+      "value": "QPushButton{\n    color: #FFFFFF;\n    background-color: rgba(67, 67, 67,5);\n} "
+    },
+    {
+      "address": "0x000065de",
+      "value": "k1_middle"
+    },
+    {
+      "address": "0x000065f0",
+      "value": "k3_right"
+    },
+    {
+      "address": "0x000065f9",
+      "value": "k2_right"
+    },
+    {
+      "address": "0x00006602",
+      "value": "k1_right"
+    },
+    {
+      "address": "0x0000660b",
+      "value": "dowload_kuang"
+    },
+    {
+      "address": "0x0000661c",
+      "value": "background-color: rgb(35, 35, 35);"
+    },
+    {
+      "address": "0x0000664c",
+      "value": "background-color: rgb(52, 52, 52);"
+    },
+    {
+      "address": "0x0000666f",
+      "value": "KN1_RIGHT_BK"
+    },
+    {
+      "address": "0x00006688",
+      "value": "KN2_RIGHT_BK"
+    },
+    {
+      "address": "0x000066a1",
+      "value": "KN3_RIGHT_BK"
+    },
+    {
+      "address": "0x000066ae",
+      "value": "KN1_MIDDLE_BK"
+    },
+    {
+      "address": "0x000066bc",
+      "value": "background-color: rgba(52, 52, 52,5);"
+    },
+    {
+      "address": "0x000066e2",
+      "value": "KN2_MIDDLE_BK"
+    },
+    {
+      "address": "0x000066f0",
+      "value": "KN3_MIDDLE_BK"
+    },
+    {
+      "address": "0x0000670c",
+      "value": "QLabel\n{\n\tborder:5px solid #838383;\n    border-radius:25px;\n\tbackground-color: rgb(52, 52, 52);\n}"
+    },
+    {
+      "address": "0x00006783",
+      "value": "LAYER_SELE"
+    },
+    {
+      "address": "0x00006790",
+      "value": "QPushButton{\n    color: #FFFFFF;\n\tbackground-color: rgba(30, 30, 30, 5);\n} "
+    },
+    {
+      "address": "0x000067dc",
+      "value": "pushButton_K1_BK"
+    },
+    {
+      "address": "0x000067ed",
+      "value": "pushButton_K2_BK"
+    },
+    {
+      "address": "0x000067fe",
+      "value": "pushButton_K3_BK"
+    },
+    {
+      "address": "0x0000680f",
+      "value": "pushButton_K4_BK"
+    },
+    {
+      "address": "0x00006820",
+      "value": "pushButton_K5_BK"
+    },
+    {
+      "address": "0x00006831",
+      "value": "pushButton_K6_BK"
+    },
+    {
+      "address": "0x00006842",
+      "value": "pushButton_K7_BK"
+    },
+    {
+      "address": "0x00006853",
+      "value": "pushButton_K8_BK"
+    },
+    {
+      "address": "0x00006864",
+      "value": "pushButton_K9_BK"
+    },
+    {
+      "address": "0x00006875",
+      "value": "pushButton_K10_BK"
+    },
+    {
+      "address": "0x00006887",
+      "value": "pushButton_K11_BK"
+    },
+    {
+      "address": "0x00006899",
+      "value": "pushButton_K12_BK"
+    },
+    {
+      "address": "0x000068ab",
+      "value": "pushButton_K13_BK"
+    },
+    {
+      "address": "0x000068bd",
+      "value": "pushButton_K14_BK"
+    },
+    {
+      "address": "0x000068cf",
+      "value": "pushButton_K15_BK"
+    },
+    {
+      "address": "0x000068e1",
+      "value": "lineEdit"
+    },
+    {
+      "address": "0x000068ec",
+      "value": "QTextEdit\n{\n\tcolor: rgb(255, 255, 255);\n\tborder:2px solid #838383;\n    border-radius:10px;\n\tbackground-color: rgb(52, 52, 52);\n}"
+    },
+    {
+      "address": "0x0000696d",
+      "value": "UPDATA_BT"
+    },
+    {
+      "address": "0x00006978",
+      "value": "background-color: rgb(245, 238, 252);"
+    },
+    {
+      "address": "0x0000699e",
+      "value": "KB_6ADD2_QR_CODE"
+    },
+    {
+      "address": "0x000069b7",
+      "value": "k4_middle"
+    },
+    {
+      "address": "0x000069c1",
+      "value": "k4_right"
+    },
+    {
+      "address": "0x000069d6",
+      "value": "KN4_MIDDLE_BK"
+    },
+    {
+      "address": "0x000069e4",
+      "value": "KN4_RIGHT_BK"
+    },
+    {
+      "address": "0x000069f1",
+      "value": "default"
+    },
+    {
+      "address": "0x000069f9",
+      "value": "err_string \u003d %ls\n"
+    },
+    {
+      "address": "0x00006a0b",
+      "value": "Witer OKOK Key Num \u003d "
+    },
+    {
+      "address": "0x00006a88",
+      "value": "QPushButton{background-color: rgb(125, 125, 125);border-radius:5px;color:#FFFFFF;font-size : 25px;}"
+    },
+    {
+      "address": "0x00006aec",
+      "value": "1Set_Keyboard_Ver_SLOT(int)"
+    },
+    {
+      "address": "0x00006b08",
+      "value": "2buttonClicked(int)"
+    },
+    {
+      "address": "0x00006b1c",
+      "value": "background-color: rgb(0,225,40);border:0px;"
+    },
+    {
+      "address": "0x00006b48",
+      "value": "Saved successfully"
+    },
+    {
+      "address": "0x00006b5b",
+      "value": "Download succesee"
+    },
+    {
+      "address": "0x00006b87",
+      "value": "1onTimeupDestroy()"
+    },
+    {
+      "address": "0x00006b9a",
+      "value": "2timeout()"
+    },
+    {
+      "address": "0x00006ba8",
+      "value": "background-color: rgb(60,60,60);border:0px;color:#FFFFFF;"
+    },
+    {
+      "address": "0x00006be2",
+      "value": "Device Disconnect"
+    },
+    {
+      "address": "0x00006c04",
+      "value": "Device Connect"
+    },
+    {
+      "address": "0x00006c23",
+      "value": "Witer OKOK Key Num \u003d %d"
+    },
+    {
+      "address": "0x00006c3b",
+      "value": "download ok....\n"
+    },
+    {
+      "address": "0x00006cb8",
+      "value": "Modify key value Flag: Layer\u003d%d  Key\u003d%d \n"
+    },
+    {
+      "address": "0x00006ce2",
+      "value": "Key_array %d %x"
+    },
+    {
+      "address": "0x00006cf2",
+      "value": "SetRgb_Led_Key(int index) %d"
+    },
+    {
+      "address": "0x00006d44",
+      "value": "Select_PHY_Key the value is "
+    },
+    {
+      "address": "0x00006e2c",
+      "value": "PHY_KEY_Value[%d]:%02x"
+    },
+    {
+      "address": "0x00006e44",
+      "value": "QPushButton{background-color: #FFFFFF;color:#383838;}"
+    },
+    {
+      "address": "0x00006e7c",
+      "value": "QPushButton{background-color: #383838;color:#FFFFFF;}"
+    },
+    {
+      "address": "0x00006eb2",
+      "value": "Select_PHY_Key_Layer \u003d %d\n"
+    },
+    {
+      "address": "0x00006ed0",
+      "value": "QPushButton{background-color: rgba(125, 125, 125, 5);border-radius:10px;color:#FFFFFF;}"
+    },
+    {
+      "address": "0x00006f28",
+      "value": "QPushButton{background-color: rgba(125, 125, 125, 5);border-radius:10px;color:#FFFFFF;border:4px solid #e1e100;}"
+    },
+    {
+      "address": "0x00006f99",
+      "value": "Select_PHY_Key_Mode \u003d %d\n"
+    },
+    {
+      "address": "0x00006fc6",
+      "value": "objectName\u003d\u003d%1"
+    },
+    {
+      "address": "0x00006fd5",
+      "value": "Select_PHY_Key value is  %d "
+    },
+    {
+      "address": "0x00006ff2",
+      "value": "all ley is "
+    },
+    {
+      "address": "0x00006ffe",
+      "value": "the  count is "
+    },
+    {
+      "address": "0x00007011",
+      "value": "all num is "
+    },
+    {
+      "address": "0x0000701d",
+      "value": "1SendLayer(int)"
+    },
+    {
+      "address": "0x0000702d",
+      "value": "1Read_configuration_clicked()"
+    },
+    {
+      "address": "0x0000704b",
+      "value": "2clicked(bool)"
+    },
+    {
+      "address": "0x0000705a",
+      "value": "1on_confirmButton_clicked()"
+    },
+    {
+      "address": "0x00007076",
+      "value": "1on_CleanButton_clicked()"
+    },
+    {
+      "address": "0x00007090",
+      "value": "1on_CleanALLButton_clicked()"
+    },
+    {
+      "address": "0x000070ad",
+      "value": "1KB_UpData_SoftWare()"
+    },
+    {
+      "address": "0x000070c3",
+      "value": "select the value is "
+    },
+    {
+      "address": "0x000070d8",
+      "value": "KEY Touch"
+    },
+    {
+      "address": "0x000070e2",
+      "value": ":/image/KN_LEFT114x97.png"
+    },
+    {
+      "address": "0x000070fc",
+      "value": "QPushButton{background-color: rgba(125, 125, 125, 5);border-radius:"
+    },
+    {
+      "address": "0x00007140",
+      "value": "px;color:#FFFFFF;}"
+    },
+    {
+      "address": "0x00007153",
+      "value": ":/image/KN_IN150x150.png"
+    },
+    {
+      "address": "0x0000716c",
+      "value": ":/image/KN_RIGHT114x97.png"
+    },
+    {
+      "address": "0x00007187",
+      "value": ":/image/KN_LEFT114x97_2.png"
+    },
+    {
+      "address": "0x000071a3",
+      "value": ":/image/KN_RIGHT114x97_2.png"
+    },
+    {
+      "address": "0x000071c0",
+      "value": "border-radius:"
+    },
+    {
+      "address": "0x000071d4",
+      "value": ":/image/KEY1.png"
+    },
+    {
+      "address": "0x000071e5",
+      "value": ":/image/KEY2.png"
+    },
+    {
+      "address": "0x000071f6",
+      "value": ":/image/KEY3.png"
+    },
+    {
+      "address": "0x00007207",
+      "value": ":/image/KEY4.png"
+    },
+    {
+      "address": "0x00007218",
+      "value": ":/image/KEY5.png"
+    },
+    {
+      "address": "0x00007229",
+      "value": ":/image/KEY6.png"
+    },
+    {
+      "address": "0x0000723c",
+      "value": ":/image/LAN_KD/KH_QR_CODE_EN.png"
+    },
+    {
+      "address": "0x0000725d",
+      "value": ":/image/KEY7.png"
+    },
+    {
+      "address": "0x0000726e",
+      "value": ":/image/KEY8.png"
+    },
+    {
+      "address": "0x0000727f",
+      "value": ":/image/KEY9.png"
+    },
+    {
+      "address": "0x00007290",
+      "value": ":/image/KEY10.png"
+    },
+    {
+      "address": "0x000072a2",
+      "value": ":/image/KEY11.png"
+    },
+    {
+      "address": "0x000072b4",
+      "value": ":/image/KEY12.png"
+    },
+    {
+      "address": "0x000072c6",
+      "value": ":/image/KEY7_2.png"
+    },
+    {
+      "address": "0x000072d9",
+      "value": ":/image/KEY9_2.png"
+    },
+    {
+      "address": "0x000072ec",
+      "value": ":/image/KEY10_2.png"
+    },
+    {
+      "address": "0x00007300",
+      "value": ":/image/KEY11_2.png"
+    },
+    {
+      "address": "0x00007314",
+      "value": ":/image/KEY13.png"
+    },
+    {
+      "address": "0x00007326",
+      "value": ":/image/KEY14.png"
+    },
+    {
+      "address": "0x00007338",
+      "value": ":/image/KEY15.png"
+    },
+    {
+      "address": "0x0000734a",
+      "value": ":/image/KEY16.png"
+    },
+    {
+      "address": "0x0000735c",
+      "value": ":/image/KEY17.png"
+    },
+    {
+      "address": "0x0000736e",
+      "value": ":/image/KEY18.png"
+    },
+    {
+      "address": "0x00007380",
+      "value": ":/image/KEY19.png"
+    },
+    {
+      "address": "0x00007392",
+      "value": ":/image/KEY20.png"
+    },
+    {
+      "address": "0x000073a4",
+      "value": ":/image/KEY21.png"
+    },
+    {
+      "address": "0x000073b6",
+      "value": "timeout"
+    },
+    {
+      "address": "0x000073be",
+      "value": "hid_read_timeout \u003d %s\n"
+    },
+    {
+      "address": "0x000073d5",
+      "value": "read ok"
+    },
+    {
+      "address": "0x000073dd",
+      "value": "hid_read_timeout \u003d %d %d\n"
+    },
+    {
+      "address": "0x000073f7",
+      "value": "en key is \u003d %d"
+    },
+    {
+      "address": "0x00007450",
+      "value": "interface_number:%s"
+    },
+    {
+      "address": "0x00007464",
+      "value": ":/lanague_en2.qm"
+    },
+    {
+      "address": "0x0000747c",
+      "value": ":/lanague_cn2.qm"
+    },
+    {
+      "address": "0x0000748d",
+      "value": ":/lanague_en.qm"
+    },
+    {
+      "address": "0x0000749d",
+      "value": ":/lanague_cn.qm"
+    },
+    {
+      "address": "0x00007654",
+      "value": "Play/Pause"
+    },
+    {
+      "address": "0x0000765f",
+      "value": "Play/Pause1"
+    },
+    {
+      "address": "0x00007676",
+      "value": "Previous track"
+    },
+    {
+      "address": "0x00007685",
+      "value": "Previous track1"
+    },
+    {
+      "address": "0x00007695",
+      "value": "Next track"
+    },
+    {
+      "address": "0x000076a0",
+      "value": "Next track1"
+    },
+    {
+      "address": "0x000076ac",
+      "value": "My Computer"
+    },
+    {
+      "address": "0x000076b8",
+      "value": "My Computer1"
+    },
+    {
+      "address": "0x000076c5",
+      "value": "Screen brightness+"
+    },
+    {
+      "address": "0x000076d8",
+      "value": "Screen brightness+1"
+    },
+    {
+      "address": "0x000076ec",
+      "value": "Screen brightness-"
+    },
+    {
+      "address": "0x000076ff",
+      "value": "Screen brightness-1"
+    },
+    {
+      "address": "0x00007713",
+      "value": "Multimedia"
+    },
+    {
+      "address": "0x0000771e",
+      "value": "Multimedia1"
+    },
+    {
+      "address": "0x0000773d",
+      "value": "Volume+1"
+    },
+    {
+      "address": "0x00007746",
+      "value": "Volume-"
+    },
+    {
+      "address": "0x0000774e",
+      "value": "Volume-1"
+    },
+    {
+      "address": "0x00007757",
+      "value": "Calculator"
+    },
+    {
+      "address": "0x00007762",
+      "value": "Calculator1"
+    },
+    {
+      "address": "0x0000776e",
+      "value": "WWW home"
+    },
+    {
+      "address": "0x00007777",
+      "value": "WWW home1"
+    },
+    {
+      "address": "0x000077bb",
+      "value": "Treble-"
+    },
+    {
+      "address": "0x000077c3",
+      "value": "Treble-1"
+    },
+    {
+      "address": "0x000077cc",
+      "value": "WWW Pagerefresh"
+    },
+    {
+      "address": "0x000077dc",
+      "value": "WWW Pagerefresh1"
+    },
+    {
+      "address": "0x000077ed",
+      "value": "WWW Pageforward"
+    },
+    {
+      "address": "0x000077fd",
+      "value": "WWW Pageforward1"
+    },
+    {
+      "address": "0x0000780e",
+      "value": "WWW Pageback"
+    },
+    {
+      "address": "0x0000781b",
+      "value": "WWW Pageback1"
+    },
+    {
+      "address": "0x0000782d",
+      "value": "Orange"
+    },
+    {
+      "address": "0x00007834",
+      "value": "Yellow"
+    },
+    {
+      "address": "0x0000783b",
+      "value": "Green"
+    },
+    {
+      "address": "0x0000784b",
+      "value": "Purple"
+    },
+    {
+      "address": "0x00007852",
+      "value": "LED Mode0"
+    },
+    {
+      "address": "0x0000785c",
+      "value": "LED Mode1"
+    },
+    {
+      "address": "0x00007866",
+      "value": "LED Mode2"
+    },
+    {
+      "address": "0x00007870",
+      "value": "LED Mode3"
+    },
+    {
+      "address": "0x0000787a",
+      "value": "LED Mode4"
+    },
+    {
+      "address": "0x00007884",
+      "value": "LED Mode5"
+    },
+    {
+      "address": "0x0000788e",
+      "value": "Mouse LeftKey"
+    },
+    {
+      "address": "0x0000789c",
+      "value": "Mouse Middle"
+    },
+    {
+      "address": "0x000078a9",
+      "value": "Mouse Right"
+    },
+    {
+      "address": "0x000078b5",
+      "value": "Mouse Wheel+"
+    },
+    {
+      "address": "0x000078c2",
+      "value": "Mouse Wheel-"
+    },
+    {
+      "address": "0x000078cf",
+      "value": "Ctrl+Mouse Up"
+    },
+    {
+      "address": "0x000078dd",
+      "value": "Ctrl+Mouse Down"
+    },
+    {
+      "address": "0x000078ed",
+      "value": "Shift+Mouse Up"
+    },
+    {
+      "address": "0x000078fc",
+      "value": "Shift+Mouse Down"
+    },
+    {
+      "address": "0x0000790d",
+      "value": "Alt+Mouse Up"
+    },
+    {
+      "address": "0x0000791a",
+      "value": "Alt+Mouse Down"
+    },
+    {
+      "address": "0x00007929",
+      "value": "1on_changeButtonGroup(int)"
+    },
+    {
+      "address": "0x00007944",
+      "value": "QTabWidget::pane{ order: 1px solid rgb(108, 117, 125, 65);}"
+    },
+    {
+      "address": "0x00007980",
+      "value": "1slotSpinbox_slider()"
+    },
+    {
+      "address": "0x00007996",
+      "value": "2valueChanged(int)"
+    },
+    {
+      "address": "0x000079a9",
+      "value": "1slotslider_Spinbox()"
+    },
+    {
+      "address": "0x00063600",
+      "value": "7QObject"
+    },
+    {
+      "address": "0x00063800",
+      "value": "6QStyle"
+    },
+    {
+      "address": "0x00063a00",
+      "value": "12QCommonStyle"
+    },
+    {
+      "address": "0x00063c00",
+      "value": "11QProxyStyle"
+    },
+    {
+      "address": "0x00063e00",
+      "value": "14CustomTabStyle"
+    },
+    {
+      "address": "0x00064100",
+      "value": "GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 7.3.0"
+    }
+  ]
+}

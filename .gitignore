@@ -1,1 +1,22 @@
-# Nenhum arquivo será ignorado - todos os binários e arquivos de build serão incluídos
+# Build artifacts
+/target/
+/build/
+/stage/
+/cargo-home/
+*.pcapng
+
+# Captures stay outside the repo by default
+/captures/
+
+# Editor / OS
+*~
+*.swp
+.DS_Store
+
+# Flatpak builder
+/.flatpak-builder/
+/build-dir/
+
+# Local meson
+/meson-private/
+/meson-logs/

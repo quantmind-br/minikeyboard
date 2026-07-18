@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "SetBasicKey",
+  "address": "0x0000b800",
+  "signature": "undefined SetBasicKey(int param_1)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

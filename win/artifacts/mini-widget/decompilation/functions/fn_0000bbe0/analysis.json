@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "SetRgb_Led_Key",
+  "address": "0x0000bbe0",
+  "signature": "undefined SetRgb_Led_Key(int param_1)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

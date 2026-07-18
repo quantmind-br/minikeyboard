@@ -1,0 +1,44 @@
+{
+  "app-id": "br.com.quantmind.MiniKeyboard.Devel",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "50",
+  "sdk": "org.gnome.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
+  "command": "minikeyboard",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--device=all",
+    "--talk-name=org.freedesktop.Notifications"
+  ],
+  "build-options": {
+    "append-path": "/usr/lib/sdk/rust-stable/bin",
+    "env": {
+      "CARGO_HOME": "/run/build/minikeyboard/cargo",
+      "RUST_BACKTRACE": "1"
+    }
+  },
+  "modules": [
+    {
+      "name": "minikeyboard",
+      "buildsystem": "simple",
+      "build-commands": [
+        "cargo --offline build --release --verbose",
+        "install -Dm755 target/release/minikeyboard /app/bin/minikeyboard",
+        "install -Dm644 data/br.com.quantmind.MiniKeyboard.desktop /app/share/applications/br.com.quantmind.MiniKeyboard.Devel.desktop",
+        "install -Dm644 data/br.com.quantmind.MiniKeyboard.metainfo.xml /app/share/metainfo/br.com.quantmind.MiniKeyboard.Devel.metainfo.xml",
+        "install -Dm644 data/icons/hicolor/scalable/apps/br.com.quantmind.MiniKeyboard.svg /app/share/icons/hicolor/scalable/apps/br.com.quantmind.MiniKeyboard.Devel.svg"
+      ],
+      "sources": [
+        "cargo-sources.json",
+        {
+          "type": "dir",
+          "path": ".."
+        }
+      ]
+    }
+  ]
+}

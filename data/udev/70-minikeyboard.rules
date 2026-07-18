@@ -1,0 +1,3 @@
+# Mini Keyboard — restricted hidraw access for validated hardware only.
+# Never use MODE="0666" or broad hidraw rules.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1189", ATTRS{idProduct}=="8842", TAG+="uaccess"

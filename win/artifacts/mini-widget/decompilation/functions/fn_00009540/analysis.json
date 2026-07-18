@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "HID_write",
+  "address": "0x00009540",
+  "signature": "undefined HID_write(void)",
+  "decompiled": true,
+  "source_file": "source.c"
+}

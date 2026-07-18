@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "target_id": "mini-keyboard-full",
+  "source": "analyze",
+  "observed_at": "2026-07-16T16:50:41Z",
+  "manifest": {
+    "tool": "analyzeHeadless",
+    "ghidra_version": "12.1.2",
+    "project_dir": "/home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects",
+    "project_name": "mini-keyboard-full",
+    "argv": [
+      "/opt/ghidra/support/analyzeHeadless",
+      "/home/diogo/dev/minikeyboard/win/targets/mini-keyboard-full/projects",
+      "mini-keyboard-full",
+      "-import",
+      "/home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe",
+      "-scriptPath",
+      "/home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra",
+      "-postScript",
+      "ExportBaseline.java",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/baseline",
+      "-log",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/intake/analyze.log",
+      "-scriptlog",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/intake/analyze-script.log"
+    ],
+    "started_at": "2026-07-16T16:50:16Z",
+    "finished_at": "2026-07-16T16:50:41Z",
+    "returncode": 0,
+    "timed_out": false,
+    "log_path": "/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/intake/analyze.log",
+    "stdout_tail": "p Installer                       0.017 secs\n    Create Address Tables                      0.104 secs\n    Create Address Tables - One Time           0.035 secs\n    Create Function                            0.139 secs\n    Data Reference                             0.059 secs\n    Decompiler Switch Analysis                 4.832 secs\n    Decompiler Switch Analysis - One Time      1.181 secs\n    Demangler GNU                              0.120 secs\n    Demangler Microsoft                        0.002 secs\n    Disassemble                                0.057 secs\n    Disassemble Entry Points                   0.681 secs\n    Embedded Media                             0.019 secs\n    External Entry References                  0.000 secs\n    Function ID                                0.353 secs\n    Function Start Pre Search                  0.004 secs\n    Function Start Search                      0.015 secs\n    Function Start Search After Code           0.006 secs\n    Function Start Search After Data           0.005 secs\n    MinGW Relocations                          0.001 secs\n    Non-Returning Functions - Discovered       0.084 secs\n    Non-Returning Functions - Known            0.001 secs\n    PDB Universal                              0.002 secs\n    Reference                                  0.094 secs\n    Scalar Operand References                  0.407 secs\n    Shared Return Calls                        0.042 secs\n    Stack                                      1.238 secs\n    Subroutine References                      0.075 secs\n    Subroutine References - One Time           0.043 secs\n    WindowsResourceReference                   0.241 secs\n    X86 Function Callee Purge                  0.088 secs\n    x86 Constant Reference Analyzer            1.215 secs\n-----------------------------------------------------\n     Total Time   11 secs\n-----------------------------------------------------\n (AutoAnalysisManager)  \nINFO  REPORT: Analysis succeeded for file: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe (HeadlessAnalyzer)  \nINFO  REPORT: Execute script: ExportBaseline.java '/home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/baseline'  (HeadlessAnalyzer)  \nINFO  SCRIPT: /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra/ExportBaseline.java (HeadlessAnalyzer)  \nINFO  ExportBaseline.java> ExportBaseline: wrote 7 baseline files to /home/diogo/dev/minikeyboard/win/artifacts/mini-keyboard-full/baseline (GhidraScript)  \nINFO  ANALYZING changes made by post scripts: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe (HeadlessAnalyzer)  \nINFO  REPORT: Post-analysis succeeded for file: file:///home/diogo/dev/minikeyboard/win/MINI_KEYBOARD.exe (HeadlessAnalyzer)  \nINFO  /MINI_KEYBOARD.exe: file created (diogo) (LocalFileSystem)  \nINFO  REPORT: Save succeeded for: /MINI_KEYBOARD.exe (mini-keyboard-full:/MINI_KEYBOARD.exe) (HeadlessAnalyzer)  \nINFO  REPORT: Import succeeded (HeadlessAnalyzer)  \nopenjdk version \"26.0.1\" 2026-04-21\nOpenJDK Runtime Environment (build 26.0.1)\nOpenJDK 64-Bit Server VM (build 26.0.1, mixed mode)\nWARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @5d7148e2 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)\nWARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning\nWARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled\nWARNING: A terminally deprecated method in sun.misc.Unsafe has been called\nWARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)\nWARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction\nWARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release\n"
+  },
+  "exported": [
+    "callgraph.json",
+    "constants.json",
+    "functions.json",
+    "imports.json",
+    "strings.json",
+    "types.json",
+    "vtables.json"
+  ],
+  "missing": []
+}

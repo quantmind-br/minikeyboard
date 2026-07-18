@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Mini Keyboard
+GenericName=Mini Keyboard Programmer
+Comment=Configure USB mini macro keyboards
+Exec=minikeyboard
+Icon=br.com.quantmind.MiniKeyboard
+Terminal=false
+Type=Application
+Categories=Utility;HardwareSettings;
+Keywords=keyboard;macro;hid;usb;
+StartupNotify=true

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target_id": "mini-widget",
+  "source": "analyze",
+  "observed_at": "2026-07-16T12:36:07Z",
+  "manifest": {
+    "tool": "analyzeHeadless",
+    "ghidra_version": "12.1.2",
+    "project_dir": "/home/diogo/dev/minikeyboard/win/targets/mini-widget/projects",
+    "project_name": "mini-widget",
+    "argv": [
+      "/opt/ghidra/support/analyzeHeadless",
+      "/home/diogo/dev/minikeyboard/win/targets/mini-widget/projects",
+      "mini-widget",
+      "-import",
+      "/home/diogo/dev/minikeyboard/win/widget.o",
+      "-analysisTimeoutPerFile",
+      "600",
+      "-scriptPath",
+      "/home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra",
+      "-postScript",
+      "ExportBaseline.java",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/baseline",
+      "-log",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/intake/analyze.log",
+      "-scriptlog",
+      "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/intake/analyze-script.log"
+    ],
+    "started_at": "2026-07-16T12:35:14Z",
+    "finished_at": "2026-07-16T12:36:07Z",
+    "returncode": 0,
+    "timed_out": false,
+    "log_path": "/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/intake/analyze.log",
+    "stdout_tail": " Unable to read bytes at ram:00002664 (DecompileCallback)  \nWARN  Decompiling 0000cac0: Unable to read bytes at ram:000026c8 (DecompileCallback)  \nWARN  Decompiling 0005d620: Unable to read bytes at ram:00002d10 (DecompileCallback)  \nINFO  -----------------------------------------------------\n    ASCII Strings                              0.193 secs\n    Apply Data Archives                        0.102 secs\n    Call Convention ID                        42.955 secs\n    Call-Fixup Installer                       0.002 secs\n    Create Address Tables                      0.060 secs\n    Create Address Tables - One Time           0.013 secs\n    Create Function                            0.006 secs\n    Data Reference                             0.034 secs\n    Decompiler Switch Analysis                 2.187 secs\n    Demangler GNU                              0.108 secs\n    Disassemble Entry Points                   1.212 secs\n    Disassemble Entry Points - One Time        0.002 secs\n    Embedded Media                             0.010 secs\n    External Entry References                  0.001 secs\n    Function ID                                0.302 secs\n    Function Start Pre Search                  0.012 secs\n    Function Start Search                      0.009 secs\n    Function Start Search After Code           0.006 secs\n    Function Start Search After Data           0.007 secs\n    Non-Returning Functions - Discovered       0.053 secs\n    Reference                                  0.041 secs\n    Scalar Operand References                  0.603 secs\n    Shared Return Calls                        0.023 secs\n    Stack                                      1.894 secs\n    Subroutine References                      0.017 secs\n    X86 Function Callee Purge                  0.071 secs\n    x86 Constant Reference Analyzer            0.788 secs\n-----------------------------------------------------\n     Total Time   50 secs\n-----------------------------------------------------\n (AutoAnalysisManager)  \nINFO  REPORT: Analysis succeeded for file: file:///home/diogo/dev/minikeyboard/win/widget.o (HeadlessAnalyzer)  \nINFO  REPORT: Execute script: ExportBaseline.java '/home/diogo/dev/minikeyboard/win/artifacts/mini-widget/baseline'  (HeadlessAnalyzer)  \nINFO  SCRIPT: /home/diogo/dev/claude-code/.agents/skills/ghidra/scripts/ghidra/ExportBaseline.java (HeadlessAnalyzer)  \nINFO  ExportBaseline.java> ExportBaseline: wrote 7 baseline files to /home/diogo/dev/minikeyboard/win/artifacts/mini-widget/baseline (GhidraScript)  \nINFO  ANALYZING changes made by post scripts: file:///home/diogo/dev/minikeyboard/win/widget.o (HeadlessAnalyzer)  \nINFO  REPORT: Post-analysis succeeded for file: file:///home/diogo/dev/minikeyboard/win/widget.o (HeadlessAnalyzer)  \nINFO  /widget.o: file created (diogo) (LocalFileSystem)  \nINFO  REPORT: Save succeeded for: /widget.o (mini-widget:/widget.o) (HeadlessAnalyzer)  \nINFO  REPORT: Import succeeded (HeadlessAnalyzer)  \nopenjdk version \"26.0.1\" 2026-04-21\nOpenJDK Runtime Environment (build 26.0.1)\nOpenJDK 64-Bit Server VM (build 26.0.1, mixed mode)\nWARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @5d7148e2 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)\nWARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning\nWARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled\nWARNING: A terminally deprecated method in sun.misc.Unsafe has been called\nWARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)\nWARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction\nWARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release\n"
+  },
+  "exported": [
+    "callgraph.json",
+    "constants.json",
+    "functions.json",
+    "imports.json",
+    "strings.json",
+    "types.json",
+    "vtables.json"
+  ],
+  "missing": []
+}

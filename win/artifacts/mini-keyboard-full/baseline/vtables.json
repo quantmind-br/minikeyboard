@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "program": "MINI_KEYBOARD.exe",
+  "count": 9,
+  "vtables": [
+    {
+      "name": "vtable",
+      "address": "0xEXTERNAL:0000014d",
+      "namespace": "QT5WIDGETS.DLL::QSpacerItem"
+    },
+    {
+      "name": "vtable",
+      "address": "0xEXTERNAL:0000018b",
+      "namespace": "LIBSTDC++-6.DLL::__cxxabiv1::__class_type_info"
+    },
+    {
+      "name": "vtable",
+      "address": "0xEXTERNAL:0000018c",
+      "namespace": "LIBSTDC++-6.DLL::__cxxabiv1::__si_class_type_info"
+    },
+    {
+      "name": "vtable",
+      "address": "0xEXTERNAL:0000018d",
+      "namespace": "LIBSTDC++-6.DLL::__cxxabiv1::__vmi_class_type_info"
+    },
+    {
+      "name": "PTR_PTR_vtable_00619c00",
+      "address": "0x00619c00",
+      "namespace": "Global"
+    },
+    {
+      "name": "PTR_PTR_vtable_00619c64",
+      "address": "0x00619c64",
+      "namespace": "Global"
+    },
+    {
+      "name": "PTR_vtable_00621c70",
+      "address": "0x00621c70",
+      "namespace": "Global"
+    },
+    {
+      "name": "PTR_vtable_00621d7c",
+      "address": "0x00621d7c",
+      "namespace": "Global"
+    },
+    {
+      "name": "PTR_vtable_00621d84",
+      "address": "0x00621d84",
+      "namespace": "Global"
+    }
+  ]
+}

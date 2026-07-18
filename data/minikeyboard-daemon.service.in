@@ -1,0 +1,10 @@
+[Unit]
+Description=Mini Keyboard application/script launcher
+
+[Service]
+ExecStart=@bindir@/minikeyboard-daemon
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

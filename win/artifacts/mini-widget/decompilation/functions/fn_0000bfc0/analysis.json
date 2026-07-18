@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "SetMousePage",
+  "address": "0x0000bfc0",
+  "signature": "undefined SetMousePage(int param_1)",
+  "decompiled": true,
+  "source_file": "source.c"
+}
