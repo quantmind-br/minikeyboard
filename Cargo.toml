@@ -5,7 +5,7 @@ edition = "2024"
 license = "GPL-3.0-or-later"
 description = "Native Linux Mini Keyboard programmer (GTK 4 / libadwaita / hidapi)"
 authors = ["Quantmind"]
-repository = "https://github.com/quantmind/minikeyboard"
+repository = "https://github.com/quantmind-br/minikeyboard"
 readme = "README.md"
 default-run = "minikeyboard"
 

@@ -165,7 +165,7 @@ fn provisional_positions(key_count: u8, extra_count: u8) -> Vec<PositionGeometry
     // Span keys across the knob columns when they divide evenly so the two
     // blocks line up (k12-e2: 6 knob records over 3 key columns, span 2).
     let knob_cols: u8 = if wire_extras { extra_count * 3 } else { extra_count };
-    let key_span: u8 = if keys > 0 && knob_cols > columns && knob_cols % columns == 0 {
+    let key_span: u8 = if keys > 0 && knob_cols > columns && knob_cols.is_multiple_of(columns) {
         knob_cols / columns
     } else {
         1
